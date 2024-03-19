@@ -1561,8 +1561,905 @@
     creativity with magical items, tougher monsters, and intricate dungeon
     design. Add layered graphics and polish your game with style.
 
-    What You Need:
+- slug: design-patterns-1-erich-gamma-richard-helm-ralph-johnson-john-vlissides
+  title: Design Patterns
+  subtitle: Elements of Reusable Object-Oriented Software
+  edition: 1
+  authors:
+    - Erich Gamma
+    - Richard Helm
+    - Ralph Johnson
+    - John Vlissides
+  coverName: design-patterns-1-erich-gamma-richard-helm-ralph-johnson-john-vlissides.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0201633612
+    amazon_uk: https://www.amazon.co.uk/dp/0201633612
+  description: >-
+    Capturing a wealth of experience about the design of object-oriented
+    software, four top-notch designers present a catalog of simple and succinct
+    solutions to commonly occurring design problems. Previously undocumented,
+    these 23 patterns allow designers to create more flexible, elegant, and
+    ultimately reusable designs without having to rediscover the design
+    solutions themselves.
 
-    *   A computer running Windows 10, Linux, or Mac OS X.
-    *   A text editor, such as Visual Studio Code.
-    *   A video card and drivers capable of running OpenGL 3.2.
+    The authors begin by describing what patterns are and how they can help you
+    design object-oriented software. They then go on to systematically name,
+    explain, evaluate, and catalog recurring designs in object-oriented systems.
+    With Design Patterns as your guide, you will learn how these important
+    patterns fit into the software development process, and how you can leverage
+    them to solve your own design problems most efficiently.
+
+    Each pattern describes the circumstances in which it is applicable, when it
+    can be applied in view of other design constraints, and the consequences and
+    trade-offs of using the pattern within a larger design. All patterns are
+    compiled from real systems and are based on real-world examples. Each
+    pattern also includes code that demonstrates how it may be implemented in
+    object-oriented programming languages like C++ or Smalltalk.
+
+- slug: information-architecture-4-louis-rosenfeld-peter-morville-jorge-arango
+  title: Information Architecture
+  subtitle: For the Web and Beyond
+  edition: 4
+  authors:
+    - Louis Rosenfeld
+    - Peter Morville
+    - Jorge Arango
+  coverName: information-architecture-4-louis-rosenfeld-peter-morville-jorge-arango.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1491911689
+    amazon_uk: https://www.amazon.co.uk/dp/1491911689
+  description: >-
+    Information architecture (IA) is far more challenging―and necessary―than
+    ever. With the glut of information available today, anything your
+    organization wants to share should be easy to find, navigate, and
+    understand. But the experience you provide has to be familiar and coherent
+    across multiple interaction channels, from the Web to smartphones,
+    smartwatches, and beyond.
+
+    To guide you through this broad ecosystem, this popular guide―now in its
+    fourth edition―provides essential concepts, methods, and techniques for
+    digital design that have withstood the test of time. UX designers, product
+    managers, developers, and anyone involved in digital design will learn how
+    to create semantic structures that will help people engage with your
+    message.
+
+- slug: designing-data-intensive-applications-1-martin-kleppmann
+  title: Designing Data-Intensive Applications
+  subtitle: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+  edition: 1
+  authors:
+    - Martin Kleppmann
+  coverName: designing-data-intensive-applications-1-martin-kleppmann.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1449373321
+    amazon_uk: https://www.amazon.co.uk/dp/1449373321
+  description: >-
+    Data is at the center of many challenges in system design today. Difficult
+    issues need to be figured out, such as scalability, consistency,
+    reliability, efficiency, and maintainability. In addition, we have an
+    overwhelming variety of tools, including relational databases, NoSQL
+    datastores, stream or batch processors, and message brokers. What are the
+    right choices for your application? How do you make sense of all these
+    buzzwords?
+
+    In this practical and comprehensive guide, author Martin Kleppmann helps you
+    navigate this diverse landscape by examining the pros and cons of various
+    technologies for processing and storing data. Software keeps changing, but
+    the fundamental principles remain the same. With this book, software
+    engineers and architects will learn how to apply those ideas in practice,
+    and how to make full use of data in modern applications.
+
+- slug: the-linux-command-line-2nd-edition-1-william-shotts
+  title: The Linux Command Line, 2nd Edition
+  subtitle: A Complete Introduction
+  edition: 1
+  authors:
+    - William Shotts
+  coverName: the-linux-command-line-2nd-edition-1-william-shotts.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1593279523
+    amazon_uk: https://www.amazon.co.uk/dp/1593279523
+  description: >-
+    You've experienced the shiny, point-and-click surface of your Linux
+    computer—now dive below and explore its depths with the power of the command
+    line.
+
+    The Linux Command Line takes you from your very first terminal keystrokes to
+    writing full programs in Bash, the most popular Linux shell (or command
+    line). Along the way you'll learn the timeless skills handed down by
+    generations of experienced, mouse-shunning gurus: file navigation,
+    environment configuration, command chaining, pattern matching with regular
+    expressions, and more.
+
+    In addition to that practical knowledge, author William Shotts reveals the
+    philosophy behind these tools and the rich heritage that your desktop Linux
+    machine has inherited from Unix supercomputers of yore.
+
+- slug: the-pragmatic-programmer-1-andrew-hunt-david-thomas
+  title: The Pragmatic Programmer
+  subtitle: From Journeyman to Master
+  edition: 1
+  authors:
+    - Andrew Hunt
+    - David Thomas
+  coverName: the-pragmatic-programmer-1-andrew-hunt-david-thomas.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/020161622X
+    amazon_uk: https://www.amazon.co.uk/dp/020161622X
+  description: Ward Cunningham Straight from the programming trenches, The
+    Pragmatic Programmer cuts through the increasing specialization and
+    technicalities of modern software development to examine the core
+    process--taking a requirement and producing working, maintainable code that
+    delights its users. It covers topics ranging from personal responsibility
+    and career development to architectural techniques for keeping your code
+    flexible and easy to adapt and reuse. Read this book, and you'll learn how
+    to Fight software rot; Avoid the trap of duplicating knowledge; Write
+    flexible, dynamic, and adaptable code; Avoid programming by coincidence;
+    Bullet-proof your code with contracts, assertions, and exceptions; Capture
+    real requirements; Test ruthlessly and effectively; Delight your users;
+    Build teams of pragmatic programmers; and Make your developments more
+    precise with automation. Written as a series of self-contained sections and
+    filled with entertaining anecdotes, thoughtful examples, and interesting
+    analogies, The Pragmatic Programmer illustrates the best practices and major
+    pitfalls of many different aspects of software development. Whether you're a
+    new coder, an experienced program.
+
+- slug: css-secrets-1-lea-verou
+  title: CSS Secrets
+  subtitle: Better Solutions to Everyday Web Design Problems
+  edition: 1
+  authors:
+    - Lea Verou
+  coverName: css-secrets-1-lea-verou.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1449372635
+    amazon_uk: https://www.amazon.co.uk/dp/1449372635
+  description: >-
+    In this practical guide, CSS expert Lea Verou provides 47 undocumented
+    techniques and tips to help intermediate-to advanced CSS developers devise
+    elegant solutions to a wide range of everyday web design problems.
+
+    Rather than focus on design, CSS Secrets shows you how to solve problems
+    with code. You'll learn how to apply Lea's analytical approach to
+    practically every CSS problem you face to attain DRY, maintainable,
+    flexible, lightweight, and standards-compliant results.
+
+- slug: javascript-1-douglas-crockford
+  title: JavaScript
+  subtitle: The Good Parts
+  edition: 1
+  authors:
+    - Douglas Crockford
+  coverName: javascript-1-douglas-crockford.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0596517742
+    amazon_uk: https://www.amazon.co.uk/dp/0596517742
+  description: Describes the reliable features of JavaScript, covering such topics
+    as syntax, objects, functions, arrays, regular expressions, inheritance, and
+    methods.
+
+- slug: how-javascript-works-1-douglas-crockford
+  title: How JavaScript Works
+  edition: 1
+  authors:
+    - Douglas Crockford
+  coverName: how-javascript-works-1-douglas-crockford.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1949815005
+    amazon_uk: https://www.amazon.co.uk/dp/1949815005
+  description: "Douglas Crockford starts by looking at the fundamentals: names,
+    numbers, booleans, characters, and bottom values. JavaScript's number type
+    is shown to be faulty and limiting, but then Crockford shows how to repair
+    those problems. He then moves on to data structures and functions, exploring
+    the underlying mechanisms and then uses higher order functions to achieve
+    class-free object oriented programming. The book also looks at eventual
+    programming, testing, and purity, all the while looking at the requirements
+    of The Next Language. Most of our languages are deeply rooted in the
+    paradigm that produced FORTRAN. Crockford attacks those roots, liberating us
+    to consider the next paradigm.He also presents a strawman language and
+    develops a complete transpiler to implement it. The book is deep, dense,
+    full of code, and has moments when it is intentionally funny."
+
+- slug: elasticsearch-1-clinton-gormley-zachary-tong
+  title: Elasticsearch
+  subtitle: The Definitive Guide
+  edition: 1
+  authors:
+    - Clinton Gormley
+    - Zachary Tong
+  coverName: elasticsearch-1-clinton-gormley-zachary-tong.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1449358543
+    amazon_uk: https://www.amazon.co.uk/dp/1449358543
+  description: >-
+    Whether you need full-text search or real-time analytics of structured
+    data or both the Elasticsearch distributed search engine is an ideal way to
+    put your data to work. This practical guide not only shows you how to
+    search, analyze, and explore data with Elasticsearch, but also helps you
+    deal with the complexities of human language, geolocation, and
+    relationships.
+
+    If you're a newcomer to both search and distributed systems, you'll quickly
+    learn how to integrate Elasticsearch into your application. More experienced
+    users will pick up lots of advanced techniques. Throughout the book, you'll
+    follow a problem-based approach to learn why, when, and how to use
+    Elasticsearch features.
+
+- slug: cassandra-3-jeff-carpenter-eben-hewitt
+  title: Cassandra
+  subtitle: The Definitive Guide
+  edition: 3
+  authors:
+    - Jeff Carpenter
+    - Eben Hewitt
+  coverName: cassandra-3-jeff-carpenter-eben-hewitt.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492097144
+    amazon_uk: https://www.amazon.co.uk/dp/1492097144
+  description: >-
+    Imagine what you could do if scalability wasn't a problem. With this
+    hands-on guide, you'll learn how the Cassandra database management system
+    handles hundreds of terabytes of data while remaining highly available
+    across multiple data centers. This revised third edition--updated for
+    Cassandra 4.0 and new developments in the Cassandra ecosystem, including
+    deployments in Kubernetes with K8ssandra--provides technical details and
+    practical examples to help you put this database to work in a production
+    environment.
+
+    Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of
+    Cassandra's nonrelational design, with special attention to data modeling.
+    Developers, DBAs, and application architects looking to solve a database
+    scaling issue or future-proof an application will learn how to harness
+    Cassandra's speed and flexibility.
+
+- slug: art-of-scalability-the-2-martin-abbott-michael-fisher
+  title: Art of Scalability, The
+  subtitle: Scalable Web Architecture, Processes, and Organizations for the Modern
+    Enterprise
+  edition: 2
+  authors:
+    - Martin Abbott
+    - Michael Fisher
+  coverName: art-of-scalability-the-2-martin-abbott-michael-fisher.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0134032802
+    amazon_uk: https://www.amazon.co.uk/dp/0134032802
+  description: >-
+    The Comprehensive, Proven Approach to IT Scalability-Updated with New
+    Strategies, Technologies, and Case Studies
+
+    In The Art of Scalability, Second Edition, leading scalability consultants
+    Martin L. Abbott and Michael T. Fisher cover everything you need to know to
+    smoothly scale products and services for any requirement. This extensively
+    revised edition reflects new technologies, strategies, and lessons, as well
+    as new case studies from the authors' pioneering consulting practice, AKF
+    Partners.
+
+    Writing for technical and nontechnical decision-makers, Abbott and Fisher
+    cover everything that impacts scalability, including architecture, process,
+    people, organization, and technology. Their insights and recommendations
+    reflect more than thirty years of experience at companies ranging from eBay
+    to Visa, and Salesforce.com to Apple.
+
+    You'll find updated strategies for structuring organizations to maximize
+    agility and scalability, as well as new insights into the cloud (IaaS/PaaS)
+    transition, NoSQL, DevOps, business metrics, and more. Using this guide's
+    tools and advice, you can systematically clear away obstacles to
+    scalability-and achieve unprecedented IT and business performance.
+
+- slug: elixir-in-action-third-edition-3-sasa-juric
+  title: Elixir in Action, Third Edition
+  edition: 3
+  authors:
+    - Saša Juric
+  coverName: elixir-in-action-third-edition-3-sasa-juric.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1633438511
+    amazon_uk: https://www.amazon.co.uk/dp/1633438511
+  description: >-
+    Fully updated to Elixir 1.15, this authoritative bestseller reveals how
+    Elixir tackles problems of scalability, fault tolerance, and high
+    availability.Thousands of developers have learned to build applications in
+    Elixir by using Saša Juric's Elixir in Action. You'll skip the programming
+    basics or 101 introductions; this book builds on your existing knowledge to
+    get you quickly writing real Elixir code. Along the way, you'll develop an
+    appreciation for, and considerable skill in, functional and concurrent
+    programming.
+
+- slug: docker-in-action-second-edition-2-jeff-nickoloff-stephen-kuenzli
+  title: Docker in Action, Second Edition
+  edition: 2
+  authors:
+    - Jeff Nickoloff
+    - Stephen Kuenzli
+  coverName: docker-in-action-second-edition-2-jeff-nickoloff-stephen-kuenzli.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617294764
+    amazon_uk: https://www.amazon.co.uk/dp/1617294764
+  description: >-
+    Docker in Action, Second Edition teaches you the skills and knowledge you
+    need to create, deploy, and manage applications hosted in Docker containers.
+    This bestseller has been fully updated with new examples, best practices,
+    and a number of entirely new chapters.
+
+- slug: sql-pocket-guide-4-alice-zhao
+  title: SQL Pocket Guide
+  subtitle: A Guide to SQL Usage
+  edition: 4
+  authors:
+    - Alice Zhao
+  coverName: sql-pocket-guide-4-alice-zhao.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492090409
+    amazon_uk: https://www.amazon.co.uk/dp/1492090409
+  description: >-
+    If you use SQL in your day-to-day work as a data analyst, data scientist, or
+    data engineer, this popular pocket guide is your ideal on-the-job reference.
+    You'll find many examples that address the language's complexities, along
+    with key aspects of SQL used in Microsoft SQL Server, MySQL, Oracle
+    Database, PostgreSQL, and SQLite.
+
+    In this updated edition, author Alice Zhao describes how these database
+    management systems implement SQL syntax for both querying and making changes
+    to a database. You'll find details on data types and conversions, regular
+    expression syntax, window functions, pivoting and unpivoting, and more.
+
+- slug: laravel-3-matt-stauffer
+  title: Laravel
+  subtitle: Up & Running; A Framework for Building Modern PHP Apps
+  edition: 3
+  authors:
+    - Matt Stauffer
+  coverName: laravel-3-matt-stauffer.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/109815326X
+    amazon_uk: https://www.amazon.co.uk/dp/109815326X
+  description: >-
+    What sets Laravel apart from other PHP web frameworks? Speed and simplicity,
+    for starters. This rapid application development framework and its ecosystem
+    of tools let you quickly build new sites and applications with clean,
+    readable code. Fully updated to include Laravel 10, the third edition of
+    this practical guide provides the definitive introduction to one of today's
+    most popular web frameworks.
+
+- slug: kafka-2-gwen-shapira-todd-palino-rajini-sivaram-krit-petty
+  title: Kafka
+  subtitle: The Definitive Guide
+  edition: 2
+  authors:
+    - Gwen Shapira
+    - Todd Palino
+    - Rajini Sivaram
+    - Krit Petty
+  coverName: kafka-2-gwen-shapira-todd-palino-rajini-sivaram-krit-petty.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492043087
+    amazon_uk: https://www.amazon.co.uk/dp/1492043087
+  description: >-
+    Every enterprise application creates data, whether it consists of log
+    messages, metrics, user activity, or outgoing messages. Moving all this data
+    is just as important as the data itself. With this updated edition,
+    application architects, developers, and production engineers new to the
+    Kafka streaming platform will learn how to handle data in motion. Additional
+    chapters cover Kafka's AdminClient API, transactions, new security features,
+    and tooling changes.
+
+- slug: learn-you-a-haskell-for-great-good-1-miran-lipovaca
+  title: Learn You a Haskell for Great Good!
+  subtitle: A Beginner's Guide
+  edition: 1
+  authors:
+    - Miran Lipovaca
+  coverName: learn-you-a-haskell-for-great-good-1-miran-lipovaca.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1593272839
+    amazon_uk: https://www.amazon.co.uk/dp/1593272839
+    free: https://learnyouahaskell.com/chapters
+  description: >-
+    It's all in the name: Learn You a Haskell for Great Good! is a hilarious,
+    illustrated guide to this complex functional language. Packed with the
+    author's original artwork, pop culture references, and most importantly,
+    useful example code, this book teaches functional fundamentals in a way you
+    never thought possible.
+
+    You'll start with the kid stuff: basic syntax, recursion, types and type
+    classes. Then once you've got the basics down, the real black belt
+    master-class begins: you'll learn to use applicative functors, monads,
+    zippers, and all the other mythical Haskell constructs you've only read
+    about in storybooks.
+
+- slug: learn-python-the-hard-way-3-zed-shaw
+  title: Learn Python the Hard Way
+  subtitle: A Very Simple Introduction to the Terrifyingly Beautiful World of
+    Computers and Code (Zed Shaw's Hard Way Series)
+  edition: 3
+  authors:
+    - Zed Shaw
+  coverName: learn-python-the-hard-way-3-zed-shaw.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0321884914
+    amazon_uk: https://www.amazon.co.uk/dp/0321884914
+  description: >-
+    You Will Learn Python!
+
+    Zed Shaw has perfected the world's best system for learning Python. Follow
+    it and you will succeed-just like the hundreds of thousands of beginners Zed
+    has taught to date! You bring the discipline, commitment, and persistence;
+    the author supplies everything else.
+
+    In Learn Python the Hard Way, Third Edition, you'll learn Python by working
+    through 52 brilliantly crafted exercises. Read them. Type their code
+    precisely. (No copying and pasting!) Fix your mistakes. Watch the programs
+    run. As you do, you'll learn how software works; what good programs look
+    like; how to read, write, and think about code; and how to find and fix your
+    mistakes using tricks professional programmers use.
+
+- slug: think-python-3-allen-b-downey
+  title: Think Python
+  subtitle: How to Think Like a Computer Scientist
+  edition: 3
+  authors:
+    - Allen B. Downey
+  coverName: think-python-3-allen-b-downey.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098155432
+    amazon_uk: https://www.amazon.co.uk/dp/1098155432
+  description: >-
+    Python is an excellent way to get started in programming, and this clear,
+    concise guide walks you through Python a step at a time—beginning with basic
+    programming concepts before moving on to functions, data structures, and
+    object-oriented design. This revised third edition reflects the growing role
+    of large language models (LLMs) in programming and includes exercises on
+    effective LLM prompts, testing code, and debugging skills.
+
+- slug: introduction-to-networking-1-dr-charles-r-severance
+  title: Introduction to Networking
+  subtitle: How the Internet Works
+  edition: 1
+  authors:
+    - Dr. Charles R Severance
+  coverName: introduction-to-networking-1-dr-charles-r-severance.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1511654945
+    amazon_uk: https://www.amazon.co.uk/dp/1511654945
+    free: https://github.com/csev/net-intro
+  description: This book demystifies the amazing architecture and protocols of
+    computers as they communicate over the Internet.  While very complex, the
+    Internet operates on a few relatively simple concepts that anyone can
+    understand. Networks and networked applications are embedded in our lives.
+    Understanding how these technologies work is invaluable.  This book was
+    written for everyone - no technical knowledge is required! While this book
+    is not specifically about the Network+ or CCNA certifications, it as a way
+    to give students interested in these certifications a starting point.
+
+- slug: architecture-patterns-with-python-1-harry-percival-bob-gregory
+  title: Architecture Patterns with Python
+  subtitle: Enabling Test-Driven Development, Domain-Driven Design, and
+    Event-Driven Microservices
+  edition: 1
+  authors:
+    - Harry Percival
+    - Bob Gregory
+  coverName: architecture-patterns-with-python-1-harry-percival-bob-gregory.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492052205
+    amazon_uk: https://www.amazon.co.uk/dp/1492052205
+    free: https://www.cosmicpython.com/book/preface.html
+  description: >-
+    As Python continues to grow in popularity, projects are becoming larger and
+    more complex. Many Python developers are taking an interest in high-level
+    software design patterns such as hexagonal/clean architecture, event-driven
+    architecture, and the strategic patterns prescribed by domain-driven design
+    (DDD). But translating those patterns into Python isn't always
+    straightforward.
+
+    With this hands-on guide, Harry Percival and Bob Gregory from MADE.com
+    introduce proven architectural design patterns to help Python developers
+    manage application complexity―and get the most value out of their test
+    suites.
+
+    Each pattern is illustrated with concrete examples in beautiful, idiomatic
+    Python, avoiding some of the verbosity of Java and C# syntax
+
+- slug: fundamentals-of-software-architecture-1-mark-richards-neal-ford
+  title: Fundamentals of Software Architecture
+  subtitle: An Engineering Approach
+  edition: 1
+  authors:
+    - Mark Richards
+    - Neal Ford
+  coverName: fundamentals-of-software-architecture-1-mark-richards-neal-ford.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492043451
+    amazon_uk: https://www.amazon.co.uk/dp/1492043451
+  description: >-
+    Salary surveys worldwide regularly place software architect in the top 10
+    best jobs, yet no real guide exists to help developers become architects.
+    Until now. This book provides the first comprehensive overview of software
+    architecture's many aspects. Aspiring and existing architects alike will
+    examine architectural characteristics, architectural patterns, component
+    determination, diagramming and presenting architecture, evolutionary
+    architecture, and many other topics.
+
+    Mark Richards and Neal Ford—hands-on practitioners who have taught software
+    architecture classes professionally for years—focus on architecture
+    principles that apply across all technology stacks. You'll explore software
+    architecture in a modern light, taking into account all the innovations of
+    the past decade.
+
+- slug: fullstack-vue-1-hassan-djirdeh-nate-murray-ari-lerner
+  title: Fullstack Vue
+  subtitle: The Complete Guide to Vue.js
+  edition: 1
+  authors:
+    - Hassan Djirdeh
+    - Nate Murray
+    - Ari Lerner
+  coverName: fullstack-vue-1-hassan-djirdeh-nate-murray-ari-lerner.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1987595297
+    amazon_uk: https://www.amazon.co.uk/dp/1987595297
+  description: >-
+    Ready to Master Vue.js?
+
+    What if you could master the entire framework - with solid foundations - in
+    less time without beating your head against a wall? Imagine how quickly you
+    could work if you knew the best practices and the best tools?
+
+    Stop wasting your time searching and have everything you need to be
+    productive in one, well-organized place, with complete examples to get your
+    project up without needing to resort to endless hours of research.
+
+- slug: learning-vue-1-maya-shavin
+  title: Learning Vue
+  edition: 1
+  authors:
+    - Maya Shavin
+  coverName: learning-vue-1-maya-shavin.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/B0CPB9KRCG
+    amazon_uk: https://www.amazon.co.uk/dp/B0CPB9KRCG
+  description: >-
+    Learn the core concepts of Vue.js, the modern JavaScript framework for
+    building frontend applications and interfaces from scratch. With concise,
+    practical, and clear examples, this book takes web developers step-by-step
+    through the tools and libraries in the Vue.js ecosystem and shows them how
+    to create complete applications for real-world web projects.
+
+    You'll learn how to handle data communication between components with Pinia
+    architecture, develop a manageable routing system for a frontend project to
+    control the application flow, and produce basic animation effects to create
+    a better user experience.
+
+- slug: building-micro-frontends-1-luca-mezzalira
+  title: Building Micro-Frontends
+  subtitle: Scaling Teams and Projects, Empowering Developers
+  edition: 1
+  authors:
+    - Luca Mezzalira
+  coverName: building-micro-frontends-1-luca-mezzalira.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492082996
+    amazon_uk: https://www.amazon.co.uk/dp/1492082996
+  description: >-
+    What's the answer to today's increasingly complex web applications?
+    Micro-frontends. Inspired by the microservices model, this approach lets you
+    break interfaces into separate features managed by different teams of
+    developers. With this practical guide, Luca Mezzalira shows software
+    architects, tech leads, and software developers how to build and deliver
+    artifacts atomically rather than use a big bang deployment.
+
+    You'll learn how micro-frontends enable your team to choose any library or
+    framework. This gives your organization technical flexibility and allows you
+    to hire and retain a broad spectrum of talent. Micro-frontends also support
+    distributed or colocated teams more efficiently. Pick up this book and learn
+    how to get started with this technological breakthrough right away.
+
+- slug: serverless-development-on-aws-1-sheen-brisals-luke-hedger
+  title: Serverless Development on AWS
+  subtitle: Building Enterprise-Scale Serverless Solutions
+  edition: 1
+  authors:
+    - Sheen Brisals
+    - Luke Hedger
+  coverName: serverless-development-on-aws-1-sheen-brisals-luke-hedger.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098141938
+    amazon_uk: https://www.amazon.co.uk/dp/1098141938
+  description: >-
+    The adoption of serverless is on the rise, but until now, little guidance
+    has been available for development teams that want to apply this technology
+    on AWS. This definitive guide is packed with architectural, security, and
+    data best practices and patterns for architects and engineers who want to
+    build reliable enterprise-scale serverless solutions.
+
+    Sheen Brisals, an AWS Serverless Hero, and Luke Hedger, an AWS Community
+    Builder, outline the serverless adoption requirements for an enterprise,
+    examine the development tools your team needs, and explain in depth the
+    nuances of testing event-driven and distributed serverless services. You'll
+    gain practical guidance for keeping up with change and learn how to build
+    serverless solutions with sustainability in mind.
+
+- slug: full-stack-serverless-1-nader-dabit
+  title: Full Stack Serverless
+  subtitle: Modern Application Development with React, AWS, and GraphQL
+  edition: 1
+  authors:
+    - Nader Dabit
+  coverName: full-stack-serverless-1-nader-dabit.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492059897
+    amazon_uk: https://www.amazon.co.uk/dp/1492059897
+  description: >-
+    Cloud computing is typically associated with backend development and DevOps.
+    But with the rise of serverless technologies and a new generation of
+    services and frameworks, frontend and mobile developers can build robust
+    applications with production-ready features such as authentication and
+    authorization, API gateways, chatbots, augmented reality scenes, and more.
+    This hands-on guide shows you how.
+
+- slug: javascript-for-impatient-programmers-1-dr-axel-rauschmayer
+  title: JavaScript for impatient programmers
+  edition: 1
+  authors:
+    - Dr. Axel Rauschmayer
+  coverName: javascript-for-impatient-programmers-1-dr-axel-rauschmayer.jpg
+  links:
+    free: https://exploringjs.com/impatient-js/toc.html
+  description: >-
+    This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible.
+
+    Highlights:
+
+    -  Get started quickly, by initially focusing on modern features.
+    -  Test-driven exercises and quizzes available for most chapters.
+    -  Covers all essential features of JavaScript, up to and including ES2022.
+    -  Optional advanced sections let you dig deeper.
+    -  No prior knowledge of JavaScript is required, but you should know how to program.
+
+- slug: web-application-security-2-andrew-hoffman
+  title: Web Application Security
+  subtitle: Exploitation and Countermeasures for Modern Web Applications
+  edition: 2
+  authors:
+    - Andrew Hoffman
+  coverName: web-application-security-2-andrew-hoffman.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098143930
+    amazon_uk: https://www.amazon.co.uk/dp/1098143930
+  description: >-
+    In the first edition of this critically acclaimed book, Andrew Hoffman
+    defined the three pillars of application security: reconnaissance, offense,
+    and defense. In this revised and updated second edition, he examines dozens
+    of related topics, from the latest types of attacks and mitigations to
+    threat modeling, the secure software development lifecycle (SSDL/SDLC), and
+    more.
+
+    Hoffman, senior staff security engineer at Ripple, also provides information
+    regarding exploits and mitigations for several additional web application
+    technologies such as GraphQL, cloud-based deployments, content delivery
+    networks (CDN) and server-side rendering (SSR). Following the curriculum
+    from the first book, this second edition is split into three distinct
+    pillars comprising three separate skill sets:
+
+    *   Pillar 1: Recon—Learn techniques for mapping and documenting web
+    applications remotely, including procedures for working with web
+    applications
+    *   Pillar 2: Offense—Explore methods for attacking web applications using a
+    number of highly effective exploits that have been proven by the best
+    hackers in the world. These skills are valuable when used alongside the
+    skills from Pillar 3.
+    *   Pillar 3: Defense—Build on skills acquired in the first two parts to
+    construct effective and long-lived mitigations for each of the attacks
+    described in Pillar 2.
+
+- slug: grokking-web-application-security-1-malcolm-mcdonald
+  title: Grokking Web Application Security
+  edition: 1
+  authors:
+    - Malcolm McDonald
+  coverName: grokking-web-application-security-1-malcolm-mcdonald.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1633438260
+    amazon_uk: https://www.amazon.co.uk/dp/1633438260
+  description: >-
+    When you launch an application on the web, every hacker in the world has
+    access to it. Are you sure your web apps can stand up to the most
+    sophisticated attacks?
+
+    Grokking Web Application Security is a brilliantly illustrated and clearly
+    written guide that delivers detailed coverage on:
+
+    *   How the browser security model works, including sandboxing, the
+    same-origin policy, and methods of securing cookies
+    *   Securing web servers with input validation, escaping of output, and
+    defense in depth
+    *   A development process that prevents security bugs
+    *   Protecting yourself from browser vulnerabilities such as cross-site
+    scripting, cross-site request forgery, and clickjacking
+    *   Network vulnerabilities like man-in-the-middle attacks, SSL-stripping,
+    and DNS poisoning
+    *   Preventing authentication vulnerabilities that allow brute forcing of
+    credentials by using single sign-on or multi-factor authentication
+    *   Authorization vulnerabilities like broken access control and session
+    jacking
+    *   How to use encryption in web applications
+    *   Injection attacks, command execution attacks, and remote code execution
+    attacks
+    *   Malicious payloads that can be used to attack XML parsers, and file
+    upload functions
+
+- slug: the-tangled-web-1-michal-zalewski
+  title: The Tangled Web
+  subtitle: A Guide to Securing Modern Web Applications
+  edition: 1
+  authors:
+    - Michal Zalewski
+  coverName: the-tangled-web-1-michal-zalewski.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1593273886
+    amazon_uk: https://www.amazon.co.uk/dp/1593273886
+  description: >-
+    Modern web applications are built on a tangle of technologies that have been
+    developed over time and then haphazardly pieced together. Every piece of the
+    web application stack, from HTTP requests to browser-side scripts, comes
+    with important yet subtle security consequences. To keep users safe, it is
+    essential for developers to confidently navigate this landscape.
+
+    In The Tangled Web, Michal Zalewski, one of the world's top browser security
+    experts, offers a compelling narrative that explains exactly how browsers
+    work and why they're fundamentally insecure. Rather than dispense simplistic
+    advice on vulnerabilities, Zalewski examines the entire browser security
+    model, revealing weak points and providing crucial information for shoring
+    up web application security.
+
+- slug: react-2-stoyan-stefanov
+  title: React
+  subtitle: Up & Running
+  edition: 2
+  authors:
+    - Stoyan Stefanov
+  coverName: react-2-stoyan-stefanov.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492051462
+    amazon_uk: https://www.amazon.co.uk/dp/1492051462
+  description: >-
+    Hit the ground running with React, the open source technology from Facebook
+    for building rich web applications fast. Updated for the latest React
+    release, the second edition of this hands-on guide shows you how to build
+    React components and organize them into maintainable large-scale apps. If
+    you're familiar with JavaScript syntax, you're ready to get started.
+
+    Through the course of this book, author Stoyan Stefanov helps web developers
+    and programmers build a complete single-page application. You'll quickly
+    learn why some developers consider React the key to the web app development
+    puzzle.
+
+- slug: hacking-apis-1-corey-j-ball
+  title: Hacking APIs
+  subtitle: Breaking Web Application Programming Interfaces
+  edition: 1
+  authors:
+    - Corey J. Ball
+  coverName: hacking-apis-1-corey-j-ball.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1718502443
+    amazon_uk: https://www.amazon.co.uk/dp/1718502443
+  description: >-
+    Hacking APIs is a crash course in web API security testing that will prepare
+    you to penetration-test APIs, reap high rewards on bug bounty programs, and
+    make your own APIs more secure.
+
+    You'll learn how REST and GraphQL APIs work in the wild and set up a
+    streamlined API testing lab with Burp Suite and Postman. Then you'll master
+    tools useful for reconnaissance, endpoint analysis, and fuzzing, such as
+    Kiterunner and OWASP Amass. Next, you'll learn to perform common attacks,
+    like those targeting an API's authentication mechanisms and the injection
+    vulnerabilities commonly found in web applications. You'll also learn
+    techniques for bypassing protections against these attacks.
+
+- slug: programming-phoenix-14-1-chris-mccord-bruce-tate-jose-valim
+  title: Programming Phoenix 1.4
+  subtitle: Productive |> Reliable |> Fast
+  edition: 1
+  authors:
+    - Chris McCord
+    - Bruce Tate
+    - Jose Valim
+  coverName: programming-phoenix-14-1-chris-mccord-bruce-tate-jose-valim.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1680502263
+    amazon_uk: https://www.amazon.co.uk/dp/1680502263
+  description: >-
+    Don't accept the compromise between fast and beautiful: you can have it all.
+    Phoenix creator Chris McCord, Elixir creator Jose Valim, and award-winning
+    author Bruce Tate walk you through building an application that's fast and
+    reliable. At every step, you'll learn from the Phoenix creators not just
+    what to do, but why. Packed with insider insights and completely updated for
+    Phoenix 1.3, this definitive guide will be your constant companion in your
+    journey from Phoenix novice to expert, as you build the next generation of
+    web applications.
+
+    Phoenix is the long-awaited web framework based on Elixir, the highly
+    concurrent language that combines a beautiful syntax with rich
+    metaprogramming. The best way to learn Phoenix is to code, and you'll get to
+    attack some interesting problems. Start working with controllers, views, and
+    templates within the first few pages. Build an in-memory context, and then
+    back it with an Ecto database layer, complete with changesets and
+    constraints that keep readers informed and your database integrity intact.
+    Craft your own interactive application based on the channels API for the
+    real-time applications that this ecosystem made famous. Write your own
+    authentication plugs, and use the OTP layer for supervised services.
+    Organize code with modular umbrella projects.
+
+- slug: webassembly-1-brian-sletten
+  title: WebAssembly
+  subtitle: The Definitive Guide
+  edition: 1
+  authors:
+    - Brian Sletten
+  coverName: webassembly-1-brian-sletten.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492089842
+    amazon_uk: https://www.amazon.co.uk/dp/1492089842
+  description: >-
+    WebAssembly: The Definitive Guide is a thorough and accessible introduction
+    to one of the most transformative technologies hitting our industry. What
+    started as a way to use languages other than JavaScript in the browser has
+    evolved into a comprehensive path toward portability, performance, increased
+    security, and greater code reuse across an impressive collection of
+    deployment targets.
+
+    Author Brian Sletten introduces elements of this technology incrementally
+    while building to several concrete, code-driven examples of practical,
+    cutting-edge WebAssembly uses. Whether you work with enterprise software or
+    embedded systems, or in entertainment, scientific computing, or startup
+    environments, you'll learn how WebAssembly can have a positive impact on the
+    way you develop software.
+
+    *   Use WebAssembly to increase code portability across platforms
+    *   Reuse more of your software assets in a wider number of deployment
+    targets
+    *   Learn how WebAssembly increases protection against prominent security
+    attacks
+    *   Use WebAssembly to deploy legacy code in web environments
+    *   Increase your user base across languages and development environments
+    *   Integrate JavaScript code with other languages and environments to
+    improve performance, security, and productivity
+    *   Learn how WebAssembly will affect your career as software developer
+
+- slug: web-scraping-with-python-3-ryan-mitchell
+  title: Web Scraping with Python
+  edition: 3
+  authors:
+    - Ryan Mitchell
+  coverName: web-scraping-with-python-3-ryan-mitchell.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/B0CVP964KM
+    amazon_uk: https://www.amazon.co.uk/dp/B0CVP964KM
+  description: >-
+    If programming is magic, then web scraping is surely a form of wizardry. By
+    writing a simple automated program, you can query web servers, request data,
+    and parse it to extract the information you need. This thoroughly updated
+    third edition not only introduces you to web scraping but also serves as a
+    comprehensive guide to scraping almost every type of data from the modern
+    web.
+
+    Part I focuses on web scraping mechanics: using Python to request
+    information from a web server, performing basic handling of the server's
+    response, and interacting with sites in an automated fashion. Part II
+    explores a variety of more specific tools and applications to fit any web
+    scraping scenario you're likely to encounter.
+
+    *   Parse complicated HTML pages
+    *   Develop crawlers with the Scrapy framework
+    *   Learn methods to store the data you scrape
+    *   Read and extract data from documents
+    *   Clean and normalize badly formatted data
+    *   Read and write natural languages
+    *   Crawl through forms and logins
+    *   Scrape JavaScript and crawl through APIs
+    *   Use and write image-to-text software
+    *   Avoid scraping traps and bot blockers
+    *   Use scrapers to test your website
+
