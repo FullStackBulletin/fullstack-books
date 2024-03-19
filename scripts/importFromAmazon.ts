@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { Writable } from 'node:stream'
+import { parseArgs } from 'node:util'
 import { load } from 'cheerio'
 import slugify from 'slugify'
 import TurndownService from 'turndown'
@@ -19,9 +20,18 @@ const rawBooksSlugs = new Set(
   (rawBooks || []).map((book: { slug: string }) => book.slug),
 )
 
-const [, , ...ids] = process.argv
+const args = parseArgs({
+    options: {
+      cookie: {
+        type: 'string',
+        short: 'c',
+        default: '',
+      },
+    },
+    allowPositionals: true
+})
 
-for (const id of ids) {
+for (const id of args.positionals) {
   const amazon_us = `https://www.amazon.com/dp/${id}`
   const amazon_uk = `https://www.amazon.co.uk/dp/${id}`
   const req = await fetch(amazon_us, {
@@ -52,12 +62,13 @@ for (const id of ids) {
       'User-Agent':
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
       'Viewport-Width': '336',
+      Cookie: args.values.cookie as string
     },
   })
   const content = await req.text()
 
   if (content.includes("Sorry, we just need to make sure you're not a robot")) {
-    console.error(`Skipping ${id} (captcha check!)`)
+    console.error(`Skipping ${id} (captcha check!). Try to pass a valid Amazon.com cookie with the -c option.`)
     continue
   }
 

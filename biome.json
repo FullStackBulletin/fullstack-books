@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.6.1/schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "organizeImports": {
     "enabled": true
   },
@@ -14,7 +14,8 @@
         "noConsole": "off"
       },
       "correctness": {
-        "all": true
+        "all": true,
+        "noUnusedImports": "warn"
       }
     },
     "ignore": ["coverage/", "dist/", "node_modules/", "docs/"]

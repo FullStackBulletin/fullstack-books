@@ -2463,3 +2463,67 @@
     *   Avoid scraping traps and bot blockers
     *   Use scrapers to test your website
 
+- slug: acing-the-system-design-interview-1-zhiyong-tan
+  title: Acing the System Design Interview
+  edition: 1
+  authors:
+    - Zhiyong Tan
+  coverName: acing-the-system-design-interview-1-zhiyong-tan.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1633439100
+    amazon_uk: https://www.amazon.co.uk/dp/1633439100
+  description: >-
+    The system design interview is one of the hardest challenges you'll face in
+    the software engineering hiring process. This practical book gives you the
+    insights, the skills, and the hands-on practice you need to ace the toughest
+    system design interview questions and land the job and salary you want.In
+    Acing the System Design Interview you will master a structured and organized
+    approach to present system design ideas like:
+
+    *   Scaling applications to support heavy traffic
+    *   Distributed transactions techniques to ensure data consistency
+    *   Services for functional partitioning such as API gateway and service
+    mesh
+    *   Common API paradigms including REST, RPC, and GraphQL
+    *   Caching strategies, including their tradeoffs
+    *   Logging, monitoring, and alerting concepts that are critical in any
+    system design
+    *   Communication skills that demonstrate your engineering maturity
+
+    Don't be daunted by the complex, open-ended nature of system design
+    interviews! In this in-depth guide, author Zhiyong Tan shares what he's
+    learned on both sides of the interview table. You'll dive deep into the
+    common technical topics that arise during interviews and learn how to apply
+    them to mentally perfect different kinds of systems.
+
+- slug: secrets-of-the-javascript-ninja-2-john-resig-bear-bibeault-josip-maras
+  title: Secrets of the JavaScript Ninja
+  edition: 2
+  authors:
+    - John Resig
+    - Bear Bibeault
+    - Josip Maras
+  coverName: secrets-of-the-javascript-ninja-2-john-resig-bear-bibeault-josip-maras.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617292850
+    amazon_uk: https://www.amazon.co.uk/dp/1617292850
+  description: >-
+    More than ever, the web is a universal platform for all types of
+    applications, and JavaScript is the language of the web. If you're serious
+    about web development, it's not enough to be a decent JavaScript coder. You
+    need to be ninja-stealthy, efficient, and ready for anything. This book
+    shows you how.
+
+    Secrets of the JavaScript Ninja, Second Edition uses practical examples to
+    clearly illustrate each core concept and technique. This completely revised
+    edition shows you how to master key JavaScript concepts such as functions,
+    closures, objects, prototypes, and promises. It covers APIs such as the DOM,
+    events, and timers. You'll discover best practice techniques such as
+    testing, and cross-browser development, all taught from the perspective of
+    skilled JavaScript practitioners.What's Inside
+
+    *   Writing more effective code with functions, objects, and closures
+    *   Learning to avoid JavaScript application pitfalls
+    *   Using regular expressions to write succinct text-processing code
+    *   Managing asynchronous code with promises
+    *   Fully revised to cover concepts from ES6 and ES7
