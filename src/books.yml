@@ -1,10 +1,11 @@
-- title: 'Eloquent JavaScript'
+- slug: 'eloquent-javascript-4-marijn-haverbeke'
+  title: 'Eloquent JavaScript'
   edition: 4
   authors:
     - 'Marijn Haverbeke'
   links:
     free: 'https://eloquentjavascript.net/'
-  cover: 'eloquent-javascript-4-marijn-haverbeke'
+  cover: 'eloquent-javascript-4-marijn-haverbeke.jpg'
   description: >
     JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
 
@@ -20,11 +21,13 @@
     
     Isn't it time you became fluent in the language of the Web?
 
-- title: "Tidy First?: A Personal Exercise in Empirical Software Design"
+- slug: tidy-first-1-kent-beck
+  title: Tidy First?
+  subtitle: A Personal Exercise in Empirical Software Design
   edition: 1
   authors:
     - Kent Beck
-  coverName: tidy-first-a-personal-exercise-in-empirical-software-design-1-kent-beck.jpg
+  coverName: tidy-first-1-kent-beck.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098151240
     amazon_uk: https://www.amazon.co.uk/dp/1098151240
@@ -52,12 +55,14 @@
     *   Learn how to make large changes in small, safe steps
     *   Approach design as a human activity with diverging incentives
 
-- title: "Articulating Design Decisions: Communicate with Stakeholders, Keep Your
-    Sanity, and Deliver the Best User Experience"
+- slug: articulating-design-decisions-2-tom-greever
+  title: Articulating Design Decisions
+  subtitle: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best
+    User Experience
   edition: 2
   authors:
     - Tom Greever
-  coverName: articulating-design-decisions-communicate-with-stakeholders-keep-your-sanity-and-deliver-the-best-user-experience-2-tom-greever.jpg
+  coverName: articulating-design-decisions-2-tom-greever.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492079227
     amazon_uk: https://www.amazon.co.uk/dp/1492079227
@@ -66,12 +71,12 @@
     can be difficult to do well. In many cases, how you communicate with
     stakeholders, clients, and other nondesigners may be more important than the
     designs themselves. Because if you can't get their support, your work will
-    never see the light of day--no matter how good it is.  
-      
+    never see the light of day--no matter how good it is.
+
     This practical guide focuses on principles, tactics, and actionable methods
     for presenting your designs. Whether you design apps, websites, or products,
     you'll learn how to get support from people who have influence over the
-    project with the goal of creating the best user experience. 
+    project with the goal of creating the best user experience.
 
     *   Walk through the process of preparing and presenting your designs
     *   Understand stakeholder perspectives and learn how to empathize with them
@@ -83,11 +88,13 @@
     *   Discover why the way you follow through is just as important as the
     meeting itself
 
-- title: "Building Progressive Web Apps: Bringing the Power of Native to the Browser"
+- slug: building-progressive-web-apps-1-tal-ater
+  title: Building Progressive Web Apps
+  subtitle: Bringing the Power of Native to the Browser
   edition: 1
   authors:
     - Tal Ater
-  coverName: building-progressive-web-apps-bringing-the-power-of-native-to-the-browser-1-tal-ater.jpg
+  coverName: building-progressive-web-apps-1-tal-ater.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1491961651
     amazon_uk: https://www.amazon.co.uk/dp/1491961651
@@ -115,7 +122,8 @@
     *   Explore new UX opportunities and challenges presented by progressive web
     apps
 
-- title: Build
+- slug: build-1-tony-fadell
+  title: Build
   edition: 1
   authors:
     - Tony Fadell
@@ -149,11 +157,13 @@
     thinking and rethinking.'Adam Grant,Author of Think Again & Host of the TED
     podcast WorkLife
 
-- title: "Designing for Behavior Change: Applying Psychology and Behavioral Economics"
+- slug: designing-for-behavior-change-2-stephen-wendel
+  title: Designing for Behavior Change
+  subtitle: Applying Psychology and Behavioral Economics
   edition: 2
   authors:
     - Stephen Wendel
-  coverName: designing-for-behavior-change-applying-psychology-and-behavioral-economics-2-stephen-wendel.jpg
+  coverName: designing-for-behavior-change-2-stephen-wendel.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492056030
     amazon_uk: https://www.amazon.co.uk/dp/1492056030
@@ -170,7 +180,7 @@
     behavioral science into product design and development. Product managers, UX
     and interaction designers, and data analysts will learn a simple and
     effective approach for identifying target users and behaviors, building the
-    product, and gauging its effectiveness.  
+    product, and gauging its effectiveness.
 
     *   Learn the three main strategies to help people change behavior
     *   Identify behaviors your target audience seeks to change―and obstacles
@@ -180,7 +190,8 @@
     *   Combine behavioral science with data science to pinpoint problems and
     test potential solutions
 
-- title: The Design Of Everyday Things
+- slug: the-design-of-everyday-things-1-don-norman
+  title: The Design Of Everyday Things
   edition: 1
   authors:
     - Don Norman
@@ -208,12 +219,13 @@
     is a powerful primer on how -- and why -- some products satisfy customers
     while others only frustrate them.
 
-- title: "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability
-    (3rd Edition) (Voices That Matter)"
+- slug: dont-make-me-think-revisited-3-steve-krug
+  title: Don't Make Me Think, Revisited
+  subtitle: A Common Sense Approach to Web Usability (3rd Edition) (Voices That Matter)
   edition: 3
   authors:
     - Steve Krug
-  coverName: dont-make-me-think-revisited-a-common-sense-approach-to-web-usability-3rd-edition-voices-that-matter-3-steve-krug.jpg
+  coverName: dont-make-me-think-revisited-3-steve-krug.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0321965515
     amazon_uk: https://www.amazon.co.uk/dp/0321965515
@@ -222,23 +234,26 @@
     of Web designers and developers have relied on usability guru Steve Krug's
     guide to help them understand the principles of intuitive navigation and
     information design. Witty, commonsensical, and eminently practical, it's one
-    of the best-loved and most recommended books on the subject.  
-      
+    of the best-loved and most recommended books on the subject.
+
     Now Steve returns with fresh perspective to reexamine the principles that
     made Don't Make Me Think a classic-with updated examples and a new chapter
     on mobile usability. And it's still short, profusely illustrated…and best of
-    all-fun to read.  
-      
+    all-fun to read.
+
     If you've read it before, you'll rediscover what made Don't Make Me Think so
     essential to Web designers and developers around the world. If you've never
     read it, you'll see why so many people have said it should be required
-    reading for anyone working on Web sites.  
+    reading for anyone working on Web sites.
 
     “After reading it over a couple of hours and putting its ideas to work for
     the past five years, I can say it has done more to improve my abilities as a
     Web designer than any other book.”
 
-- title: First Things First
+    -Jeffrey Zeldman, author of Designing with Web Standards .
+
+- slug: first-things-first-1-stephen-r-covey-a-roger-merrill-rebecca-r-merrill
+  title: First Things First
   edition: 1
   authors:
     - Stephen R. Covey
@@ -251,8 +266,8 @@
   description: >-
     From the author that brought you the New York Times bestseller The 7 Habits
     of Highly Effective People comes a guide to prioritizing your personal and
-    professional goals.  
-      
+    professional goals.
+
     I'm getting more done in less time, but where are the rich relationships,
     the inner peace, the balance, the confidence that I'm doing what matters
     most and doing it well?Does this nagging question haunt you, even when you
@@ -263,8 +278,8 @@
     comes a guide to building your work on the principles of effectiveness so
     that your life can spent cultivating genuine relationships, investing in
     pursuits you enjoy, and achieving balance in both your personal and
-    professional lives.  
-      
+    professional lives.
+
     In First Things First, Stephen M. R. Covey advocates categorizing tasks by
     urgency and importance so that you can focus on what actually needs to be
     done in the limited amount of time that you have. Using personal examples
@@ -273,11 +288,13 @@
     Things First provides you with a compass, because where you're headed is
     more important than how fast you're going.
 
-- title: "How to Think Like Leonardo da Vinci: Seven Steps to Genius Every Day"
+- slug: how-to-think-like-leonardo-da-vinci-1-michael-j-gelb
+  title: How to Think Like Leonardo da Vinci
+  subtitle: Seven Steps to Genius Every Day
   edition: 1
   authors:
     - Michael J. Gelb
-  coverName: how-to-think-like-leonardo-da-vinci-seven-steps-to-genius-every-day-1-michael-j-gelb.jpg
+  coverName: how-to-think-like-leonardo-da-vinci-1-michael-j-gelb.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0440508274
     amazon_uk: https://www.amazon.co.uk/dp/0440508274
@@ -293,7 +310,7 @@
     things. With Da Vinci as your inspiration, you will discover an exhilarating
     new way of thinking. And step-by-step, through exercises and provocative
     lessons, you will harness the power—and awesome wonder—of your own genius,
-    mastering such life-changing abilities as:  
+    mastering such life-changing abilities as:
 
     *   Problem solving
     *   Creative thinking
@@ -314,19 +331,20 @@
     life-changing skills as problem solving, creative thinking, self-expression,
     goal setting and life balance, and harmonizing body and mind.
 
-- title: "How We Got to Now: Six Innovations That Made the Modern World"
+- slug: how-we-got-to-now-1-steven-johnson
+  title: How We Got to Now
+  subtitle: Six Innovations That Made the Modern World
   edition: 1
   authors:
     - Steven Johnson
-  coverName: how-we-got-to-now-six-innovations-that-made-the-modern-world-1-steven-johnson.jpg
+  coverName: how-we-got-to-now-1-steven-johnson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1594633932
     amazon_uk: https://www.amazon.co.uk/dp/1594633932
   description: >-
-    From the New York Times-bestselling author of Where Good Ideas Come
-    From and Unexpected Life, a new look at the power and legacy of great
-    ideas.  
-      
+    From the New York Times-bestselling author of Where Good Ideas Come From and
+    Unexpected Life, a new look at the power and legacy of great ideas.
+
     In this illustrated history, Steven Johnson explores the history of
     innovation over centuries, tracing facets of modern life (refrigeration,
     clocks, and eyeglass lenses, to name a few) from their creation by
@@ -349,7 +367,8 @@
     the provocative, informative, and engaging style that has earned Johnson
     fans around the globe.
 
-- title: Indistractable
+- slug: indistractable-1-nir-eyal
+  title: Indistractable
   edition: 1
   authors:
     - Nir Eyal
@@ -363,49 +382,51 @@
     to get back to work, a colleague taps you on the shoulder to chat. At home,
     screens get in the way of quality time with your family. Another day goes
     by, and once again, your most important personal and professional goals are
-    put on hold.  
-      
+    put on hold.
+
     What would be possible if you followed through on your best intentions? What
     could you accomplish if you could stay focused and overcome distractions?
-    What if you had the power to become "indistractable"?  
-      
+    What if you had the power to become "indistractable"?
+
     International best-selling author, former Stanford lecturer, and behavioral
     design expert, Nir Eyal, wrote Silicon Valley's handbook for making
     technology habit-forming. Five years after publishing Hooked, Eyal reveals
-    distraction's Achilles' heel in his groundbreaking new book.  
-      
+    distraction's Achilles' heel in his groundbreaking new book.
+
     In Indistractable, Eyal reveals the hidden psychology driving us to
     distraction. He describes why solving the problem is not as simple as
     swearing off our devices: Abstinence is impractical and often makes us want
-    more.  
-      
+    more.
+
     Eyal lays bare the secret of finally doing what you say you will do with a
     four-step, research-backed model. Indistractable reveals the key to getting
-    the best out of technology, without letting it get the best of us.  
-      
-    Inside, Eyal overturns conventional wisdom and reveals:  
-      
+    the best out of technology, without letting it get the best of us.
+
+    Inside, Eyal overturns conventional wisdom and reveals:
+
     Why distraction at work is a symptom of a dysfunctional company culture -
-    and how to fix it  
+    and how to fix it
 
     What really drives human behavior and why "time management is pain
-    management"  
+    management"
 
     Why your relationships (and your sex life) depend on you becoming
-    indistractable  
+    indistractable
 
-    How to raise indistractable children in an increasingly distracting world  
+    How to raise indistractable children in an increasingly distracting world
 
     Empowering and optimistic, Indistractable provides practical, novel
     techniques to control your time and attention - helping you live the life
     you really want.
 
-- title: "Tragic Design: The Impact of Bad Product Design and How to Fix It"
+- slug: tragic-design-1-jonathan-shariat-cynthia-savard-saucier
+  title: Tragic Design
+  subtitle: The Impact of Bad Product Design and How to Fix It
   edition: 1
   authors:
     - Jonathan Shariat
     - Cynthia Savard Saucier
-  coverName: tragic-design-the-impact-of-bad-product-design-and-how-to-fix-it-1-jonathan-shariat-cynthia-savard-saucier.jpg
+  coverName: tragic-design-1-jonathan-shariat-cynthia-savard-saucier.jpg
   links:
     amazon_us: https://www.amazon.com/dp/149192361X
     amazon_uk: https://www.amazon.co.uk/dp/149192361X
@@ -433,17 +454,19 @@
     *   Tools and techniques that can help you avoid harmful design decisions
     *   Inspiring professionals who use design to improve our world
 
-- title: "Linchpin: Are You Indispensable?"
+- slug: linchpin-1-seth-godin
+  title: Linchpin
+  subtitle: Are You Indispensable?
   edition: 1
   authors:
     - Seth Godin
-  coverName: linchpin-are-you-indispensable-1-seth-godin.jpg
+  coverName: linchpin-1-seth-godin.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1591844096
     amazon_uk: https://www.amazon.co.uk/dp/1591844096
   description: >-
     This life-changing manifesto shows how you have the potential to make a huge
-    difference wherever you are. Few authors have had the kind of lasting
+    difference wherever you are.  Few authors have had the kind of lasting
     impact and global reach that Seth Godin has had. In a series of now-classic
     books that have been translated into 36 languages and reached millions of
     readers around the world, he has taught generations of readers how to make
@@ -468,8 +491,7 @@
     *   Jason Zimdars, a graphic designer who got his dream job at 37signals
     without a résumé.
     *   David, who works at Dean and Deluca coffee shop in New York. He sees every
-    customer interaction as a chance to give a gift and is cherished in
-    return.
+    customer interaction as a chance to give a gift and is cherished in return.
 
     As Godin writes, "Every day I meet people who have so much to give but have
     been bullied enough or frightened enough to hold it back. It's time to stop
@@ -477,23 +499,24 @@
     your contribution is essential, and the art you create is precious. Only you
     can do it, and you must."
 
-- title: "On Writing: A Memoir of the Craft (A Memoir of the Craft (Reissue))"
+- slug: on-writing-1-stephen-king
+  title: On Writing
+  subtitle: A Memoir of the Craft (A Memoir of the Craft (Reissue))
   edition: 1
   authors:
     - Stephen King
-  coverName: on-writing-a-memoir-of-the-craft-a-memoir-of-the-craft-reissue-1-stephen-king.jpg
+  coverName: on-writing-1-stephen-king.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1982159375
     amazon_uk: https://www.amazon.co.uk/dp/1982159375
   description: >-
     Twentieth Anniversary Edition with Contributions from Joe Hill and Owen
-    KingONE OF TIME MAGAZINE'S TOP 100 NONFICTION BOOKS OF ALL TIME  
-      
+    KingONE OF TIME MAGAZINE'S TOP 100 NONFICTION BOOKS OF ALL TIME
+
     Immensely helpful and illuminating to any aspiring writer, this special
     edition of Stephen King's critically lauded, million-copy bestseller shares
-    the experiences, habits, and convictions that have shaped him and his
-    work.  
-      
+    the experiences, habits, and convictions that have shaped him and his work.
+
     “Long live the King” hailed Entertainment Weekly upon publication of Stephen
     King's On Writing. Part memoir, part master class by one of the bestselling
     authors of all time, this superb volume is a revealing and practical view of
@@ -505,27 +528,29 @@
     friendly and inspiring, On Writing will empower and entertain everyone who
     reads it—fans, writers, and anyone who loves a great story well told.
 
-- title: "Start Ugly: The Unexpected Path to Everyday Creativity"
+- slug: start-ugly-1-david-duchemin
+  title: Start Ugly
+  subtitle: The Unexpected Path to Everyday Creativity
   edition: 1
   authors:
     - David Duchemin
-  coverName: start-ugly-the-unexpected-path-to-everyday-creativity-1-david-duchemin.jpg
+  coverName: start-ugly-1-david-duchemin.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0991755790
     amazon_uk: https://www.amazon.co.uk/dp/0991755790
   description: >-
     The poet Goethe is credited as saying, "What you can do, or dream you can,
     begin it. Boldness has genius, power, and magic in it. Begin it, and the
-    work will be completed!"  
+    work will be completed!"
 
-    If only it were that easy.  
+    If only it were that easy.
 
     In any creative effort, the beginning is the hard part, filled with fears
     and procrastinations, and---often most of all-the paralyzing desire to get
     it right on the first try (which almost never happens). Creativity is
     evolutionary; it begins with bad ideas and crappy first efforts and the
     moment we embrace this idea, not eschewing the ugly beginnings but mining
-    them for possibilities, our everyday creativity flourishes.  
+    them for possibilities, our everyday creativity flourishes.
 
     Start Ugly is a celebration of the messy creative process and a call to face
     the obstacles of that process with mindfulness and humanity. This is a book
@@ -537,12 +562,13 @@
     is the stuff of magic. And if there is magic at all to be found, it's in
     starting.
 
-- title: "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to
-    Living a Good Life"
+- slug: the-subtle-art-of-not-giving-a-fck-1-mark-manson
+  title: The Subtle Art of Not Giving a F*ck
+  subtitle: A Counterintuitive Approach to Living a Good Life
   edition: 1
   authors:
     - Mark Manson
-  coverName: the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-1-mark-manson.jpg
+  coverName: the-subtle-art-of-not-giving-a-fck-1-mark-manson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0062457713
     amazon_uk: https://www.amazon.co.uk/dp/0062457713
@@ -562,7 +588,6 @@
     mindset that has infected modern society and spoiled a generation, rewarding
     them with gold medals just for showing up.
 
-
     Manson makes the argument, backed both by academic research and well-timed
     poop jokes, that improving our lives hinges not on our ability to turn
     lemons into lemonade, but on learning to stomach lemons better. Human beings
@@ -574,7 +599,6 @@
     courage, perseverance, honesty, responsibility, curiosity, and forgiveness
     we seek.
 
-
     There are only so many things we can give a f\*\*k about so we need to
     figure out which ones really matter, Manson makes clear. While money is
     nice, caring about what you do with your life is better, because true wealth
@@ -584,11 +608,13 @@
     of Not Giving a F\*ck is a refreshing slap for a generation to help them
     lead contented, grounded lives.
 
-- title: "Web Design Playground: HTML & CSS the Interactive Way"
+- slug: web-design-playground-1-paul-mcfedries
+  title: Web Design Playground
+  subtitle: HTML & CSS the Interactive Way
   edition: 1
   authors:
     - Paul McFedries
-  coverName: web-design-playground-html-and-css-the-interactive-way-1-paul-mcfedries.jpg
+  coverName: web-design-playground-1-paul-mcfedries.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617294403
     amazon_uk: https://www.amazon.co.uk/dp/1617294403
@@ -602,7 +628,8 @@
     adding images and video and laying out the page, plus learning typography,
     responsive design, and the other tools of the web trade.
 
-- title: The Principles of Beautiful Web Design
+- slug: the-principles-of-beautiful-web-design-1-jason-beaird-alex-walker-james-george
+  title: The Principles of Beautiful Web Design
   edition: 1
   authors:
     - Jason Beaird
