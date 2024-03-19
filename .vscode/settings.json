@@ -1,7 +1,29 @@
 {
   "yaml.schemas": {
-      "src/raw-books.schema.json": [
-          "src/books.yml"
-      ]
+    "src/raw-books.schema.json": ["src/books.yml"]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "quickfix.biome": "always",
+      "source.organizeImports.biome": "always"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "quickfix.biome": "always",
+      "source.organizeImports.biome": "always"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "quickfix.biome": "always",
+      "source.organizeImports.biome": "always"
+    }
   }
 }

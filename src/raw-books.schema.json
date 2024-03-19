@@ -45,11 +45,6 @@
         "type": "string"
       }
     },
-    "required": [
-      "title",
-      "authors",
-      "links",
-      "description"
-    ]
+    "required": ["title", "authors", "links", "description"]
   }
 }
