@@ -1,0 +1,55 @@
+{
+  "$id": "https://example.com/raw-books.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RawBooks",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "slug": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "subtitle": {
+        "type": "string"
+      },
+      "edition": {
+        "type": "number"
+      },
+      "authors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "links": {
+        "type": "object",
+        "properties": {
+          "amazon_uk": {
+            "type": "string"
+          },
+          "amazon_us": {
+            "type": "string"
+          },
+          "website": {
+            "type": "string"
+          },
+          "free": {
+            "type": "string"
+          }
+        }
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "title",
+      "authors",
+      "links",
+      "description"
+    ]
+  }
+}

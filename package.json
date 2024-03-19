@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-books",
+  "version": "1.0.0",
+  "description": "An API to get interesting books for full-stack developers (powered by GitHub pages)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && ts-node-esm scripts/build.ts"
+  },
+  "keywords": [],
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "homepage": "https://github.com/FullStackBulletin/fullstack-books#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.1",
+    "@types/node": "^20.11.28",
+    "@types/turndown": "^5.0.4",
+    "cheerio": "1.0.0-rc.12",
+    "mkdirp": "^3.0.1",
+    "slugify": "^1.6.6",
+    "turndown": "^7.1.3",
+    "yaml": "^2.4.1"
+  }
+}

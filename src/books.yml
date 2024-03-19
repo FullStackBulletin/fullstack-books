@@ -1,0 +1,643 @@
+- title: 'Eloquent JavaScript'
+  edition: 4
+  authors:
+    - 'Marijn Haverbeke'
+  links:
+    free: 'https://eloquentjavascript.net/'
+  cover: 'eloquent-javascript-4-marijn-haverbeke'
+  description: >
+    JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
+
+    This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of JavaScript and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track.
+
+    As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to:
+
+    - Understand the essential elements of programming, including syntax, control, and data
+    - Organize and clarify your code with object-oriented and functional programming techniques
+    - Script the browser and make basic web applications
+    - Use the DOM effectively to interact with browsers
+    - Harness Node.js to build servers and utilities
+    
+    Isn't it time you became fluent in the language of the Web?
+
+- title: "Tidy First?: A Personal Exercise in Empirical Software Design"
+  edition: 1
+  authors:
+    - Kent Beck
+  coverName: tidy-first-a-personal-exercise-in-empirical-software-design-1-kent-beck.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098151240
+    amazon_uk: https://www.amazon.co.uk/dp/1098151240
+  description: >-
+    Messy code is a nuisance. "Tidying" code, to make it more readable, requires
+    breaking it up into manageable sections. In this practical guide, author
+    Kent Beck, creator of Extreme Programming and pioneer of software patterns,
+    suggests when and where you might apply tidyings to improve your code while
+    keeping the overall structure of the system in mind.
+
+    Instead of trying to master tidying all at once, this book lets you try out
+    a few examples that make sense for your problem. If you have a big function
+    containing many lines of code, you'll learn how to logically divide it into
+    smaller chunks. Along the way, you'll learn the theory behind software
+    design: coupling, cohesion, discounted cash flows, and optionality.
+
+    This book helps you:
+
+    *   Understand the basic theory of how software design works and the forces
+    that act on it
+    *   Explore the difference between changes to a system's behavior and
+    changes to its structure
+    *   Improve your programming experience by sometimes tidying first and
+    sometimes tidying after
+    *   Learn how to make large changes in small, safe steps
+    *   Approach design as a human activity with diverging incentives
+
+- title: "Articulating Design Decisions: Communicate with Stakeholders, Keep Your
+    Sanity, and Deliver the Best User Experience"
+  edition: 2
+  authors:
+    - Tom Greever
+  coverName: articulating-design-decisions-communicate-with-stakeholders-keep-your-sanity-and-deliver-the-best-user-experience-2-tom-greever.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492079227
+    amazon_uk: https://www.amazon.co.uk/dp/1492079227
+  description: >-
+    Talking to people about your designs might seem like a basic skill, but it
+    can be difficult to do well. In many cases, how you communicate with
+    stakeholders, clients, and other nondesigners may be more important than the
+    designs themselves. Because if you can't get their support, your work will
+    never see the light of day--no matter how good it is.  
+      
+    This practical guide focuses on principles, tactics, and actionable methods
+    for presenting your designs. Whether you design apps, websites, or products,
+    you'll learn how to get support from people who have influence over the
+    project with the goal of creating the best user experience. 
+
+    *   Walk through the process of preparing and presenting your designs
+    *   Understand stakeholder perspectives and learn how to empathize with them
+    *   Cultivate both implicit and explicit listening skills
+    *   Learn tactics and strategies for expressing the most effective response
+    to feedback
+    *   Create the right documentation for your decisions to avoid repeated
+    conversations
+    *   Discover why the way you follow through is just as important as the
+    meeting itself
+
+- title: "Building Progressive Web Apps: Bringing the Power of Native to the Browser"
+  edition: 1
+  authors:
+    - Tal Ater
+  coverName: building-progressive-web-apps-bringing-the-power-of-native-to-the-browser-1-tal-ater.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1491961651
+    amazon_uk: https://www.amazon.co.uk/dp/1491961651
+  description: >-
+    Move over native apps. New progressive web apps have capabilities that will
+    soon make you obsolete. With this hands-on guide, web developers and
+    business execs will learn how—and why—to develop web apps that take
+    advantage of features that have so far been exclusive to native apps.
+    Features that include fast load times, push notifications, offline access,
+    homescreen shortcuts, and an entirely app-like experience.
+
+    By leveraging the latest browser APIs, progressive web apps combine all of
+    the benefits of native apps, while avoiding their issues. Throughout the
+    book, author Tal Ater shows you how to improve a simple website for the
+    fictional Gotham Imperial Hotel into a modern progressive web app. Plus:
+
+    *   Understand how service workers work, and use them to create sites that
+    launch in an instant, regardless of the user's internet connection
+    *   Create full-screen web apps that launch from the phone's homescreen just
+    like native apps
+    *   Re-engage users with push notifications, even days after they have left
+    your site
+    *   Embrace offline-first and build web apps that gracefully handle loss of
+    connectivity
+    *   Explore new UX opportunities and challenges presented by progressive web
+    apps
+
+- title: Build
+  edition: 1
+  authors:
+    - Tony Fadell
+  coverName: build-1-tony-fadell.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1787634108
+    amazon_uk: https://www.amazon.co.uk/dp/1787634108
+  description: THE NEW YORK TIMES BESTSELLER.An unorthodox guide to making things
+    worth making, from 'the father of the iPod and iPhone' and the creator of
+    Nest.Everyone deserves a mentor.For every career crisis, every fork in the
+    road, you need someone to talk to. Someone who's been there before, who
+    knows exactly how wobbly and conflicted you feel, who can give it to
+    youHere's how to think about choosing a job.Here's how to be a better
+    manager.Here's how to approach design.Here's how to start a company.Here's
+    how to run it.Tony Fadell learned all these lessons the hard way. He spent
+    the first 10 years of his career in Silicon Valley failing spectacularly,
+    and the next 20 building some of the most impactful devices in history - the
+    iPod, iPhone, and Nest Learning Thermostat. He has enough stories and advice
+    about leadership, design, startups, mentorship, decision making, devastating
+    screwups, and unbelievable success to fill an encyclopedia.So that's what
+    this book is. An advice encyclopedia. A mentor in a box.But Tony's doesn't
+    follow the standard Silicon Valley credo that you have to radically reinvent
+    everything you do. His advice is unorthodox because it's old school. Because
+    it's based on human nature, not gimmicks.Tony keeps things he just tells you
+    what works. He gives you exactly what you need to make things worth
+    making.PRAISE FOR BUILD'This is the most fun - and the most fascinating -
+    memoir of curiosity and invention that I've ever read.'Malcolm Gladwell
+    ,Host of the Revisionist History podcast. Author of Outliers and Talking to
+    Strangers .'Whether you're looking to build a great product, a creative
+    team, a strong culture, or a meaningful career, Tony's guidance will get you
+    thinking and rethinking.'Adam Grant,Author of Think Again & Host of the TED
+    podcast WorkLife
+
+- title: "Designing for Behavior Change: Applying Psychology and Behavioral Economics"
+  edition: 2
+  authors:
+    - Stephen Wendel
+  coverName: designing-for-behavior-change-applying-psychology-and-behavioral-economics-2-stephen-wendel.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492056030
+    amazon_uk: https://www.amazon.co.uk/dp/1492056030
+  description: >-
+    Designers and managers hope their products become essential for
+    users―integrated into their lives like Instagram, Lyft, and others have
+    become. Such deep integration isn't accidental: it's a process of careful
+    design and iterative learning, especially for technology companies. This
+    guide shows you how to apply behavioral science―research that supports many
+    products―to help your users achieve their goals using your product.
+
+    In this updated edition, Stephen Wendel, head of behavioral science at
+    Morningstar, takes you step-by-step through the process of incorporating
+    behavioral science into product design and development. Product managers, UX
+    and interaction designers, and data analysts will learn a simple and
+    effective approach for identifying target users and behaviors, building the
+    product, and gauging its effectiveness.  
+
+    *   Learn the three main strategies to help people change behavior
+    *   Identify behaviors your target audience seeks to change―and obstacles
+    that stand in their way
+    *   Develop effective designs that are enjoyable to use
+    *   Measure your product's impact and learn ways to improve it
+    *   Combine behavioral science with data science to pinpoint problems and
+    test potential solutions
+
+- title: The Design Of Everyday Things
+  edition: 1
+  authors:
+    - Don Norman
+  coverName: the-design-of-everyday-things-1-don-norman.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0465050654
+    amazon_uk: https://www.amazon.co.uk/dp/0465050654
+  description: >-
+    One of the world's great designers shares his vision of "the fundamental
+    principles of great and meaningful design", that's "even more relevant today
+    than it was when first published" (Tim Brown, CEO, IDEO). Even the smartest
+    among us can feel inept as we fail to figure out which light switch or oven
+    burner to turn on, or whether to push, pull, or slide a door.
+
+    The fault, argues this ingenious -- even liberating -- book, lies not in
+    ourselves, but in product design that ignores the needs of users and the
+    principles of cognitive psychology. The problems range from ambiguous and
+    hidden controls to arbitrary relationships between controls and functions,
+    coupled with a lack of feedback or other assistance and unreasonable demands
+    on memorization. The Design of Everyday Things shows that good, usable
+    design is possible. The rules are simple: make things visible, exploit
+    natural relationships that couple function and control, and make intelligent
+    use of constraints. The goal: guide the user effortlessly to the right
+    action on the right control at the right time. The Design of Everyday Things
+    is a powerful primer on how -- and why -- some products satisfy customers
+    while others only frustrate them.
+
+- title: "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability
+    (3rd Edition) (Voices That Matter)"
+  edition: 3
+  authors:
+    - Steve Krug
+  coverName: dont-make-me-think-revisited-a-common-sense-approach-to-web-usability-3rd-edition-voices-that-matter-3-steve-krug.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0321965515
+    amazon_uk: https://www.amazon.co.uk/dp/0321965515
+  description: >-
+    Since Don't Make Me Think was first published in 2000, hundreds of thousands
+    of Web designers and developers have relied on usability guru Steve Krug's
+    guide to help them understand the principles of intuitive navigation and
+    information design. Witty, commonsensical, and eminently practical, it's one
+    of the best-loved and most recommended books on the subject.  
+      
+    Now Steve returns with fresh perspective to reexamine the principles that
+    made Don't Make Me Think a classic-with updated examples and a new chapter
+    on mobile usability. And it's still short, profusely illustrated…and best of
+    all-fun to read.  
+      
+    If you've read it before, you'll rediscover what made Don't Make Me Think so
+    essential to Web designers and developers around the world. If you've never
+    read it, you'll see why so many people have said it should be required
+    reading for anyone working on Web sites.  
+
+    “After reading it over a couple of hours and putting its ideas to work for
+    the past five years, I can say it has done more to improve my abilities as a
+    Web designer than any other book.”
+
+- title: First Things First
+  edition: 1
+  authors:
+    - Stephen R. Covey
+    - A. Roger Merrill
+    - Rebecca R. Merrill
+  coverName: first-things-first-1-stephen-r-covey-a-roger-merrill-rebecca-r-merrill.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0684802031
+    amazon_uk: https://www.amazon.co.uk/dp/0684802031
+  description: >-
+    From the author that brought you the New York Times bestseller The 7 Habits
+    of Highly Effective People comes a guide to prioritizing your personal and
+    professional goals.  
+      
+    I'm getting more done in less time, but where are the rich relationships,
+    the inner peace, the balance, the confidence that I'm doing what matters
+    most and doing it well?Does this nagging question haunt you, even when you
+    feel you are being your most efficient? If so, First Things First can help
+    you understand why we so often prioritize things that are unimportant to
+    both our larger goals and our inner happiness. From the author that brought
+    you the New York Times bestseller The 7 Habits of Highly Effective People
+    comes a guide to building your work on the principles of effectiveness so
+    that your life can spent cultivating genuine relationships, investing in
+    pursuits you enjoy, and achieving balance in both your personal and
+    professional lives.  
+      
+    In First Things First, Stephen M. R. Covey advocates categorizing tasks by
+    urgency and importance so that you can focus on what actually needs to be
+    done in the limited amount of time that you have. Using personal examples
+    and insight from years of business experience, he argues for a new way of
+    looking at your “to-do” list. Rather than offering you another clock, First
+    Things First provides you with a compass, because where you're headed is
+    more important than how fast you're going.
+
+- title: "How to Think Like Leonardo da Vinci: Seven Steps to Genius Every Day"
+  edition: 1
+  authors:
+    - Michael J. Gelb
+  coverName: how-to-think-like-leonardo-da-vinci-seven-steps-to-genius-every-day-1-michael-j-gelb.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0440508274
+    amazon_uk: https://www.amazon.co.uk/dp/0440508274
+  description: >-
+    This inspiring and inventive guide teaches readers how to develop their full
+    potential by following the example of the greatest genius of all time,
+    Leonardo da Vinci.Acclaimed author Michael J. Gelb, who has helped thousands
+    of people expand their minds to accomplish more than they ever thought
+    possible, shows you how. Drawing on Da Vinci's notebooks, inventions, and
+    legendary works of art, Gelb introduces Seven Da Vincian Principles—the
+    essential elements of genius—from curiosità, the insatiably curious approach
+    to life to connessione, the appreciation for the interconnectedness of all
+    things. With Da Vinci as your inspiration, you will discover an exhilarating
+    new way of thinking. And step-by-step, through exercises and provocative
+    lessons, you will harness the power—and awesome wonder—of your own genius,
+    mastering such life-changing abilities as:  
+
+    *   Problem solving
+    *   Creative thinking
+    *   Self-expression
+    *   Enjoying the world around you
+    *   Goal setting and life balance
+    *   Harmonizing body and mind
+
+    Drawing on Da Vinci's notebooks, inventions, and legendary works of art,
+    acclaimed author Michael J. Gelb, introduces seven Da Vincian principles,
+    the essential elements of genius, from curiosita, the insatiably curious
+    approach to life, to connessione, the appreciation for the
+    interconnectedness of all things. With Da Vinci as their inspiration,
+    readers will discover an exhilarating new way of thinking.
+
+    Step-by-step, through exercises and provocative lessons, anyone can harness
+    the power and awesome wonder of their own genius, mastering such
+    life-changing skills as problem solving, creative thinking, self-expression,
+    goal setting and life balance, and harmonizing body and mind.
+
+- title: "How We Got to Now: Six Innovations That Made the Modern World"
+  edition: 1
+  authors:
+    - Steven Johnson
+  coverName: how-we-got-to-now-six-innovations-that-made-the-modern-world-1-steven-johnson.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1594633932
+    amazon_uk: https://www.amazon.co.uk/dp/1594633932
+  description: >-
+    From the New York Times-bestselling author of Where Good Ideas Come
+    From and Unexpected Life, a new look at the power and legacy of great
+    ideas.  
+      
+    In this illustrated history, Steven Johnson explores the history of
+    innovation over centuries, tracing facets of modern life (refrigeration,
+    clocks, and eyeglass lenses, to name a few) from their creation by
+    hobbyists, amateurs, and entrepreneurs to their unintended historical
+    consequences. Filled with surprising stories of accidental genius and
+    brilliant mistakes—from the French publisher who invented the phonograph
+    before Edison but forgot to include playback, to the Hollywood movie star
+    who helped invent the technology behind Wi-Fi and Bluetooth—How We Got to
+    Now investigates the secret history behind the everyday objects of
+    contemporary life.
+
+    In his trademark style, Johnson examines unexpected connections between
+    seemingly unrelated fields: how the invention of air-conditioning enabled
+    the largest migration of human beings in the history of the species—to
+    cities such as Dubai or Phoenix, which would otherwise be virtually
+    uninhabitable; how pendulum clocks helped trigger the industrial revolution;
+    and how clean water made it possible to manufacture computer chips.
+    Accompanied by a major six-part television series on PBS, How We Got to Now
+    is the story of collaborative networks building the modern world, written in
+    the provocative, informative, and engaging style that has earned Johnson
+    fans around the globe.
+
+- title: Indistractable
+  edition: 1
+  authors:
+    - Nir Eyal
+  coverName: indistractable-1-nir-eyal.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1526610205
+    amazon_uk: https://www.amazon.co.uk/dp/1526610205
+  description: >-
+    You sit down at your desk to work on an important project, but a
+    notification on your phone interrupts your morning. Later, as you're about
+    to get back to work, a colleague taps you on the shoulder to chat. At home,
+    screens get in the way of quality time with your family. Another day goes
+    by, and once again, your most important personal and professional goals are
+    put on hold.  
+      
+    What would be possible if you followed through on your best intentions? What
+    could you accomplish if you could stay focused and overcome distractions?
+    What if you had the power to become "indistractable"?  
+      
+    International best-selling author, former Stanford lecturer, and behavioral
+    design expert, Nir Eyal, wrote Silicon Valley's handbook for making
+    technology habit-forming. Five years after publishing Hooked, Eyal reveals
+    distraction's Achilles' heel in his groundbreaking new book.  
+      
+    In Indistractable, Eyal reveals the hidden psychology driving us to
+    distraction. He describes why solving the problem is not as simple as
+    swearing off our devices: Abstinence is impractical and often makes us want
+    more.  
+      
+    Eyal lays bare the secret of finally doing what you say you will do with a
+    four-step, research-backed model. Indistractable reveals the key to getting
+    the best out of technology, without letting it get the best of us.  
+      
+    Inside, Eyal overturns conventional wisdom and reveals:  
+      
+    Why distraction at work is a symptom of a dysfunctional company culture -
+    and how to fix it  
+
+    What really drives human behavior and why "time management is pain
+    management"  
+
+    Why your relationships (and your sex life) depend on you becoming
+    indistractable  
+
+    How to raise indistractable children in an increasingly distracting world  
+
+    Empowering and optimistic, Indistractable provides practical, novel
+    techniques to control your time and attention - helping you live the life
+    you really want.
+
+- title: "Tragic Design: The Impact of Bad Product Design and How to Fix It"
+  edition: 1
+  authors:
+    - Jonathan Shariat
+    - Cynthia Savard Saucier
+  coverName: tragic-design-the-impact-of-bad-product-design-and-how-to-fix-it-1-jonathan-shariat-cynthia-savard-saucier.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/149192361X
+    amazon_uk: https://www.amazon.co.uk/dp/149192361X
+  description: >-
+    Bad design is everywhere, and its cost is much higher than we think. In this
+    thought-provoking book, authors Jonathan Shariat and Cynthia Savard Saucier
+    explain how poorly designed products can anger, sadden, exclude, and even
+    kill people who use them. The designers responsible certainly didn't intend
+    harm, so what can you do to avoid making similar mistakes?
+
+    Tragic Design examines real case studies that show how certain design
+    choices adversely affected users, and includes in-depth interviews with
+    authorities in the design industry. Pick up this book and learn how you can
+    be an agent of change in the design community and at your company.
+
+    You'll explore:
+
+    *   Designs that can kill, including the bad interface that doomed a young
+    cancer patient
+    *   Designs that anger, through impolite technology and dark patterns
+    *   How design can inadvertently cause emotional pain
+    *   Designs that exclude people through lack of accessibility, diversity,
+    and justice
+    *   How to advocate for ethical design when it isn't easy to do so
+    *   Tools and techniques that can help you avoid harmful design decisions
+    *   Inspiring professionals who use design to improve our world
+
+- title: "Linchpin: Are You Indispensable?"
+  edition: 1
+  authors:
+    - Seth Godin
+  coverName: linchpin-are-you-indispensable-1-seth-godin.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1591844096
+    amazon_uk: https://www.amazon.co.uk/dp/1591844096
+  description: >-
+    This life-changing manifesto shows how you have the potential to make a huge
+    difference wherever you are. Few authors have had the kind of lasting
+    impact and global reach that Seth Godin has had. In a series of now-classic
+    books that have been translated into 36 languages and reached millions of
+    readers around the world, he has taught generations of readers how to make
+    remarkable products and spread powerful ideas. In Linchpin, he turns his
+    attention to the individual, and explains how anyone can make a significant
+    impact within their organization.
+
+    There used to be two teams in every workplace: management and labor. Now
+    there's a third team, the linchpins. These people figure out what to do when
+    there's no rule book. They delight and challenge their customers and peers.
+    They love their work, pour their best selves into it, and turn each day into
+    a kind of art.
+
+    Have you ever found a shortcut that others missed? Seen a new way to resolve
+    a conflict? Made a connection with someone others couldn't reach? Even once?
+    Then you have what it takes to become indispensable, by overcoming the
+    resistance that holds people back. Linchpin will show you how to join the
+    likes of...
+
+    *   Keith Johnson, who scours flea markets across the country to fill
+    Anthropologie stores with unique pieces.
+    *   Jason Zimdars, a graphic designer who got his dream job at 37signals
+    without a résumé.
+    *   David, who works at Dean and Deluca coffee shop in New York. He sees every
+    customer interaction as a chance to give a gift and is cherished in
+    return.
+
+    As Godin writes, "Every day I meet people who have so much to give but have
+    been bullied enough or frightened enough to hold it back. It's time to stop
+    complying with the system and draw your own map. You have brilliance in you,
+    your contribution is essential, and the art you create is precious. Only you
+    can do it, and you must."
+
+- title: "On Writing: A Memoir of the Craft (A Memoir of the Craft (Reissue))"
+  edition: 1
+  authors:
+    - Stephen King
+  coverName: on-writing-a-memoir-of-the-craft-a-memoir-of-the-craft-reissue-1-stephen-king.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1982159375
+    amazon_uk: https://www.amazon.co.uk/dp/1982159375
+  description: >-
+    Twentieth Anniversary Edition with Contributions from Joe Hill and Owen
+    KingONE OF TIME MAGAZINE'S TOP 100 NONFICTION BOOKS OF ALL TIME  
+      
+    Immensely helpful and illuminating to any aspiring writer, this special
+    edition of Stephen King's critically lauded, million-copy bestseller shares
+    the experiences, habits, and convictions that have shaped him and his
+    work.  
+      
+    “Long live the King” hailed Entertainment Weekly upon publication of Stephen
+    King's On Writing. Part memoir, part master class by one of the bestselling
+    authors of all time, this superb volume is a revealing and practical view of
+    the writer's craft, comprising the basic tools of the trade every writer
+    must have. King's advice is grounded in his vivid memories from childhood
+    through his emergence as a writer, from his struggling early career to his
+    widely reported, near-fatal accident in 1999—and how the inextricable link
+    between writing and living spurred his recovery. Brilliantly structured,
+    friendly and inspiring, On Writing will empower and entertain everyone who
+    reads it—fans, writers, and anyone who loves a great story well told.
+
+- title: "Start Ugly: The Unexpected Path to Everyday Creativity"
+  edition: 1
+  authors:
+    - David Duchemin
+  coverName: start-ugly-the-unexpected-path-to-everyday-creativity-1-david-duchemin.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0991755790
+    amazon_uk: https://www.amazon.co.uk/dp/0991755790
+  description: >-
+    The poet Goethe is credited as saying, "What you can do, or dream you can,
+    begin it. Boldness has genius, power, and magic in it. Begin it, and the
+    work will be completed!"  
+
+    If only it were that easy.  
+
+    In any creative effort, the beginning is the hard part, filled with fears
+    and procrastinations, and---often most of all-the paralyzing desire to get
+    it right on the first try (which almost never happens). Creativity is
+    evolutionary; it begins with bad ideas and crappy first efforts and the
+    moment we embrace this idea, not eschewing the ugly beginnings but mining
+    them for possibilities, our everyday creativity flourishes.  
+
+    Start Ugly is a celebration of the messy creative process and a call to face
+    the obstacles of that process with mindfulness and humanity. This is a book
+    for anyone who has ever wished they were "more creative." It's a plea to
+    stop looking for the muses and inspiration before you do your best work.
+    Equal parts needed encouragement to dream big and practical advice for
+    getting your hands dirty, START UGLY is a soulful, at times irreverent,
+    reminder that creativity is more the stuff of hard work and courage than it
+    is the stuff of magic. And if there is magic at all to be found, it's in
+    starting.
+
+- title: "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to
+    Living a Good Life"
+  edition: 1
+  authors:
+    - Mark Manson
+  coverName: the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life-1-mark-manson.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0062457713
+    amazon_uk: https://www.amazon.co.uk/dp/0062457713
+  description: >-
+    #1 New York Times Bestseller • More than 10 million Copies Sold
+
+    In this generation-defining self-help guide, a superstar blogger cuts
+    through the crap to show us how to stop trying to be "positive" all the time
+    so that we can truly become better, happier people.
+
+    For decades, we've been told that positive thinking is the key to a happy,
+    rich life. "F\*\*k positivity," Mark Manson says. "Let's be honest, shit is
+    f\*\*ked and we have to live with it." In his wildly popular Internet blog,
+    Manson doesn't sugarcoat or equivocate. He tells it like it is—a dose of
+    raw, refreshing, honest truth that is sorely lacking today. The Subtle Art
+    of Not Giving a F\*\*k is his antidote to the coddling, let's-all-feel-good
+    mindset that has infected modern society and spoiled a generation, rewarding
+    them with gold medals just for showing up.
+
+
+    Manson makes the argument, backed both by academic research and well-timed
+    poop jokes, that improving our lives hinges not on our ability to turn
+    lemons into lemonade, but on learning to stomach lemons better. Human beings
+    are flawed and limited—"not everybody can be extraordinary, there are
+    winners and losers in society, and some of it is not fair or your fault."
+    Manson advises us to get to know our limitations and accept them. Once we
+    embrace our fears, faults, and uncertainties, once we stop running and
+    avoiding and start confronting painful truths, we can begin to find the
+    courage, perseverance, honesty, responsibility, curiosity, and forgiveness
+    we seek.
+
+
+    There are only so many things we can give a f\*\*k about so we need to
+    figure out which ones really matter, Manson makes clear. While money is
+    nice, caring about what you do with your life is better, because true wealth
+    is about experience. A much-needed
+    grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk,
+    filled with entertaining stories and profane, ruthless humor, The Subtle Art
+    of Not Giving a F\*ck is a refreshing slap for a generation to help them
+    lead contented, grounded lives.
+
+- title: "Web Design Playground: HTML & CSS the Interactive Way"
+  edition: 1
+  authors:
+    - Paul McFedries
+  coverName: web-design-playground-html-and-css-the-interactive-way-1-paul-mcfedries.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617294403
+    amazon_uk: https://www.amazon.co.uk/dp/1617294403
+  description: >-
+    Web Design Playground takes you step by step from writing your first line of
+    HTML to creating interesting, attractive web pages. In this project-based
+    book, you'll use a custom online workspace to design websites, product
+    pages, photo galleries, and more. Don't worry about setting up your own
+    servers and domain names—the book comes with a free "playground" which lets
+    you experiment without any of that! You can concentrate on core skills like
+    adding images and video and laying out the page, plus learning typography,
+    responsive design, and the other tools of the web trade.
+
+- title: The Principles of Beautiful Web Design
+  edition: 1
+  authors:
+    - Jason Beaird
+    - Alex Walker
+    - James George
+  coverName: the-principles-of-beautiful-web-design-1-jason-beaird-alex-walker-james-george.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1925836363
+    amazon_uk: https://www.amazon.co.uk/dp/1925836363
+  description: >-
+    The Principles of Beautiful Web Design is the ideal book for anyone who
+    wants to design stunning websites that provide a great user experience.
+    Perhaps you're a developer who wants to understand how to make your
+    applications more visually appealing, or you're a novice who wants to start
+    on the path to becoming a designer.
+
+    This book will teach you how to:
+
+    *   Understand what makes "good design," from discovery through to
+    implementation
+    *   Use color effectively, develop color schemes, and create a palette
+    *   Create pleasing layouts using grids, the rule of thirds, and symmetry
+    *   Employ textures: lines, points, shapes, volumes, and depth
+    *   Apply typography to make ordinary designs look great
+    *   Choose, edit, and position effective imagery
+
+    This easy-to-follow guide is illustrated with beautiful, full-color
+    examples, and will lead you through the process of creating great designs
+    from start to finish.
+
+    The fourth edition of this bestselling book has been greatly revised and now
+    features:
+
+    *   Updated and expanded coverage responsive web design techniques
+    *   A new sample project
+    *   New sections on pattern libraries and how design fits on modern app
+    development workflows
+    *   Common user-interface patterns and resources
