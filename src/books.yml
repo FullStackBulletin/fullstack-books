@@ -668,3 +668,901 @@
     *   New sections on pattern libraries and how design fits on modern app
     development workflows
     *   Common user-interface patterns and resources
+
+- slug: building-the-web-of-things-1-dominique-guinard-vlad-trifa
+  title: Building the Web of Things
+  subtitle: With examples in Node.js and Raspberry Pi
+  edition: 1
+  authors:
+    - Dominique Guinard
+    - Vlad Trifa
+  coverName: building-the-web-of-things-1-dominique-guinard-vlad-trifa.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617292680
+    amazon_uk: https://www.amazon.co.uk/dp/1617292680
+  description: >-
+    Building the Web of Things is a guide to using cutting-edge web technologies
+    to build the IoT. This step-by-step book teaches you how to use web
+    protocols to connect real-world devices to the web, including the Semantic
+    and Social Webs. Along the way you'll gain vital concepts as you follow
+    instructions for making Web of Things devices. By the end, you'll have the
+    practical skills you need to implement your own web-connected products and
+    services.What's Inside
+
+    *   Introduction to IoT protocols and devices
+    *   Connect electronic actuators and sensors (GPIO) to a Raspberry Pi
+    *   Implement standard REST and Pub/Sub APIs with Node.js on embedded
+    systems
+    *   Learn about IoT protocols like MQTT and CoAP and integrate them to the
+    Web of Things
+    *   Use the Semantic Web (JSON-LD, RDFa, etc.) to discover and find Web
+    Things
+    *   Share Things via Social Networks to create the Social Web of Things
+    *   Build a web-based smart home with HTTP and WebSocket
+    *   Compose physical mashups with EVRYTHNG, Node-RED, and IFTTT
+
+- slug: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn
+  title: Mastering API Architecture
+  subtitle: Design, Operate, and Evolve API-Based Systems
+  edition: 1
+  authors:
+    - James Gough
+    - Daniel Bryant
+    - Matthew Auburn
+  coverName: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492090638
+    amazon_uk: https://www.amazon.co.uk/dp/1492090638
+  description: >-
+    Most organizations with a web presence build and operate APIs; the doorway
+    for customers to interact with the company's services. Designing, building,
+    and managing these critical programs affect everyone in the organization,
+    from engineers and product owners to C-suite executives. But the real
+    challenge for developers and solution architects is creating an API platform
+    from the ground up.
+
+    With this practical book, you'll learn strategies for building and testing
+    REST APIs that use API gateways to combine offerings at the microservice
+    level. Authors James Gough, Daniel Bryant, and Matthew Auburn demonstrate
+    how simple additions to this infrastructure can help engineers and
+    organizations migrate to the cloud; and open the opportunity to connect
+    internal services using technologies like a service mesh.
+
+    *   Learn API fundamentals and architectural patterns for building an API
+    platform
+    *   Use practical examples to understand how to design, build, and test
+    API-based systems
+    *   Deploy, operate, and configure key components of an API platform
+    *   Use API gateways and service meshes appropriately, based on case studies
+    *   Understand core security and common vulnerabilities in API architecture
+    *   Secure data and APIs using threat modeling and technologies like OAuth2
+    and TLS
+    *   Learn how to evolve existing systems toward API- and cloud-based
+    architectures
+
+- slug: nodejs-design-patterns-third-edition-3-mario-casciaro-luciano-mammino
+  title: Node.js Design Patterns - Third edition
+  subtitle: Design and implement production-grade Node.js applications using
+    proven patterns and techniques
+  edition: 3
+  authors:
+    - Mario Casciaro
+    - Luciano Mammino
+  coverName: nodejs-design-patterns-third-edition-3-mario-casciaro-luciano-mammino.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1839214112
+    amazon_uk: https://www.amazon.co.uk/dp/1839214112
+  description: >-
+    Learn proven patterns, techniques, and tricks to take full advantage of the
+    Node.js platform. Master well-known design principles to create applications
+    that are readable, extensible, and that can grow big.
+
+    What you will learn
+
+    *   Become comfortable with writing asynchronous code by leveraging
+    callbacks, promises, and the async/await syntax
+    *   Leverage Node.js streams to create data-driven asynchronous processing
+    pipelines
+    *   Implement well-known software design patterns to create production grade
+    applications
+    *   Share code between Node.js and the browser and take advantage of
+    full-stack JavaScript
+    *   Build and scale microservices and distributed systems powered by Node.js
+    *   Use Node.js in conjunction with other powerful technologies such as
+    Redis, RabbitMQ, ZeroMQ, and LevelDB
+
+- slug: distributed-systems-with-nodejs-1-thomas-hunter-ii
+  title: Distributed Systems with Node.js
+  subtitle: Building Enterprise-Ready Backend Services
+  edition: 1
+  authors:
+    - Thomas Hunter II
+  coverName: distributed-systems-with-nodejs-1-thomas-hunter-ii.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492077291
+    amazon_uk: https://www.amazon.co.uk/dp/1492077291
+  description: >-
+    Many companies, from startups to Fortune 500 companies alike, use Node.js to
+    build performant backend services. And engineers love Node.js for its
+    approachable API and familiar syntax. Backed by the world's largest package
+    repository, Node's enterprise foothold is only expected to grow.
+
+    In this hands-on guide, author Thomas Hunter II proves that Node.js is just
+    as capable as traditional enterprise platforms for building services that
+    are observable, scalable, and resilient. Intermediate to advanced Node.js
+    developers will find themselves integrating application code with a breadth
+    of tooling from each layer of a modern service stack.
+
+    *   Learn why running redundant copies of the same Node.js service is
+    necessary
+    *   Know which protocol to choose, depending on the situation
+    *   Fine-tune your application containers for use in production
+    *   Track down errors in a distributed setting to determine which service is
+    at fault
+    *   Simplify app code and increase performance by offloading work to a
+    reverse proxy
+    *   Build dashboards to monitor service health and throughput
+    *   Find out why so many different tools are required when operating in an
+    enterprise environment
+
+- slug: node-cookbook-4-bethany-griggs
+  title: Node Cookbook
+  subtitle: Discover solutions, techniques, and best practices for server-side web
+    development with Node.js 14
+  edition: 4
+  authors:
+    - Bethany Griggs
+  coverName: node-cookbook-4-bethany-griggs.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1838558756
+    amazon_uk: https://www.amazon.co.uk/dp/1838558756
+  description: >-
+    A key technology for building web applications and tooling, Node.js brings
+    JavaScript to the server enabling full-stack development in a common
+    language. This fourth edition of the Node Cookbook is updated with the
+    latest Node.js features and the evolution of the Node.js framework
+    ecosystems.
+
+    This practical guide will help you to get started with creating, debugging,
+    and deploying your Node.js applications and cover solutions to common
+    problems, along with tips to avoid pitfalls. You'll become familiar with the
+    Node.js development model by learning how to handle files and build simple
+    web applications and then explore established and emerging Node.js web
+    frameworks such as Express.js and Fastify. As you advance, you'll discover
+    techniques for detecting problems in your applications, handling security
+    concerns, and deploying your applications to the cloud. This recipe-based
+    guide will help you to easily navigate through various core topics of
+    server-side web application development with Node.js.
+
+    By the end of this Node book, you'll be well-versed with core Node.js
+    concepts and have gained the knowledge to start building performant and
+    scalable Node.js applications.
+
+    What you will learn
+
+    *   Understand the Node.js asynchronous programming model
+    *   Create simple Node.js applications using modules and web frameworks
+    *   Develop simple web applications using web frameworks such as Fastify and
+    Express
+    *   Discover tips for testing, optimizing, and securing your web
+    applications
+    *   Create and deploy Node.js microservices
+    *   Debug and diagnose issues in your Node.js applications
+
+- slug: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar
+  title: Ultimate Node.js for Cross-Platform App Development
+  subtitle: Learn to Build Robust, Scalable, and Performant Server-Side JavaScript
+    Applications with Node.js (English Edition)
+  edition: 1
+  authors:
+    - Ramesh Kumar
+  coverName: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/8196815158
+    amazon_uk: https://www.amazon.co.uk/dp/8196815158
+  description: >-
+    Unlock the full potential of Node.js for modern web development with this
+    comprehensive handbook to developing applications and services.
+
+    The book will cover the fundamentals to advanced techniques, and explore the
+    intricacies of building powerful applications. You will master Express
+    server creation, develop RESTful APIs with efficient routing, and dive into
+    MongoDB for seamless data persistence.
+
+    It will uncover the nuances of template engines, middleware, and robust
+    authentication methods. Leverage Socket.IO for real-time capabilities and
+    adeptly handle errors with effective logging. The projects will double as
+    versatile boilerplates for kickstarting your own development endeavors.
+
+    In the later chapter, you will learn Test-Driven Development with Mocha,
+    gain insights into debugging, and perfect the art of building and deploying
+    Node.js applications.
+
+    Each example in the book adheres to common best practices, providing
+    valuable insights to help you avoid common pitfalls. Designed as both a
+    learning resource and a reference guide, this book equips you with the
+    knowledge to tackle challenging problems at any stage of development.
+
+- slug: event-driven-architecture-in-golang-1-michael-stack
+  title: Event-Driven Architecture in Golang
+  subtitle: Building complex systems with asynchronicity and eventual consistency
+  edition: 1
+  authors:
+    - Michael Stack
+  coverName: event-driven-architecture-in-golang-1-michael-stack.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1803238011
+    amazon_uk: https://www.amazon.co.uk/dp/1803238011
+  description: >-
+    Event-driven architecture in Golang is an approach used to develop
+    applications that shares state changes asynchronously, internally, and
+    externally using messages. EDA applications are better suited at handling
+    situations that need to scale up quickly and the chances of individual
+    component failures are less likely to bring your system crashing down. This
+    is why EDA is a great thing to learn and this book is designed to get you
+    started with the help of step-by-step explanations of essential concepts,
+    practical examples, and more.
+
+    You'll begin building event-driven microservices, including patterns to
+    handle data consistency and resiliency. Not only will you learn the patterns
+    behind event-driven microservices but also how to communicate using
+    asynchronous messaging with event streams. You'll then build an application
+    made of several microservices that communicates using both choreographed and
+    orchestrated messaging.
+
+    By the end of this book, you'll be able to build and deploy your own
+    event-driven microservices using asynchronous communication.
+
+    What You Will Learn:
+
+    *   Understand different event-driven patterns and best practices
+    *   Plan and design your software architecture with ease
+    *   Track changes and updates effectively using event sourcing
+    *   Test and deploy your sample software application with ease
+    *   Monitor and improve the performance of your software architecture
+
+- slug: javascript-7-david-flanagan
+  title: JavaScript
+  subtitle: The Definitive Guide
+  edition: 7
+  authors:
+    - David Flanagan
+  coverName: javascript-7-david-flanagan.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1491952024
+    amazon_uk: https://www.amazon.co.uk/dp/1491952024
+  description: >-
+    JavaScript is the programming language of the web and is used by more
+    software developers today than any other programming language. For nearly 25
+    years this best seller has been the go-to guide for JavaScript programmers.
+    The seventh edition is fully updated to cover the 2020 version of
+    JavaScript, and new chapters cover classes, modules, iterators, generators,
+    Promises, async/await, and metaprogramming. You'll find illuminating and
+    engaging example code throughout.
+
+    This book is for programmers who want to learn JavaScript and for web
+    developers who want to take their understanding and mastery to the next
+    level. It begins by explaining the JavaScript language itself, in detail,
+    from the bottom up. It then builds on that foundation to cover the web
+    platform and Node.js.
+
+- slug: full-stack-graphql-applications-1-william-lyon
+  title: Full Stack GraphQL Applications
+  subtitle: With React, Node.js, and Neo4j
+  edition: 1
+  authors:
+    - William Lyon
+  coverName: full-stack-graphql-applications-1-william-lyon.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617297038
+    amazon_uk: https://www.amazon.co.uk/dp/1617297038
+  description: >-
+    Build hyper-fast and hyper-efficient web applications with GraphQL! This
+    practical, comprehensive guide introduces the powerful GRANDStack for
+    developing full stack web applications based in graph data structures.
+
+    The GraphQL query language radically reduces over-fetching or under-fetching
+    of data by constructing precise graph-based data requests. In Full Stack
+    GraphQL Applications you'll learn how to build graph-aware web applications
+    that take full advantage of GraphQL's amazing efficiency. Neo4j's William
+    Lyon teaches you everything you need to know to design, deploy, and maintain
+    a GraphQL API from scratch. He reveals how you can build your web apps with
+    GraphQL, React, Apollo, and Neo4j Database, aka “the GRANDstack,” to get
+    maximum performance out of GraphQL.
+
+- slug: modern-javascript-for-the-impatient-1-cay-horstmann
+  title: Modern JavaScript for the Impatient
+  edition: 1
+  authors:
+    - Cay Horstmann
+  coverName: modern-javascript-for-the-impatient-1-cay-horstmann.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0136502148
+    amazon_uk: https://www.amazon.co.uk/dp/0136502148
+  description: >-
+    Exploit the Power of Modern JavaScript and Avoid the PitfallsJavaScript was
+    originally designed for small-scale programming in web browsers, but modern
+    JavaScript is radically different. Nowadays, JavaScript programmers actively
+    embrace functional, object-oriented, and asynchronous programming, while
+    deprecating error-prone concepts from the past. Modern JavaScript for the
+    Impatient is a complete yet concise guide to JavaScript E6 and beyond.
+    Rather than first requiring you to learn and transition from older versions,
+    it helps you quickly get productive with today's far more powerful versions
+    and rapidly move from languages such as Java, C#, C, or C++.
+
+- slug: the-complete-developer-1-martin-krause
+  title: The Complete Developer
+  subtitle: Master the Full Stack with TypeScript, React, Next.js, MongoDB, and Docker
+  edition: 1
+  authors:
+    - Martin Krause
+  coverName: the-complete-developer-1-martin-krause.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1718503288
+    amazon_uk: https://www.amazon.co.uk/dp/1718503288
+  description: >-
+    A hands-on, beginner-friendly approach to developing complete web
+    applications from the ground up, using JavaScript and its most popular
+    frameworks, including Node.js and React.js.Whether you've been in the
+    developer kitchen for decades or are just taking the plunge to do it
+    yourself, The Complete Developer will show you how to build and implement
+    every component of a modern stack—from scratch.
+
+    You'll go from a React-driven frontend to a fully fleshed-out backend with
+    Mongoose, MongoDB, and a complete set of REST and GraphQL APIs, and back
+    again through the whole Next.js stack.
+
+    The book's easy-to-follow, step-by-step recipes will teach you how to build
+    a web server with Express.js, create custom API routes, deploy applications
+    via self-contained microservices, and add a reactive, component-based UI.
+    You'll leverage command line tools and full-stack frameworks to build an
+    application whose no-effort user management rides on GitHub logins.
+
+    Whether you're an experienced software engineer or new to DIY web
+    development, The Complete Developer will teach you to succeed with the
+    modern full stack. After all, control matters.
+
+- slug: learn-react-with-typescript-second-edition-2-carl-rippon
+  title: Learn React with TypeScript - Second Edition
+  subtitle: A beginner's guide to reactive web development with React 18 and TypeScript
+  edition: 2
+  authors:
+    - Carl Rippon
+  coverName: learn-react-with-typescript-second-edition-2-carl-rippon.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1804614203
+    amazon_uk: https://www.amazon.co.uk/dp/1804614203
+  description: >-
+    Reading, navigating, and debugging a large frontend codebase is a major
+    issue faced by frontend developers. This book is designed to help web
+    developers like you learn about ReactJS and TypeScript, both of which power
+    large-scale apps for many organizations.
+
+    This second edition of Learn React with TypeScript is updated, enhanced, and
+    improved to cover new features of React 18 including hooks, state management
+    libraries, and features of TypeScript 4. The book will enable you to create
+    well-structured and reusable React components that are easy to read and
+    maintain, leveraging modern design patterns.
+
+    You'll be able to ensure that all your components are type-safe, making the
+    most of TypeScript features, including some advanced types. You'll also
+    learn how to manage complex states using Redux and how to interact with a
+    GraphQL web API. Finally, you'll discover how to write robust unit tests for
+    React components using Jest.
+
+    This book is for experienced frontend developers looking to build large
+    scale web applications using React and TypeScript. Intermediate knowledge of
+    JavaScript, HTML and CSS is a prerequisite.
+
+- slug: hacking-the-system-design-interview-1-stanley-chiang
+  title: Hacking the System Design Interview
+  subtitle: Real Big Tech Interview Questions and In-depth Solutions
+  edition: 1
+  authors:
+    - Stanley Chiang
+  coverName: hacking-the-system-design-interview-1-stanley-chiang.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/B0B7QHRK5Q
+    amazon_uk: https://www.amazon.co.uk/dp/B0B7QHRK5Q
+  description: >-
+    Written by a software engineer at Google, this book will teach you how to
+    ace the system design interview. This book includes real interview questions
+    based on hundreds of interviews conducted at big tech companies, and their
+    detailed solutions. Learn software and system fundamentals in clear and
+    engaging lessons, distilled from 15+ years of experience.
+
+
+- slug: the-road-to-graphql-1-robin-wieruch
+  title: The Road to GraphQL
+  subtitle: Your journey to master pragmatic GraphQL in JavaScript with React.js
+    and Node.js
+  edition: 1
+  authors:
+    - Robin Wieruch
+  coverName: the-road-to-graphql-1-robin-wieruch.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1730853935
+    amazon_uk: https://www.amazon.co.uk/dp/1730853935
+  description: >-
+    The Road to GraphQL is your personal journey to master pragmatic GraphQL in
+    JavaScript. The book is full with applications you are going to build along
+    the way with React.js and Node.js. Afterward, you will be able to implement
+    full-stack JavaScript applications.
+
+    I wrote the The Road to GraphQL over the last year, while building several
+    GraphQL applications for my clients and for myself. During this time, I came
+    to understand the practical genius of GraphQL, and how it dramatically
+    improves communication in client-server architectures. Not only does it
+    improve the interface between the client and the server, it also enhances
+    client-side state management by eliminating remote data management.
+    Sophisticated GraphQL libraries like Apollo Client provide powerful features
+    like caching, optimistic UI, and data prefetching for free. This book covers
+    the fundamentals of GraphQL itself, as well as its ecosystem.
+
+- slug: python-crash-course-3rd-edition-3-eric-matthes
+  title: Python Crash Course, 3rd Edition
+  subtitle: A Hands-On, Project-Based Introduction to Programming
+  edition: 3
+  authors:
+    - Eric Matthes
+  coverName: python-crash-course-3rd-edition-3-eric-matthes.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1718502702
+    amazon_uk: https://www.amazon.co.uk/dp/1718502702
+  description: >-
+    You'll start by learning basic programming concepts, such as variables,
+    lists, classes, and loops, and practice writing clean code with exercises
+    for each topic. You'll also learn how to make your programs interactive and
+    test your code safely before adding it to a project. You'll put your new
+    knowledge into practice by creating a Space Invaders-inspired arcade game,
+    building a set of data visualizations with Python's handy libraries, and
+    deploying a simple application online.
+
+    As you work through the book, you'll learn how to:
+
+    *   Use powerful Python libraries and tools, including pytest, Pygame,
+    Matplotlib, Plotly, and Django
+    *   Make increasingly complex 2D games that respond to keypresses and mouse
+    clicks
+    *   Generate interactive data visualizations using a variety of datasets
+    *   Build apps that allow users to create accounts and manage their own
+    data, and deploy your apps online
+    *   Troubleshoot coding errors and solve common programming problems
+
+- slug: fluent-python-2-luciano-ramalho
+  title: Fluent Python
+  subtitle: Clear, Concise, and Effective Programming
+  edition: 2
+  authors:
+    - Luciano Ramalho
+  coverName: fluent-python-2-luciano-ramalho.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492056359
+    amazon_uk: https://www.amazon.co.uk/dp/1492056359
+  description: >-
+    Don't waste time bending Python to fit patterns you've learned in other
+    languages. Python's simplicity lets you become productive quickly, but often
+    this means you aren't using everything the language has to offer. With the
+    updated edition of this hands-on guide, you'll learn how to write effective,
+    modern Python 3 code by leveraging its best ideas.
+
+    Discover and apply idiomatic Python 3 features beyond your past experience.
+    Author Luciano Ramalho guides you through Python's core language features
+    and libraries and teaches you how to make your code shorter, faster, and
+    more readable.
+
+    Complete with major updates throughout, this new edition features five parts
+    that work as five short books within the book:
+
+    *   Data structures: Sequences, dicts, sets, Unicode, and data classes
+    *   Functions as objects: First-class functions, related design patterns,
+    and type hints in function declarations
+    *   Object-oriented idioms: Composition, inheritance, mixins, interfaces,
+    operator overloading, protocols, and more static types
+    *   Control flow: Context managers, generators, coroutines, async/await, and
+    thread/process pools
+    *   Metaprogramming: Properties, attribute descriptors, class decorators,
+    and new class metaprogramming hooks that replace or simplify metaclasses
+
+- slug: python-for-data-analysis-3-wes-mckinney
+  title: Python for Data Analysis
+  subtitle: Data Wrangling with pandas, NumPy, and Jupyter
+  edition: 3
+  authors:
+    - Wes McKinney
+  coverName: python-for-data-analysis-3-wes-mckinney.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/109810403X
+    amazon_uk: https://www.amazon.co.uk/dp/109810403X
+  description: >-
+    Get the definitive handbook for manipulating, processing, cleaning, and
+    crunching datasets in Python. Updated for Python 3.10 and pandas 1.4, the
+    third edition of this hands-on guide is packed with practical case studies
+    that show you how to solve a broad set of data analysis problems
+    effectively. You'll learn the latest versions of pandas, NumPy, and Jupyter
+    in the process.
+
+    Written by Wes McKinney, the creator of the Python pandas project, this book
+    is a practical, modern introduction to data science tools in Python. It's
+    ideal for analysts new to Python and for Python programmers new to data
+    science and scientific computing. Data files and related material are
+    available on GitHub.
+
+- slug: introduction-to-algorithms-fourth-edition-4-thomas-h-cormen-charles-e-leiserson-ronald-l-rivest-clifford-stein
+  title: Introduction to Algorithms, fourth edition
+  edition: 4
+  authors:
+    - Thomas H. Cormen
+    - Charles E. Leiserson
+    - Ronald L. Rivest
+    - Clifford Stein
+  coverName: introduction-to-algorithms-fourth-edition-4-thomas-h-cormen-charles-e-leiserson-ronald-l-rivest-clifford-stein.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/026204630X
+    amazon_uk: https://www.amazon.co.uk/dp/026204630X
+  description: >-
+    A comprehensive update of the leading algorithms text, with new material on
+    matchings in bipartite graphs, online algorithms, machine learning, and
+    other topics.Some books on algorithms are rigorous but incomplete; others
+    cover masses of material but lack rigor. Introduction to Algorithms uniquely
+    combines rigor and comprehensiveness. It covers a broad range of algorithms
+    in depth, yet makes their design and analysis accessible to all levels of
+    readers, with self-contained chapters and algorithms in pseudocode. Since
+    the publication of the first edition, Introduction to Algorithms has become
+    the leading algorithms text in universities worldwide as well as the
+    standard reference for professionals. This fourth edition has been updated
+    throughout.
+
+- slug: grokking-algorithms-1-aditya-bhargava
+  title: Grokking Algorithms
+  subtitle: An Illustrated Guide for Programmers and Other Curious People
+  edition: 1
+  authors:
+    - Aditya Bhargava
+  coverName: grokking-algorithms-1-aditya-bhargava.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617292230
+    amazon_uk: https://www.amazon.co.uk/dp/1617292230
+  description: >-
+    Grokking Algorithms is a friendly take on this core computer science topic.
+    In it, you'll learn how to apply common algorithms to the practical
+    programming problems you face every day. You'll start with tasks like
+    sorting and searching. As you build up your skills, you'll tackle more
+    complex problems like data compression and artificial intelligence. Each
+    carefully presented example includes helpful diagrams and fully annotated
+    code samples in Python. By the end of this book, you will have mastered
+    widely applicable algorithms as well as how and when to use them.
+
+
+
+- slug: the-algorithm-design-manual-texts-in-computer-science-3-steven-s-skiena
+  title: The Algorithm Design Manual (Texts in Computer Science)
+  edition: 3
+  authors:
+    - Steven S. Skiena
+  coverName: the-algorithm-design-manual-texts-in-computer-science-3-steven-s-skiena.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/3030542556
+    amazon_uk: https://www.amazon.co.uk/dp/3030542556
+  description: >-
+    "My absolute favorite for this kind of interview preparation is Steven
+    Skiena's The Algorithm Design Manual. More than any other book it helped me
+    understand just how astonishingly commonplace … graph problems are -- they
+    should be part of every working programmer's toolkit. The book also covers
+    basic data structures and sorting algorithms, which is a nice bonus. … every
+    1 - pager has a simple picture, making it easy to remember. This is a great
+    way to learn how to identify hundreds of problem types." (Steve Yegge, Get
+    that Job at Google)
+
+    "Steven Skiena's Algorithm Design Manual retains its title as the best and
+    most comprehensive practical algorithm guide to help identify and solve
+    problems. … Every programmer should read this book, and anyone working in
+    the field should keep it close to hand. … This is the best investment … a
+    programmer or aspiring programmer can make." (Harold Thimbleby, Times Higher
+    Education)
+
+    "It is wonderful to open to a random spot and discover an interesting
+    algorithm. This is the only textbook I felt compelled to bring with me out
+    of my student days.... The color really adds a lot of energy to the new
+    edition of the book!" (Cory Bart, University of Delaware)
+
+    "The is the most approachable book on algorithms I have." (Megan Squire,
+    Elon University)
+
+- slug: algorithms-to-live-by-1-brian-christian-tom-griffiths
+  title: Algorithms to Live By
+  subtitle: The Computer Science of Human Decisions
+  edition: 1
+  authors:
+    - Brian Christian
+    - Tom Griffiths
+  coverName: algorithms-to-live-by-1-brian-christian-tom-griffiths.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0670068314
+    amazon_uk: https://www.amazon.co.uk/dp/0670068314
+  description: >-
+    A fascinating exploration of how computer algorithms can be applied to our
+    everyday lives, helping to solve common decision-making problems and
+    illuminate the workings of the human mind
+
+    All our lives are constrained by limited space and time, limits that give
+    rise to a particular set of problems. What should we do, or leave undone, in
+    a day or a lifetime? How much messiness should we accept? What balance of
+    new activities and familiar favourites is the most fulfilling? These may
+    seem like uniquely human quandaries, but they are not: computers, too, face
+    the same constraints, so computer scientists have been grappling with their
+    version of such problems for decades. And the solutions they've found have
+    much to teach us.
+
+- slug: the-self-taught-computer-scientist-1-cory-althoff
+  title: The Self-Taught Computer Scientist
+  subtitle: The Beginner's Guide to Data Structures & Algorithms
+  edition: 1
+  authors:
+    - Cory Althoff
+  coverName: the-self-taught-computer-scientist-1-cory-althoff.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1119724414
+    amazon_uk: https://www.amazon.co.uk/dp/1119724414
+  description: >-
+    The follow-up to Cory Althoff's bestselling The Self-Taught Programmer,
+    which inspired hundreds of thousands of professionals to learn to program
+    outside of school!
+
+    Fresh out of college and with just a year of self-study behind him, Cory
+    Althoff was offered a dream first job as a software engineer for a
+    well-known tech company, but he quickly found himself overwhelmed by the
+    amount of things he needed to know, but hadn't learned yet. This experience
+    combined with his personal journey learning to program inspired his widely
+    praised guide, The Self-Taught Programmer. Now Cory's back with another
+    guide for the self-taught community of learners focusing on the foundations
+    of computer science.
+
+    The Self-Taught Computer Scientist introduces beginner and self-taught
+    programmers to computer science fundamentals that are essential for success
+    in programming and software engineering fields. Computer science is a
+    massive subject that could cover an entire lifetime of learning. This book
+    does not aim to cover everything you would learn about if you went to school
+    to get a computer science degree. Instead, Cory's goal is to give you an
+    introduction to some of the most important concepts in computer science that
+    apply to a programming career. With a focus on data structures and
+    algorithms, The Self-Taught Computer Scientist helps you fill gaps in your
+    knowledge, prepare for a technical interview, feel knowledgeable and
+    confident on the job, and ultimately, become a better programmer.
+
+    *   Learn different algorithms including linear and binary search and test
+    your knowledge with feedback loops
+    *   Understand what a data structure is and study arrays, linked lists,
+    stacks, queues, hash tables, binary trees, binary heaps, and graphs
+    *   Prepare for technical interviews and feel comfortable working with more
+    experienced colleagues
+    *   Discover additional resources and tools to expand your skillset and
+    continue your learning journey
+
+    It's as simple as this: You have to study computer science if you want to
+    become a successful programmer, and if you don't understand computer
+    science, you won't get hired. Ready for a career in programming, coding, or
+    software engineering and willing to embrace an "always be learning" mindset?
+    The Self-Taught Computer Scientist is for you.
+
+- slug: the-rust-programming-language-2nd-edition-2-steve-klabnik-carol-nichols
+  title: The Rust Programming Language, 2nd Edition
+  edition: 2
+  authors:
+    - Steve Klabnik
+    - Carol Nichols
+  coverName: the-rust-programming-language-2nd-edition-2-steve-klabnik-carol-nichols.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1718503105
+    amazon_uk: https://www.amazon.co.uk/dp/1718503105
+  description: >-
+    With over 50,000 copies sold, The Rust Programming Language is the
+    quintessential guide to programming in Rust. Thoroughly updated to Rust's
+    latest version, this edition is considered the language's official
+    documentation.The Rust Programming Language "covers everything you could
+    want to know about the language."—Stack Overflow
+
+    Rust has been repeatedly voted "Most Loved Language" on the StackOverflow
+    Developer Survey.
+
+    The Rust Programming Language, 2nd Edition is the official guide to Rust
+    2021: an open source systems programming language that will help you write
+    faster, more reliable software. Rust provides control of low-level details
+    along with high-level ergonomics, allowing you to improve productivity and
+    eliminate the hassle traditionally associated with low-level languages.
+
+    Klabnik and Nichols, alumni of the Rust Core Team, share their knowledge to
+    help you get the most out of Rust's features so that you can create robust
+    and scalable programs. You'll begin with basics like creating functions,
+    choosing data types, and binding variables, then move on to more advanced
+    concepts, such as:
+
+    *   Ownership and borrowing, lifetimes, generics, traits, and trait objects
+    to communicate your program's constraints to the compiler
+    *   Smart pointers and multithreading, and how ownership interacts with them
+    to enable fearless concurrency
+    *   How to use Cargo, Rust's built-in package manager, to build, document
+    your code, and manage dependencies
+    *   The best ways to test, handle errors, refactor, and take advantage of
+    expressive pattern matching
+
+    In addition to the countless code examples, you'll find three chapters
+    dedicated to building complete projects: a number-guessing game, a Rust
+    implementation of a command line tool, and a multithreaded server.
+
+- slug: rust-for-rustaceans-1-jon-gjengset
+  title: Rust for Rustaceans
+  subtitle: Idiomatic Programming for Experienced Developers
+  edition: 1
+  authors:
+    - Jon Gjengset
+  coverName: rust-for-rustaceans-1-jon-gjengset.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1718501854
+    amazon_uk: https://www.amazon.co.uk/dp/1718501854
+  description: >-
+    Master professional-level coding in Rust.
+
+    For developers who've mastered the basics, this book is the next step on
+    your way to professional-level programming in Rust. It covers everything you
+    need to build and maintain larger code bases, write powerful and flexible
+    applications and libraries, and confidently expand the scope and complexity
+    of your projects.
+
+    Author Jon Gjengset takes you deep into the Rust programming language,
+    dissecting core topics like ownership, traits, concurrency, and unsafe code.
+    You'll explore key concepts like type layout and trait coherence, delve into
+    the inner workings of concurrent programming and asynchrony with
+    async/await, and take a tour of the world of no\_std programming. Gjengset
+    also provides expert guidance on API design, testing strategies, and error
+    handling, and will help develop your understanding of foreign function
+    interfaces, object safety, procedural macros, and much more.
+
+    You'll Learn:
+
+    *   How to design reliable, idiomatic, and ergonomic Rust programs based on
+    best principles
+    *   Effective use of declarative and procedural macros, and the difference
+    between them
+    *   How asynchrony works in Rust - all the way from the Pin and Waker types
+    used in manual implementations of Futures, to how async/await saves you from
+    thinking about most of those words
+    *   What it means for code to be unsafe, and best practices for writing and
+    interacting with unsafe functions and traits
+    *   How to organize and configure more complex Rust projects so that they
+    integrate nicely with the rest of the ecosystem
+    *   How to write Rust code that can interoperate with non-Rust libraries and
+    systems, or run in constrained and embedded environments
+
+    Brimming with practical, pragmatic insights that you can immediately apply,
+    Rust for Rustaceans helps you do more with Rust, while also teaching you its
+    underlying mechanisms.
+
+- slug: programming-rust-2-jim-blandy-jason-orendorff-leonora-tindall
+  title: Programming Rust
+  subtitle: Fast, Safe Systems Development
+  edition: 2
+  authors:
+    - Jim Blandy
+    - Jason Orendorff
+    - Leonora Tindall
+  coverName: programming-rust-2-jim-blandy-jason-orendorff-leonora-tindall.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492052590
+    amazon_uk: https://www.amazon.co.uk/dp/1492052590
+  description: >-
+    Systems programming provides the foundation for the world's computation.
+    Writing performance-sensitive code requires a programming language that puts
+    programmers in control of how memory, processor time, and other system
+    resources are used. The Rust systems programming language combines that
+    control with a modern type system that catches broad classes of common
+    mistakes, from memory management errors to data races between threads.
+
+    With this practical guide, experienced systems programmers will learn how to
+    successfully bridge the gap between performance and safety using Rust. Jim
+    Blandy, Jason Orendorff, and Leonora Tindall demonstrate how Rust's features
+    put programmers in control over memory consumption and processor use by
+    combining predictable performance with memory safety and trustworthy
+    concurrency.
+
+    You'll learn:
+
+    *   Rust's fundamental data types and the core concepts of ownership and
+    borrowing
+    *   How to write flexible, efficient code with traits and generics
+    *   How to write fast, multithreaded code without data races
+    *   Rust's key power tools: closures, iterators, and asynchronous
+    programming
+    *   Collections, strings and text, input and output, macros, unsafe code,
+    and foreign function interfaces
+
+- slug: rust-in-action-1-tim-mcnamara
+  title: Rust in Action
+  edition: 1
+  authors:
+    - Tim McNamara
+  coverName: rust-in-action-1-tim-mcnamara.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617294551
+    amazon_uk: https://www.amazon.co.uk/dp/1617294551
+  description: >-
+    Rust in Action introduces the Rust programming language by exploring
+    numerous systems programming concepts and techniques. You'll be learning
+    Rust by delving into how computers work under the hood. You'll find yourself
+    playing with persistent storage, memory, networking and even tinkering with
+    CPU instructions. The book takes you through using Rust to extend other
+    applications and teaches you tricks to write blindingly fast code. You'll
+    also discover parallel and concurrent programming. Filled to the brim with
+    real-life use cases and scenarios, you'll go beyond the Rust syntax and see
+    what Rust has to offer in real-world use cases.
+
+- slug: zero-to-production-in-rust-1-luca-palmieri
+  title: Zero To Production In Rust
+  subtitle: An introduction to backend development
+  edition: 1
+  authors:
+    - Luca Palmieri
+  coverName: zero-to-production-in-rust-1-luca-palmieri.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/B0BHLDMFDQ
+    amazon_uk: https://www.amazon.co.uk/dp/B0BHLDMFDQ
+  description: >-
+    Zero To Production is the ideal starting point for your journey as a Rust
+    backend developer.
+
+    You will learn by doing: you will build a fully functional email newsletter
+    API, starting from scratch.
+
+    You'll learn how to:
+
+    *   Navigate and leverage Rust's crates ecosystem
+    *   Structure your application to make it modular and extensible
+    *   Write tests, from single units to full-blown integration tests
+    *   Enforce your domain invariants using Rust's type system
+    *   Authenticate and authorize users of your API
+    *   Implement a robust error handling strategy
+    *   Observe the state of your application using structured logs
+    *   Set up an extensive continuous integration and continuous deployment
+    pipeline for your Rust projects
+
+    The book is composed of 11 chapters, for a grand total of 600 pages. All
+    supporting code (including tests!) is available on GitHub.
+
+- slug: hands-on-rust-1-herbert-wolverson
+  title: Hands-on Rust
+  subtitle: Effective Learning through 2D Game Development and Play
+  edition: 1
+  authors:
+    - Herbert Wolverson
+  coverName: hands-on-rust-1-herbert-wolverson.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1680508164
+    amazon_uk: https://www.amazon.co.uk/dp/1680508164
+  description: >-
+    Rust is an exciting new programming language combining the power of C with
+    memory safety, fearless concurrency, and productivity boosters - and what
+    better way to learn than by making games. Each chapter in this book presents
+    hands-on, practical projects ranging from "Hello, World" to building a full
+    dungeon crawler game. With this book, you'll learn game development skills
+    applicable to other engines, including Unity and Unreal.
+
+    Rust is an exciting programming language combining the power of C with
+    memory safety, fearless concurrency, and productivity boosters. With Rust,
+    you have a shiny new playground where your game ideas can flourish.
+
+    Each chapter in this book presents hands-on, practical projects that take
+    you on a journey from "Hello, World" to building a full dungeon crawler
+    game. Start by setting up Rust and getting comfortable with your development
+    environment. Learn the language basics with practical examples as you make
+    your own version of Flappy Bird. Discover what it takes to randomly generate
+    dungeons and populate them with monsters as you build a complete dungeon
+    crawl game. Run game systems concurrently for high-performance and fast
+    game-play, while retaining the ability to debug your program. Unleash your
+    creativity with magical items, tougher monsters, and intricate dungeon
+    design. Add layered graphics and polish your game with style.
+
+    What You Need:
+
+    *   A computer running Windows 10, Linux, or Mac OS X.
+    *   A text editor, such as Visual Studio Code.
+    *   A video card and drivers capable of running OpenGL 3.2.
