@@ -2527,3 +2527,65 @@
     *   Using regular expressions to write succinct text-processing code
     *   Managing asynchronous code with promises
     *   Fully revised to cover concepts from ES6 and ES7
+
+- slug: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren
+  title: The DevOps Handbook
+  subtitle: How to Create World-Class Agility, Reliability, & Security in
+    Technology Organizations
+  edition: 1
+  authors:
+    - Gene Kim
+    - Jez Humble
+    - Patrick Debois
+    - John Willis
+    - Nicole Forsgren
+  coverName: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1950508404
+    amazon_uk: https://www.amazon.co.uk/dp/1950508404
+  description: >-
+    This award-winning and bestselling business handbook for digital
+    transformation is now fully updated and expanded with the latest research
+    and new case studies!
+
+    “\[The DevOps Handbook\] remains a must-read for any organization seeking to
+    scale up its IT capability and expand DevOps practices across multiple
+    departments or lines of business.” ―Mike Perrow, TechBeacon
+
+    For years, The DevOps Handbook has been the definitive guide for taking the
+    successes laid out in the bestselling The Phoenix Project and applying them
+    in any organization. Now, with this fully updated and expanded edition, it's
+    time to take DevOps out of the IT department and apply it across the full
+    business.
+
+    Technology is now at the core of every company, no matter the business model
+    or product. The theories and practices laid out in The DevOps Handbook are
+    tools to be used by anyone from across the organization to create joy and
+    succeed in the marketplace.
+
+- slug: accelerating-server-side-development-with-fastify-1-manuel-spigolon-maksim-sinik-matteo-collina
+  title: Accelerating Server-Side Development with Fastify
+  subtitle: A comprehensive guide to API development for building a scalable
+    backend for your web apps
+  edition: 1
+  authors:
+    - Manuel Spigolon
+    - Maksim Sinik
+    - Matteo Collina
+  coverName: accelerating-server-side-development-with-fastify-1-manuel-spigolon-maksim-sinik-matteo-collina.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1800563582
+    amazon_uk: https://www.amazon.co.uk/dp/1800563582
+  description: >-
+    Learn to build faster web applications by implementing maintainable and
+    pluggable APIs with Fastify
+
+    Purchase of the print or Kindle book includes a free PDF eBook
+
+    Key Features:
+
+    *   Written by Fastify's core contributors to help you adopt the Fastify
+    mindset for API development
+    *   Gain an architectural overview of Fastify's microservices development
+    capabilities and features
+    *   Build complete apps in Fastify, from application design to production
