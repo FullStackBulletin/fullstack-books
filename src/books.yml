@@ -2589,3 +2589,99 @@
     *   Gain an architectural overview of Fastify's microservices development
     capabilities and features
     *   Build complete apps in Fastify, from application design to production
+
+- slug: building-microservices-2-sam-newman
+  title: Building Microservices
+  subtitle: Designing Fine-Grained Systems
+  edition: 2
+  authors:
+    - Sam Newman
+  coverName: building-microservices-2-sam-newman.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492034029
+    amazon_uk: https://www.amazon.co.uk/dp/1492034029
+  description: >-
+    As organizations shift from monolithic applications to smaller,
+    self-contained microservices, distributed systems have become more
+    fine-grained. But developing these new systems brings its own host of
+    problems. This expanded second edition takes a holistic view of topics that
+    you need to consider when building, managing, and scaling microservices
+    architectures.
+
+    Through clear examples and practical advice, author Sam Newman gives
+    everyone from architects and developers to testers and IT operators a firm
+    grounding in the concepts. You'll dive into the latest solutions for
+    modeling, integrating, testing, deploying, and monitoring your own
+    autonomous services. Real-world cases reveal how organizations today manage
+    to get the most out of these architectures.
+
+    Microservices technologies continue to move quickly. This book brings you up
+    to speed.
+
+    *   Get new information on user interfaces, container orchestration, and
+    serverless
+    *   Align system design with your organization's goals
+    *   Explore options for integrating a service with your system
+    *   Understand how to independently deploy microservices
+    *   Examine the complexities of testing and monitoring distributed services
+    *   Manage security with expanded content around user-to-service and
+    service-to-service models
+
+- slug: the-tao-of-microservices-1-richard-rodger
+  title: The Tao of Microservices
+  edition: 1
+  authors:
+    - Richard Rodger
+  coverName: the-tao-of-microservices-1-richard-rodger.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617293148
+    amazon_uk: https://www.amazon.co.uk/dp/1617293148
+  description: >-
+    The Tao of Microservices guides you on the path to understanding how to
+    apply microservice architectures to your own real-world projects. This
+    high-level book offers a conceptual view of microservice design, along with
+    core concepts and their application.
+
+    An application, even a complex one, can be designed as a system of
+    independent components, each of which handles a single responsibility.
+    Individual microservices are easy for small teams without extensive
+    knowledge of the entire system design to build and maintain. Microservice
+    applications rely on modern patterns like asynchronous, message-based
+    communication, and they can be optimized to work well in cloud and
+    container-centric environments.
+
+    What's Inside:
+
+    *   Principles of the microservice architecture
+    *   Breaking down real-world case studies
+    *   Implementing large-scale systems
+    *   When not to use microservices
+
+- slug: ai-as-a-service-1-peter-elger-eoin-shanaghy
+  title: AI as a Service
+  subtitle: Serverless machine learning with AWS
+  edition: 1
+  authors:
+    - Peter Elger
+    - Eoin Shanaghy
+  coverName: ai-as-a-service-1-peter-elger-eoin-shanaghy.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1617296155
+    amazon_uk: https://www.amazon.co.uk/dp/1617296155
+  description: >-
+    AI as a Service is a practical handbook to building and implementing
+    serverless AI applications, without bogging you down with a lot of theory.
+    Instead, you'll find easy-to-digest instruction and two complete hands-on
+    serverless AI builds in this must-have guide!
+
+    Companies everywhere are moving everyday business processes over to
+    the cloud, and AI is increasingly being given the reins in these tasks. As
+    this massive digital transformation continues, the combination of serverless
+    computing and AI promises to become the de facto standard for
+    business-to-consumer platform development—and developers who can design,
+    develop, implement, and maintain these systems will be in high demand! AI as
+    a Service is a practical handbook to building and implementing serverless AI
+    applications, without bogging you down with a lot of theory. Instead, you'll
+    find easy-to-digest instruction and two complete hands-on serverless AI
+    builds in this must-have guide!
+
