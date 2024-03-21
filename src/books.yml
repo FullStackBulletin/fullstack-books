@@ -3500,3 +3500,74 @@
     your first! Either way, this practical handbook offers a step-by-step guide
     to get the best Deployment Pipeline for your software.
 
+- slug: foundations-of-scalable-systems-1-ian-gorton
+  title: Foundations of Scalable Systems
+  subtitle: Designing Distributed Architectures
+  edition: 1
+  authors:
+    - Ian Gorton
+  cover: foundations-of-scalable-systems-1-ian-gorton.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098106067
+    amazon_uk: https://www.amazon.co.uk/dp/1098106067
+  description: >-
+    In many systems, scalability becomes the primary driver as the user base
+    grows. Attractive features and high utility breed success, which brings more
+    requests to handle and more data to manage. But organizations reach a
+    tipping point when design decisions that made sense under light loads
+    suddenly become technical debt. This practical book covers design approaches
+    and technologies that make it possible to scale an application quickly and
+    cost-effectively.
+
+    Author Ian Gorton takes software architects and developers through the
+    foundational principles of distributed systems. You'll explore the essential
+    ingredients of scalable solutions, including replication, state management,
+    load balancing, and caching. Specific chapters focus on the implications of
+    scalability for databases, microservices, and event-based streaming systems.
+
+    You will focus on:
+
+    - Foundations of scalable systems: Learn basic design principles of
+    scalability, its costs, and architectural tradeoffs
+    - Designing scalable services: Dive into service design, caching,
+    asynchronous messaging, serverless processing, and microservices
+    - Designing scalable data systems: Learn data system fundamentals, NoSQL
+    databases, and eventual consistency versus strong consistency
+    - Designing scalable streaming systems: Explore stream processing systems
+    and scalable event-driven processing
+
+- slug: high-performance-browser-networking-1-ilya-grigorik
+  title: High Performance Browser Networking
+  subtitle: What every web developer should know about networking and web performance
+  edition: 1
+  authors:
+    - Ilya Grigorik
+  cover: high-performance-browser-networking-1-ilya-grigorik.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1449344763
+    amazon_uk: https://www.amazon.co.uk/dp/1449344763
+    free: https://hpbn.co/
+  description: >-
+    How prepared are you to build fast and efficient web applications? This
+    eloquent book provides what every web developer should know about the
+    network, from fundamental limitations that affect performance to major
+    innovations for building even more powerful browser applications--including
+    HTTP 2.0 and XHR improvements, Server-Sent Events (SSE), WebSocket, and
+    WebRTC.
+
+    Author Ilya Grigorik, a web performance engineer at Google, demonstrates
+    performance optimization best practices for TCP, UDP, and TLS protocols, and
+    explains unique wireless and mobile network optimization requirements.
+    You'll then dive into performance characteristics of technologies such as
+    HTTP 2.0, client-side network scripting with XHR, real-time streaming with
+    SSE and WebSocket, and P2P communication with WebRTC.
+    
+    - Deliver optimal TCP, UDP, and TLS performance
+    - Optimize network delivery over 3G/4G mobile networks
+    - Develop fast and energy-efficient mobile applications
+    - Address bottlenecks in HTTP 1.x and other browser protocols
+    - Plan for and deliver the best HTTP 2.0 performance
+    - Enable efficient real-time streaming in the browser
+    - Create efficient peer-to-peer videoconferencing and low-latency
+    applications with real-time WebRTC transports
+
