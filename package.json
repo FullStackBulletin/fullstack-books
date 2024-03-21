@@ -1,6 +1,6 @@
 {
   "name": "fullstack-books",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An API to get interesting books for full-stack developers (powered by GitHub pages)",
   "main": "index.js",
   "type": "module",
