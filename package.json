@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:biome": "biome lint .",
+    "lint:biome:format": "biome format .",
+    "validate": "tsx scripts/validate-books.ts",
+    "test": "pnpm run lint:biome && pnpm run lint:biome:format && pnpm run validate",
     "build": "rm -rf dist && tsx scripts/build.ts"
   },
   "keywords": [],
@@ -16,6 +19,7 @@
     "@biomejs/biome": "1.6.1",
     "@types/node": "^20.11.28",
     "@types/turndown": "^5.0.4",
+    "ajv": "^8.12.0",
     "cheerio": "1.0.0-rc.12",
     "marked": "^12.0.1",
     "mkdirp": "^3.0.1",

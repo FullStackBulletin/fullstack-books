@@ -1,7 +1,5 @@
 import { cp, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
-// biome-ignore lint/nursery/noUndeclaredDependencies: <explanation>
 import { marked } from 'marked'
 import { mkdirp } from 'mkdirp'
 import slugify from 'slugify'
@@ -12,7 +10,7 @@ const REPO_URL = 'https://github.com/FullStackBulletin/fullstack-books'
 const GH_PAGES_URL = 'https://fullStackbulletin.github.io/fullstack-books'
 const baseUrl = process.env.BASE_URL ?? GH_PAGES_URL
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
+const __dirname = dirname(new URL(import.meta.url).pathname)
 const destPath = join(__dirname, '..', 'dist')
 const booksPath = join(__dirname, '..', 'dist', 'books')
 const authorsPath = join(__dirname, '..', 'dist', 'authors')

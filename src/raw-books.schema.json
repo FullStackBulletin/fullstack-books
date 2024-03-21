@@ -15,6 +15,9 @@
       "subtitle": {
         "type": "string"
       },
+      "cover": {
+        "type": "string"
+      },
       "edition": {
         "type": "number"
       },
@@ -45,6 +48,7 @@
         "type": "string"
       }
     },
-    "required": ["title", "authors", "links", "description"]
+    "required": ["title", "authors", "links", "description"],
+    "additionalProperties": false
   }
 }
