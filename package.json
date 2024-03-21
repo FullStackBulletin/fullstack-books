@@ -7,7 +7,7 @@
   "scripts": {
     "lint:biome": "biome lint .",
     "lint:biome:format": "biome format .",
-    "validate": "tsx scripts/validate-books.ts",
+    "validate": "tsx scripts/validateBooks.ts",
     "test": "pnpm run lint:biome && pnpm run lint:biome:format && pnpm run validate",
     "build": "rm -rf dist && tsx scripts/build.ts",
     "update-readme": "tsx scripts/updateReadme.ts",
