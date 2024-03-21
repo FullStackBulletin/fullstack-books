@@ -40,7 +40,7 @@ const docs = stdout
   .replace(/^## /g, '### ')
   .replace(/^# /g, '## ')
 
-const newContent = `${before}<!-- openapi -->\n${docs}\n<!-- openapi -->\n${after}`
+const newContent = `${before}<!-- openapi -->\n${docs}\n<!-- openapi -->\n${after.trimEnd()}`
 await writeFile(readmePath, newContent)
 
 console.log('Updated README.md')
