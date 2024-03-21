@@ -6,7 +6,7 @@ servers:
   
 info:
   title: The full-stack books API
-  version: 1.0.1
+  version: 1.0.0
   description: A collection of books curated for full-stack developers and aspiring ones. Brought to you by FullStackBulletin
   contact: 
     name: FullStack Bulletin

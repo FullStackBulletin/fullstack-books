@@ -2,5 +2,5 @@ pre-commit:
   parallel: true
   commands:
     updateReadme:
-      glob: "src/openapi.yml scripts/updateReadme.ts"
+      files: "src/openapi.yml scripts/updateReadme.ts"
       run: pnpm run update-readme
