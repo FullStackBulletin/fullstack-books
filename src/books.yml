@@ -2685,3 +2685,820 @@
     find easy-to-digest instruction and two complete hands-on serverless AI
     builds in this must-have guide!
 
+- slug: rust-atomics-and-locks-1-mara-bos
+  title: Rust Atomics and Locks
+  subtitle: Low-Level Concurrency in Practice
+  edition: 1
+  authors:
+    - Mara Bos
+  coverName: rust-atomics-and-locks-1-mara-bos.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098119444
+    amazon_uk: https://www.amazon.co.uk/dp/1098119444
+    free: https://marabos.nl/atomics/foreword.html
+  description: >-
+    The Rust programming language is extremely well suited for concurrency, and
+    its ecosystem has many libraries that include lots of concurrent data
+    structures, locks, and more. But implementing those structures correctly can
+    be very difficult. Even in the most well-used libraries, memory ordering
+    bugs are not uncommon.
+
+    In this practical book, Mara Bos, leader of the Rust library team, helps
+    Rust programmers of all levels gain a clear understanding of low-level
+    concurrency. You'll learn everything about atomics and memory ordering and
+    how they're combined with basic operating system APIs to build common
+    primitives like mutexes and condition variables. Once you're done, you'll
+    have a firm grasp of how Rust's memory model, the processor, and the role of
+    the operating system all fit together.
+
+    With this guide, you'll learn:
+
+    *   How Rust's type system works exceptionally well for programming
+    concurrency correctly
+    *   All about mutexes, condition variables, atomics, and memory ordering
+    *   What happens in practice with atomic operations on Intel and ARM
+    processors
+    *   How locks are implemented with support from the operating system
+    *   How to write correct code that includes concurrency, atomics, and locks
+    *   How to build your own locking and synchronization primitives correctly
+
+
+- slug: accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim
+  title: Accelerate
+  subtitle: The Science of Lean Software and DevOps
+  edition: 1
+  authors:
+    - Nicole Forsgren  PhD
+    - Jez Humble
+    - Gene Kim
+  coverName: accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1942788339
+    amazon_uk: https://www.amazon.co.uk/dp/1942788339
+  description: >-
+    "We strongly recommend this book to anyone involved in a digital
+    transformation for solid guidance about what works, what doesn't work, and
+    what doesn't matter." ―Tom and Mary Poppendieck, authors of the Lean
+    Software Development Series
+
+    "A must-read! In a sea of books about technology approaches, Accelerate
+    stands out in its clarity and practicality." ―Karen Martin, author of
+    Clarity First and The Outstanding Organization
+
+    Winner of the Shingo Publication Award
+
+    Accelerate your organization to win in the marketplace.
+
+    How can we apply technology to drive business value? For years, we've been
+    told that the performance of software delivery teams doesn't matter―that it
+    can't provide a competitive advantage to our companies. Through four years
+    of groundbreaking research to include data collected from the State of
+    DevOps reports conducted with Puppet, Dr. Nicole Forsgren, Jez Humble, and
+    Gene Kim set out to find a way to measure software delivery performance―and
+    what drives it―using rigorous statistical methods. This book presents both
+    the findings and the science behind that research, making the information
+    accessible for readers to apply in their own organizations.
+
+    Readers will discover how to measure the performance of their teams, and
+    what capabilities they should invest in to drive higher performance. This
+    book is ideal for management at every level.
+
+    "This is the kind of foresight that CEOs, CFOs, and CIOs desperately need if
+    their company is going to survive in this new software-centric world. Anyone
+    that doesn't read this book will be replaced by someone that has." ―Thomas
+    A. Limoncelli, coauthor of The Practice of Cloud System Administration
+
+- slug: nodejs-secure-coding-1-liran-tal
+  title: Node.js Secure Coding
+  subtitle: Defending Against Command Injection Vulnerabilities
+  edition: 1
+  authors:
+    - Liran Tal
+  coverName: nodejs-secure-coding-1-liran-tal.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1446725057
+    amazon_uk: https://www.amazon.co.uk/dp/1446725057
+  description: "Master Node.js security through hands-on learning and best
+    practices. Learn secure coding conventions in Node.js by executing command
+    injection attacks on real-world npm packages and analyzing vulnerable code.
+    The book features 33 self-assessment yes-no, fill-the-blank, and multiple
+    answer questions to help you evaluate and test your knowledge of Node.js
+    secure coding. You'll analyze the code of 6 vulnerable npm packages found
+    vulnerable via CVE reports to learn best practices on command injection
+    vulnerabilities. With 6 additional references to vulnerable npm packages,
+    you'll strengthen your skills in secure coding. This book takes an
+    adventure-based approach to application security learning, where you will be
+    playing detective who unravels the mysteries of common security
+    vulnerabilities. Through these exercises you will learn about secure coding
+    practices, and how to avoid security pitfalls that software developers and
+    open-source maintainers get caught with. Senior software engineers often
+    recite how one of the most critical skills you should have as an engineer is
+    the ability to read code. The more you read, the easier it becomes for you
+    to understand code and the more context you gain. This book focuses exactly
+    on that - reading vulnerable code, so we can learn from it. This activity
+    creates patterns that our brain learns to identify and that later quickly
+    turn into red flags that we detect and apply in our day-to-day programming
+    and code review routines. Through insecure coding practices found in
+    vulnerable open-source npm packages, this book examines the security aspects
+    affecting JavaScript and Node.js applications. Developers of other languages
+    such as Python will find references to insecure code and best practices
+    relatively easy to transfer to other server-side languages and software
+    ecosystems. By completing this book, you gain: \\* Security expertise in
+    mitigating command injection vulnerabilities. \\* Proficiency in performing
+    secure code reviews through first-hand analysis of real-world npm libraries
+    found vulnerable and their approach to fixing security issues. \\* A
+    security-first mindset to recognize patterns of insecure code. \\* Expertise
+    in secure coding best practices to avoid command injection security
+    vulnerabilities. \\* Knowledge of application security jargon and
+    conventions associated with vulnerability management and severity
+    classification."
+
+- slug: software-engineering-at-google-1-titus-winters-tom-manshreck-hyrum-wright
+  title: Software Engineering at Google
+  subtitle: Lessons Learned from Programming Over Time
+  edition: 1
+  authors:
+    - Titus Winters
+    - Tom Manshreck
+    - Hyrum Wright
+  coverName: software-engineering-at-google-1-titus-winters-tom-manshreck-hyrum-wright.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492082791
+    amazon_uk: https://www.amazon.co.uk/dp/1492082791
+  description: >-
+    Today, software engineers need to know not only how to program effectively
+    but also how to develop proper engineering practices to make their codebase
+    sustainable and healthy. This book emphasizes this difference between
+    programming and software engineering.
+
+    How can software engineers manage a living codebase that evolves and
+    responds to changing requirements and demands over the length of its life?
+    Based on their experience at Google, software engineers Titus Winters and
+    Hyrum Wright, along with technical writer Tom Manshreck, present a candid
+    and insightful look at how some of the world's leading practitioners
+    construct and maintain software. This book covers Google's unique
+    engineering culture, processes, and tools and how these aspects contribute
+    to the effectiveness of an engineering organization.
+
+    You'll explore three fundamental principles that software organizations
+    should keep in mind when designing, architecting, writing, and maintaining
+    code:
+
+    *   How time affects the sustainability of software and how to make your
+    code resilient over time
+    *   How scale affects the viability of software practices within an
+    engineering organization
+    *   What trade-offs a typical engineer needs to make when evaluating design
+    and development decisions.
+
+- slug: observability-engineering-1-charity-majors-liz-fong-jones-george-miranda
+  title: Observability Engineering
+  subtitle: Achieving Production Excellence
+  edition: 1
+  authors:
+    - Charity Majors
+    - Liz Fong-Jones
+    - George Miranda
+  coverName: observability-engineering-1-charity-majors-liz-fong-jones-george-miranda.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492076449
+    amazon_uk: https://www.amazon.co.uk/dp/1492076449
+  description: >-
+    Observability is critical for building, changing, and understanding the
+    software that powers complex modern systems. Teams that adopt observability
+    are much better equipped to ship code swiftly and confidently, identify
+    outliers and aberrant behaviors, and understand the experience of each and
+    every user. This practical book explains the value of observable systems and
+    shows you how to practice observability-driven development.
+
+    Authors Charity Majors, Liz Fong-Jones, and George Miranda from Honeycomb
+    explain what constitutes good observability, show you how to improve upon
+    what you're doing today, and provide practical dos and don'ts for migrating
+    from legacy tooling, such as metrics, monitoring, and log management. You'll
+    also learn the impact observability has on organizational culture (and vice
+    versa).
+
+    You'll explore:
+
+    *   How the concept of observability applies to managing software at scale
+    *   The value of practicing observability when delivering complex cloud
+    native applications and systems
+    *   The impact observability has across the entire software development
+    lifecycle
+    *   How and why different functional teams use observability with
+    service-level objectives
+    *   How to instrument your code to help future engineers understand the code
+    you wrote today
+    *   How to produce quality code for context-aware system debugging and
+    maintenance
+    *   How data-rich analytics can help you debug elusive issues
+
+- slug: the-rational-software-engineer-1-mykyta-chernenko
+  title: The Rational Software Engineer
+  subtitle: Strategies for a Fulfilling Career in Tech
+  edition: 1
+  authors:
+    - Mykyta Chernenko
+  coverName: the-rational-software-engineer-1-mykyta-chernenko.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1484297946
+    amazon_uk: https://www.amazon.co.uk/dp/1484297946
+  description: >-
+    This book will serve as a framework for you as a software engineer seeking a
+    fulfilling career and wishing to stay passionate and maintain a healthy
+    mental state. It is filled with protocols to achieve effective life-long
+    learning, navigate career development, adapt to changes, maintain work-life
+    balance, and have a healthy lifestyle.
+
+    As a successful software engineer you tend to focus on improving your
+    technical skills: learning a new programming language, mastering another
+    tool, or using a library. But you also need to build a solid mental
+    framework that will help you navigate your professional development. You
+    need to develop the skills that will help you be a happy software engineer.
+
+    This book will help you if you feel frustrated, unmotivated, or unhappy;
+    lost in your career path; or uncertain if you want to be a software
+    engineer. It can help you deal with burnout, high levels of stress, or
+    depression; or if you struggle to be productive while working from home.
+
+    What You Will Learn
+
+    *   Efficiently organize your work day
+    *   Know when and how to seek a new project, company, or career
+    *   Take care of your body and mind in a software engineering context
+    *   Understand what contributes to job satisfaction and how to integrate it
+    into your career
+    *   Use non-coding activities for your and your company's benefit
+    *   Build healthy relationships with managers and colleagues
+
+- slug: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage
+  title: Building Evolutionary Architectures
+  subtitle: Automated Software Governance
+  edition: 2
+  authors:
+    - Neal Ford
+    - Rebecca Parsons
+    - Patrick Kua
+    - Pramod Sadalage
+  coverName: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492097543
+    amazon_uk: https://www.amazon.co.uk/dp/1492097543
+  description: The software development ecosystem is constantly changing,
+    providing a constant stream of new tools, frameworks, techniques, and
+    paradigms. Over the past few years, incremental developments in core
+    engineering practices for software development have created the foundations
+    for rethinking how architecture changes over time, along with ways to
+    protect important architectural characteristics as it evolves. This
+    practical guide ties those parts together with a new way to think about
+    architecture and time.
+
+- slug: software-architecture-metrics-1-christian-ciceri-dave-farley-neal-ford-andrew-harmel-law-michael-keeling-carola-lilienthal-joao-rosa-alexander-von-zitzewitz-rene-weiss-eoin-woods
+  title: Software Architecture Metrics
+  subtitle: Case Studies to Improve the Quality of Your Architecture
+  edition: 1
+  authors:
+    - Christian Ciceri
+    - Dave Farley
+    - Neal Ford
+    - Andrew Harmel-Law
+    - Michael Keeling
+    - Carola Lilienthal
+    - João Rosa
+    - Alexander von Zitzewitz
+    - Rene Weiss
+    - Eoin Woods
+  coverName: software-architecture-metrics-1-christian-ciceri-dave-farley-neal-ford-andrew-harmel-law-michael-keeling-carola-lilienthal-joao-rosa-alexander-von-zitzewitz-rene-weiss-eoin-woods.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098112237
+    amazon_uk: https://www.amazon.co.uk/dp/1098112237
+  description: >-
+    Software architecture metrics are key to the maintainability and
+    architectural quality of a software project and they can warn you about
+    dangerous accumulations of architectural and technical debt early in the
+    process. In this practical book, leading hands-on software architects share
+    case studies to introduce metrics that every software architect should know.
+
+    This isn't a book about theory. It's more about practice and implementation,
+    about what has already been tried and worked. Detecting software
+    architectural issues early is crucial for the success of your software: it
+    helps mitigate the risk of poor performance and lowers the cost of repairing
+    those issues. Written by practitioners for software architects and software
+    developers eager to explore successful case studies, this guide will help
+    you learn more about decision and measurement effectiveness.
+
+    Through contributions from 10 prominent practitioners, this book shares key
+    software architecture metrics to help you set the right KPIs and measure the
+    results. You'll learn how to:
+
+    *   Measure how well your software architecture is meeting your goals
+    *   Choose the right metrics to track (and skip the ones you don't need)
+    *   Improve observability, testability, and deployability
+    *   Prioritize software architecture projects
+    *   Build insightful and relevant dashboards
+
+- slug: communication-patterns-1-jacqueline-read
+  title: Communication Patterns
+  subtitle: A Guide for Developers and Architects
+  edition: 1
+  authors:
+    - Jacqueline Read
+  coverName: communication-patterns-1-jacqueline-read.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098140540
+    amazon_uk: https://www.amazon.co.uk/dp/1098140540
+  description: >-
+    Having a great idea or design is not enough to make your software project
+    succeed. If you want stakeholders to buy into your design and teams to
+    collaborate and contribute to the vision, you also need to communicate
+    effectively. In this practical book, author Jacqui Read shows you how to
+    successfully present your architecture and get stakeholders to jump on
+    board.
+
+    Misunderstanding and lack of buy-in leads to increasing costs, unmet
+    requirements, and an architecture that is not what you intended. Through
+    constructive examples and patterns, this book shows you how to create
+    documentation and diagrams that actually get the message across to the
+    different audiences you'll face.
+
+    This book shows you how to:
+
+    *   Design diagrams and documentation appropriate to your expected audience,
+    intended message, and project stage
+    *   Create documentation and diagrams that are accessible to those with
+    varying roles, needs, or disabilities
+    *   Master written, verbal, and nonverbal communication to succeed in
+    technical settings
+    *   Apply the communication patterns presented in this book in real-world
+    projects and software designs
+    *   Communicate and collaborate with distributed teams to successfully
+    design and document software and technical projects
+
+- slug: fullstack-d3-and-data-visualization-1-amelia-wattenberger
+  title: Fullstack D3 and Data Visualization
+  subtitle: Build beautiful data visualizations with D3
+  edition: 1
+  authors:
+    - Amelia Wattenberger
+  coverName: fullstack-d3-and-data-visualization-1-amelia-wattenberger.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0991344650
+    amazon_uk: https://www.amazon.co.uk/dp/0991344650
+  description: >-
+    Build beautiful data visualizations with D3
+
+    The Fullstack D3 book is the complete guide to D3. With dozens of code
+    examples showing each step, you can gain new insights into your data by
+    creating visualizations.
+
+    Learn how to quickly turn data into insights with D3
+
+    We have the data. But it needs to be understood by humans. The best way to
+    convert this data into an understandable format is to mold it into a data
+    visualization.
+
+    And D3 is the best tool for job if you need to create custom data
+    visualizations.
+
+    With Fullstack D3 and Data Visualization you and your team will be able to
+    share key insights, uncover problems before they start, and impress your
+    boss by creating gorgeous visualizations.
+
+- slug: real-world-svelte-1-tan-li-hau
+  title: Real-World Svelte
+  subtitle: Supercharge your apps with Svelte 4 by mastering advanced web
+    development concepts
+  edition: 1
+  authors:
+    - Tan Li Hau
+  coverName: real-world-svelte-1-tan-li-hau.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1804616036
+    amazon_uk: https://www.amazon.co.uk/dp/1804616036
+  description: >-
+    Harness the power of Svelte, the cutting-edge JavaScript framework used for
+    building high-performance web applications, with this definitive guide
+
+    Svelte has quickly become a popular choice among developers seeking to build
+    fast, responsive, and efficient web applications that are high-performing,
+    scalable, and visually stunning. This book goes beyond the basics to help
+    you thoroughly explore the core concepts that make Svelte stand out among
+    other frameworks.
+
+    You'll begin by gaining a clear understanding of lifecycle functions,
+    reusable hooks, and various styling options such as Tailwind CSS and CSS
+    variables. Next, you'll find out how to effectively manage the state, props,
+    and bindings and explore component patterns for better organization. You'll
+    also discover how to create patterns using actions, demonstrate custom
+    events, integrate vanilla JS UI libraries, and progressively enhance UI
+    elements. As you advance, you'll delve into state management with context
+    and stores, implement custom stores, handle complex data, and manage states
+    effectively, along with creating renderless components for specialized
+    functionalities and learning animations with tweened and spring stores. The
+    concluding chapters will help you focus on enhancing UI elements with
+    transitions while covering accessibility considerations.
+
+- slug: multithreaded-javascript-1-thomas-hunter-ii-bryan-english
+  title: Multithreaded Javascript
+  subtitle: Concurrency Beyond the Event Loop
+  edition: 1
+  authors:
+    - Thomas Hunter II
+    - Bryan English
+  coverName: multithreaded-javascript-1-thomas-hunter-ii-bryan-english.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098104439
+    amazon_uk: https://www.amazon.co.uk/dp/1098104439
+  description: >-
+    The nature of JavaScript is to be single threaded. This is reflected not
+    only in libraries and applications, but also in online forum posts, books,
+    and online documentation. Thanks to recent advancements in the platform—such
+    as with web workers in the browser, worker\_threads in Node.js, and the
+    Atomics and SharedArrayBuffer objects—JavaScript engineers are able to build
+    multi-threaded applications. These features will go down as being the
+    biggest paradigm shift for the world's most popular programming language.
+
+    Multithreaded JavaScript explores the various features that JavaScript
+    runtimes have at their disposal for implementing multithreaded programming,
+    using a spectrum of API reference material and high level programming
+    patterns.
+
+    *   Learn what multithreaded programming is and how you can benefit from it
+    *   Understand the differences between a dedicated worker, a shared worker,
+    and a service worker
+    *   Identify when and when not to use threads in an application
+    *   Orchestrate communication between threads by leveraging the Atomics
+    object
+    *   Understand both the gains and pitfalls of using shared memory
+    *   Benchmark performance to learn when you'll benefit from multiple threads
+
+- slug: fluent-react-1-tejas-kumar
+  title: Fluent React
+  subtitle: Build Fast, Performant, and Intuitive Web Applications
+  edition: 1
+  authors:
+    - Tejas Kumar
+  coverName: fluent-react-1-tejas-kumar.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098138716
+    amazon_uk: https://www.amazon.co.uk/dp/1098138716
+  description: >-
+    When it comes to building user interfaces on the web, React enables web
+    developers to unlock a new world of possibilities. This practical book helps
+    you take a deep dive into fundamental concepts of this JavaScript library,
+    including JSX syntax and advanced patterns, the virtual DOM, React
+    reconciliation, and advanced optimization techniques. By becoming fluent in
+    React, you'll quickly learn how to build better web applications.
+
+    Author Tejas Kumar helps you explore the depths of React in plain English,
+    without the typical software engineering jargon, so you can more easily
+    understand how this JavaScript library works. You'll learn how to write
+    intuitive React code that fully understands the nuances and layers of React,
+    unlocking a whole new level of fluency.
+
+    You will:
+
+    *   Understand how React works at a deeper level
+    *   Write React apps while optimizing them along the way
+    *   Build resilient React applications that work well at arbitrary scale
+    *   Create React applications for other platforms adjacent to the web and
+    mobile devices
+    *   Know when to reach for different mechanisms exposed by React, such as
+    reducers versus state versus refs
+
+- slug: aws-cookbook-1-john-culkin-mike-zazon
+  title: AWS Cookbook
+  subtitle: Recipes for Success on AWS
+  edition: 1
+  authors:
+    - John Culkin
+    - Mike Zazon
+  coverName: aws-cookbook-1-john-culkin-mike-zazon.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492092606
+    amazon_uk: https://www.amazon.co.uk/dp/1492092606
+  description: >-
+    This practical guide provides over 70 self-contained recipes to help you
+    creatively solve common AWS challenges you'll encounter on your cloud
+    journey. If you're comfortable with rudimentary scripting and general cloud
+    concepts, this cookbook provides what you need to address foundational tasks
+    and create high-level capabilities.
+
+    Authors John Culkin and Mike Zazon share real-world examples that
+    incorporate best practices. Each recipe includes a diagram to visualize the
+    components. Code is provided so that you can safely execute in an AWS
+    account to ensure solutions work as described. From there, you can customize
+    the code to help construct an application or fix an existing problem. Each
+    recipe also includes a discussion to provide context, explain the approach,
+    and challenge you to explore the possibilities further.
+
+    Go beyond theory and learn the details you need to successfully build on
+    AWS. The recipes help you:
+
+    *   Redact personal identifiable information (PII) from text using Amazon
+    Comprehend
+    *   Automate password rotation for Amazon RDS databases
+    *   Use VPC Reachability Analyzer to verify and troubleshoot network paths
+    *   Lock down Amazon Simple Storage Service (S3) buckets
+    *   Analyze AWS Identity and Access Management policies
+    *   Autoscale a containerized service
+
+- slug: essential-typescript-5-third-edition-3-adam-freeman
+  title: Essential TypeScript 5, Third Edition
+  edition: 3
+  authors:
+    - Adam Freeman
+  coverName: essential-typescript-5-third-edition-3-adam-freeman.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1633437310
+    amazon_uk: https://www.amazon.co.uk/dp/1633437310
+  description: >-
+    Now in its third edition, this bestselling guide to TypeScript takes you
+    through the nuts and bolts of the language. No frills, no fuss—just
+    TypeScript essentials!TypeScript enhances JavaScript with static typing,
+    while keeping all the JS flexibility you know and love! It's the perfect
+    choice for any developer looking to improve the predictability and
+    reliability of their code. Essential TypeScript 5, Third Edition teaches you
+    how to get the most out of TypeScript 5 for a consistent, dependable
+    development experience.
+
+    Inside Essential TypeScript 5, Third Edition you'll learn how to:
+
+    *   Configure the TypeScript development tools
+    *   Use type annotations
+    *   Create strongly typed functions and classes
+    *   Use generic types
+    *   Use type guards to determine types
+    *   Create and consume type declaration files
+    *   Use TypeScript to create web applications with Angular and React
+
+    The book starts you off with a proper understanding of the JavaScript type
+    system that will make using TypeScript so much easier. On that solid
+    foundation, you'll build your understanding of TypeScript development,
+    following a hands-on learning path all the way to TypeScript's advanced
+    features.
+
+- slug: typescript-cookbook-1-stefan-baumgartner
+  title: TypeScript Cookbook
+  subtitle: Real World Type-Level Programming
+  edition: 1
+  authors:
+    - Stefan Baumgartner
+  coverName: typescript-cookbook-1-stefan-baumgartner.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098136659
+    amazon_uk: https://www.amazon.co.uk/dp/1098136659
+  description: >-
+    TypeScript is one of the most important tools for JavaScript developers.
+    Still, even experienced developers wonder why the TypeScript compiler is
+    throwing squiggly red lines at them. Enter TypeScript Cookbook. With this
+    practical guide, author Stefan Baumgartner provides senior engineers with
+    solutions for everyday TypeScript problems.
+
+    If you're conversant with TypeScript as well as JavaScript basics, this book
+    provides actionable recipes to help you tackle a wide array of issues. From
+    setting up complex project structures to developing advanced helper types,
+    each self-contained recipe guides you through the problem and discusses why
+    and how a solution works.
+
+    The ideal companion for your ongoing TypeScript journey, this cookbook helps
+    you:
+
+    *   Dive into the inner workings of the TypeScript type system
+    *   Integrate TypeScript into a variety of projects
+    *   Craft advanced type definitions that allow for flexible scenarios
+    *   Create useful helper types that function across projects
+    *   Ensure readability along with type safety
+    *   Create robust APIs for helper types and their coworkers
+    *   Strongly type function signatures that rely on string types
+    *   Work around limitations of the standard library
+    *   Integrate TypeScript into advanced React projects
+
+- slug: learning-typescript-1-josh-goldberg
+  title: Learning TypeScript
+  subtitle: Enhance Your Web Development Skills Using Type-Safe JavaScript
+  edition: 1
+  authors:
+    - Josh Goldberg
+  coverName: learning-typescript-1-josh-goldberg.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098110331
+    amazon_uk: https://www.amazon.co.uk/dp/1098110331
+  description: >-
+    TypeScript has conquered the world of JavaScript: it's one of the world's
+    fastest growing and most popular languages across developer surveys, widely
+    used in consumer and business companies alike, and frequently credited for
+    helping massive web applications scale. But what is TypeScript? How does it
+    work, why does it work, and how can we use it?
+
+    Learning TypeScript takes beginner to intermediate JavaScript programmers
+    from knowing nothing about "types" or a "type system" to full mastery of the
+    fundamentals of TypeScript. It's more than a means to find bugs and
+    typos--it's a useful system for declaring the way our JavaScript should work
+    and helping us stick to it. You'll learn how TypeScript:
+
+    *   interacts with JavaScript
+    *   analyzes and understands code
+    *   augments your existing development pattern
+    *   helps you document your code
+    *   works with IDEs to provide refactoring tools
+    *   assists local development in refactoring code
+    *   helps you develop more quickly with fewer bugs
+
+- slug: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia
+  title: Designing Interfaces
+  subtitle: Patterns for Effective Interaction Design
+  edition: 3
+  authors:
+    - Jenifer Tidwell
+    - Charles Brewer
+    - Aynne Valencia
+  coverName: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1492051969
+    amazon_uk: https://www.amazon.co.uk/dp/1492051969
+  description: >-
+    Designing good application interfaces isn't easy now that companies need
+    to create compelling, seamless user experiences across an exploding number
+    of channels, screens, and contexts. In this updated third edition, youâ??ll
+    learn how to navigate through the maze of design options. By capturing UI
+    best practices as design patterns, this best-selling book provides solutions
+    to common design problems.
+
+    Youâ??ll learn patterns for mobile apps, web applications, and desktop
+    software. Each pattern contains full-color examples and practical design
+    advice you can apply immediately. Experienced designers can use this guide
+    as an idea sourcebook, and novices will find a road map to the world of
+    interface and interaction design.
+
+- slug: laws-of-ux-1-jon-yablonski
+  title: Laws of UX
+  subtitle: Using Psychology to Design Better Products & Services
+  edition: 1
+  authors:
+    - Jon Yablonski
+  coverName: laws-of-ux-1-jon-yablonski.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/149205531X
+    amazon_uk: https://www.amazon.co.uk/dp/149205531X
+  description: >-
+    An understanding of psychology—specifically the psychology behind how users
+    behave and interact with digital interfaces—is perhaps the single most
+    valuable nondesign skill a designer can have. The most elegant design can
+    fail if it forces users to conform to the design rather than working within
+    the "blueprint" of how humans perceive and process the world around them.
+
+    This practical guide explains how you can apply key principles in psychology
+    to build products and experiences that are more intuitive and
+    human-centered. Author Jon Yablonski deconstructs familiar apps and
+    experiences to provide clear examples of how UX designers can build
+    experiences that adapt to how users perceive and process digital interfaces.
+
+    You'll learn:
+
+    *   How aesthetically pleasing design creates positive responses
+    *   The principles from psychology most useful for designers
+    *   How these psychology principles relate to UX heuristics
+    *   Predictive models including Fitts's law, Jakob's law, and Hick's law
+    *   Ethical implications of using psychology in design
+    *   A framework for applying these principles
+
+- slug: introduction-to-the-theory-of-computation-3-michael-sipser
+  title: Introduction to the Theory of Computation
+  edition: 3
+  authors:
+    - Michael Sipser
+  coverName: introduction-to-the-theory-of-computation-3-michael-sipser.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0357670582
+    amazon_uk: https://www.amazon.co.uk/dp/0357670582
+  description: Gain a clear understanding of even the most complex, highly
+    theoretical computational theory topics in the approachable presentation
+    found only in the market-leading INTRODUCTION TO THE THEORY OF COMPUTATION,
+    3E. The number one choice for today's computational theory course, this
+    revision continues the book's well-know, approachable style with timely
+    revisions, additional practice, and more memorable examples in key areas. A
+    new first-of-its-kind theoretical treatment of deterministic context-free
+    languages is ideal for a better understanding of parsing and LR(k) grammars.
+    You gain a solid understanding of the fundamental mathematical properties of
+    computer hardware, software, and applications with a blend of practical and
+    philosophical coverage and mathematical treatments, including advanced
+    theorems and proofs. INTRODUCTION TO THE THEORY OF COMPUTATION, 3E's
+    comprehensive coverage makes this a valuable reference for your continued
+    studies in theoretical computing.
+
+- slug: the-art-of-computer-programming-vol-1-3-donald-knuth
+  title: The Art of Computer Programming, Vol. 1
+  subtitle: Fundamental Algorithms, 3rd Edition
+  edition: 3
+  authors:
+    - Donald Knuth
+  coverName: the-art-of-computer-programming-vol-1-3-donald-knuth.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/0201896834
+    amazon_uk: https://www.amazon.co.uk/dp/0201896834
+  description: >-
+    This first volume in the series begins with basic programming concepts and
+    techniques, then focuses more particularly on information structures-the
+    representation of information inside a computer, the structural
+    relationships between data elements and how to deal with them efficiently.
+    Elementary applications are given to simulation, numerical methods, symbolic
+    computing, software and system design. Dozens of simple and important
+    algorithms and techniques have been added to those of the previous edition.
+    The section on mathematical preliminaries has been extensively revised to
+    match present trends in research.
+
+- slug: functional-light-javascript-1-kyle-simpson
+  title: Functional-Light JavaScript
+  subtitle: Balanced, Pragmatic FP in JavaScript
+  edition: 1
+  authors:
+    - Kyle Simpson
+  coverName: functional-light-javascript-1-kyle-simpson.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1981672346
+    amazon_uk: https://www.amazon.co.uk/dp/1981672346
+  description: Functional-Light JavaScript is a balanced, pragmatic exploration of
+    Functional Programming in JavaScript.Functional Programming (FP) is an
+    incredibly powerful paradigm for structuring code that yields more robust,
+    verifiable, and readable programs. If you've ever tried to learn FP but
+    struggled with terms like "monad", mathematical concepts like category
+    theory, or symbols like (lambda), you're not alone.Functional-Light
+    programming distills the most vital aspects of FP—function purity, value
+    immutability, composition, and more!—down to approachable JavaScript
+    patterns. Rather than the all-or-nothing dogmatism often encountered in FP,
+    this book teaches you how to improve your programs line by line.
+
+- slug: restful-web-api-patterns-and-practices-cookbook-1-mike-amundsen
+  title: RESTful Web API Patterns and Practices Cookbook
+  subtitle: Connecting and Orchestrating Microservices and Distributed Data
+  edition: 1
+  authors:
+    - Mike Amundsen
+  coverName: restful-web-api-patterns-and-practices-cookbook-1-mike-amundsen.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/1098106741
+    amazon_uk: https://www.amazon.co.uk/dp/1098106741
+  description: >-
+    Many organizations today orchestrate and maintain apps that rely on other
+    people's services. Software designers, developers, and architects in those
+    companies often work to coordinate and maintain apps based on existing
+    microservices, including third-party services that run outside their
+    ecosystem. This cookbook provides proven recipes to help you get those many
+    disparate parts to work together in your network.
+
+    Author Mike Amundsen provides step-by-step solutions for finding,
+    connecting, and maintaining applications designed and built by people
+    outside the organization. Whether you're working on human-centric mobile
+    apps or creating high-powered machine-to-machine solutions, this guide shows
+    you the rules, routines, commands, and protocols—the glue—that integrates
+    individual microservices so they can function together in a safe, scalable,
+    and reliable way.
+
+    *   Design and build individual microservices that can successfully interact
+    on the open web
+    *   Increase interoperability by designing services that share a common
+    understanding
+    *   Build client applications that can adapt to evolving services without
+    breaking
+    *   Create resilient and reliable microservices that support peer-to-peer
+    interactions on the web
+    *   Use web-based service registries to support runtime "find-and-bind"
+    operations that manage external dependencies in real time
+    *   Implement stable workflows to accomplish complex, multiservice tasks
+    consistently
+
+- slug: continuous-delivery-pipelines-1-dave-farley
+  title: Continuous Delivery Pipelines
+  subtitle: How To Build Better Software Faster
+  edition: 1
+  authors:
+    - Dave Farley
+  coverName: continuous-delivery-pipelines-1-dave-farley.jpg
+  links:
+    amazon_us: https://www.amazon.com/dp/B096TTQHYM
+    amazon_uk: https://www.amazon.co.uk/dp/B096TTQHYM
+  description: >-
+    This practical handbook provides a step-by-step guide for you to get the
+    best Continuous Delivery Pipeline for your software.
+
+    Written by Dave Farley - the inventor of the Continuous Delivery Deployment
+    Pipeline and author of the award-winning book "Continuous Delivery: Reliable
+    Software Releases through Build, Test, and Deployment Automation”.
+
+    Dave Farley shares his advice and experience in this essential handbook on
+    how to build, use and improve your Continuous Delivery Pipeline. This books
+    explains what a Continuous Delivery Deployment Pipeline is, the key
+    components and stages, including: Technical Testing, Acceptance Testing,
+    Automation, Version Control and Infrastructure as Code. It also includes
+    examples of world-class pipeline practice, and tips for improving your
+    Deployment Pipelines.
+
+    If you want to create Better Software Faster, then you need Continuous
+    Delivery, and at the heart of Continuous Delivery is the Deployment
+    Pipeline.
+
+    You may already have a Deployment Pipeline, or be thinking about building
+    your first! Either way, this practical handbook offers a step-by-step guide
+    to get the best Deployment Pipeline for your software.
+
