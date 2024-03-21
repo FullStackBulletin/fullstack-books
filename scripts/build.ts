@@ -58,13 +58,14 @@ function mapAuthor(author: string) {
 const books = rawData.map(
   (book: {
     title: string
+    slug: string
     description: string
     authors: string[]
     cover: string
   }) => {
     return {
       ...book,
-      url: `${baseUrl}/books/${slug(book.title)}.json`,
+      url: `${baseUrl}/books/${slug(book.slug)}.json`,
       cover: `${baseUrl}/covers/${book.cover}`,
       descriptionHtml: marked.parse(book.description),
       authors: book.authors.map(mapAuthor),
