@@ -16,6 +16,9 @@
       "correctness": {
         "all": true,
         "noUnusedImports": "warn"
+      },
+      "suspicious": {
+        "noExplicitAny": "off"
       }
     },
     "ignore": ["coverage/", "dist/", "node_modules/", "docs/"]

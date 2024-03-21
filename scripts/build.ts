@@ -1,26 +1,75 @@
-import { writeFile, readFile, copyFile } from 'node:fs/promises'
+import { cp, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+// biome-ignore lint/nursery/noUndeclaredDependencies: <explanation>
+import markdownit from 'markdown-it'
 import { mkdirp } from 'mkdirp'
 import slugify from 'slugify'
 import { parse } from 'yaml'
-import quotes, { type Quote, type Author, type AuthorDescription, type RawQuote, type AuthorWithQuotes } from '../src/quotes.js'
 
-const REPO_URL = 'https://github.com/FullStackBulletin/tech-quotes'
-const GH_PAGES_URL = 'https://fullStackbulletin.github.io/tech-quotes'
+const slug = slugify.default
+const md = markdownit()
+const REPO_URL = 'https://github.com/FullStackBulletin/fullstack-books'
+const GH_PAGES_URL = 'https://fullStackbulletin.github.io/fullstack-books'
 const baseUrl = process.env.BASE_URL ?? GH_PAGES_URL
 
-const currentDir = dirname(fileURLToPath(import.meta.url))
-const destPath: string = join(currentDir, '..', 'dist')
-const quotesPath: string = join(currentDir, '..', 'dist', 'quotes')
-const authorsPath: string = join(currentDir, '..', 'dist', 'authors')
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const destPath = join(__dirname, '..', 'dist')
+const booksPath = join(__dirname, '..', 'dist', 'books')
+const authorsPath = join(__dirname, '..', 'dist', 'authors')
+const srcCoversPath = join(__dirname, '..', 'src', 'covers')
+const coversPath = join(__dirname, '..', 'dist', 'covers')
 
 // Creates the `dest` and `dest/quotes` folders if they don't exist
-await Promise.all([
-  mkdirp(destPath),
-  mkdirp(quotesPath),
-  mkdirp(authorsPath)
-])
+await Promise.all([mkdirp(destPath), mkdirp(booksPath), mkdirp(authorsPath)])
+await cp(srcCoversPath, coversPath)
+console.log(`Copied ${srcCoversPath} to ${coversPath}`)
+
+// load and parse raw data from source file
+const sourcePath = join(__dirname, '..', 'src', 'books.yml')
+const rawData = parse(await readFile(sourcePath, 'utf-8'))
+
+function mapAuthor(author: string) {
+  const authorSlug = slug(author, {
+    lower: true,
+    strict: true,
+  })
+
+  return {
+    name: author,
+    slug: authorSlug,
+    url: `${baseUrl}/authors/authorSlug.json`,
+  }
+}
+
+const books = rawData.map(
+  (book: {
+    title: string
+    description: string
+    authors: string[]
+    cover: string
+  }) => {
+    return {
+      ...book,
+      url: `${baseUrl}/books/${slug(book.title)}.json`,
+      cover: `${baseUrl}/covers/${book.cover}`,
+      descriptionHtml: md(book.description),
+      authors: book.authors.map(mapAuthor),
+    }
+  },
+)
+
+const authors = []
+const booksByAuthor: Record<string, any> = {}
+for (const book of books) {
+  for (const author of book.authors) {
+    if (!booksByAuthor[author.slug]) {
+      booksByAuthor[author.slug] = []
+      authors.push(author)
+    }
+    booksByAuthor[author.slug].push(book)
+  }
+}
 
 // Creates an index.html file that redirects to the GitHub repo
 const index = `<html>
@@ -41,118 +90,57 @@ const fourOhFour = `<html>
   <body>Not found</body>
 </html>`
 
+// create books files
 await writeFile(`${destPath}/404.html`, fourOhFour)
 console.log(`Written ${destPath}/404.html`)
 
-const stats = {
-  total: quotes.length,
-  all: `${baseUrl}/quotes/all.json`,
-  first: `${baseUrl}/quotes/0.json`,
-  last: `${baseUrl}/quotes/${quotes.length - 1}.json`,
-  urlPrefix: `${baseUrl}/quotes`
+const bookStats = {
+  total: books.length,
+  all: `${baseUrl}/books/all.json`,
+  ids: `${baseUrl}/books/ids.json`,
+  urlPrefix: `${baseUrl}/books`,
 }
 
-await writeFile(`${quotesPath}/stats.json`, JSON.stringify(stats, null, 2))
-console.log(`Written ${quotesPath}/stats.json`)
+await writeFile(`${booksPath}/stats.json`, JSON.stringify(bookStats, null, 2))
+console.log(`Written ${booksPath}/stats.json`)
 
-// Creates a JSON file for each quote and an all.json file with all the quotes
-function mapQuote (id: string, quote: RawQuote): Quote {
-  const idAsNumber = Number(id)
-  return {
-    id: idAsNumber,
-    text: quote.text,
-    author: makeAuthor(quote.authorName, quote.authorDescription, quote.authorWiki),
-    url: `${baseUrl}/quotes/${idAsNumber}.json`
-  }
+const bookIds = books.map((book: { slug: string }) => book.slug)
+await writeFile(`${booksPath}/ids.json`, JSON.stringify(bookIds, null, 2))
+console.log(`Written ${booksPath}/ids.json`)
+
+await writeFile(`${booksPath}/all.json`, JSON.stringify(books, null, 2))
+console.log(`Written ${booksPath}/all.json`)
+
+for (const book of books) {
+  const dest = join(booksPath, `${book.slug}.json`)
+  await writeFile(dest, JSON.stringify(book, null, 2))
+  console.log(`Written ${dest}`)
 }
 
-function makeAuthor (name: string, description: AuthorDescription, wiki?: `https://en.wikipedia.org/wiki/${string}`): Author {
-  const slug = slugify.default(name, { lower: true, strict: true })
-
-  return {
-    id: slug,
-    name,
-    description,
-    wiki,
-    url: `${baseUrl}/authors/${slug}.json`
-  }
-}
-
-function removeAuthorFromQuote (quote: Quote): Omit<Quote, 'author'> {
-  const { author, ...rest } = quote
-  return rest
-}
-
-const all = {
-  metadata: {
-    total: quotes.length,
-    first: 0,
-    last: quotes.length - 1
-  },
-  quotes: Object.entries(quotes).map(([id, quote]) => mapQuote(id, quote))
-}
-
-await writeFile(`${quotesPath}/all.json`, JSON.stringify(all, null, 2))
-console.log(`Written ${quotesPath}/all.json`)
-
-// As it goes through the various quotes starts to accumulate authors and quotes
-const authorsWithQuotes = new Map<string, AuthorWithQuotes>()
-
-for (const quote of all.quotes) {
-  const dest = join(quotesPath, `${String(quote.id)}.json`)
-  await writeFile(dest, JSON.stringify(quote, null, 2))
-
-  const authorEntry = authorsWithQuotes.get(quote.author.id)
-  if (typeof authorEntry !== 'undefined') {
-    authorEntry.quotes.push(removeAuthorFromQuote(quote))
-  } else {
-    authorsWithQuotes.set(quote.author.id, {
-      ...quote.author,
-      quotes: [removeAuthorFromQuote(quote)]
-    })
-  }
-
-  console.log(`Written ${String(dest)}`)
-}
-
-// persists authors
-let totalAuthors = 0
-for (const author of authorsWithQuotes.values()) {
-  const dest = join(authorsPath, `${author.id}.json`)
-  await writeFile(dest, JSON.stringify(author, null, 2))
-  console.log(`Written ${String(dest)}`)
-  totalAuthors++
-}
-
-// creates stats.json for authors
-const authorsStats = {
-  total: totalAuthors,
+// create authors files
+const authorStats = {
+  total: authors.length,
   all: `${baseUrl}/authors/all.json`,
-  urlPrefix: `${baseUrl}/authors`
+  ids: `${baseUrl}/authors/ids.json`,
+  urlPrefix: `${baseUrl}/authors`,
 }
 
-await writeFile(`${authorsPath}/stats.json`, JSON.stringify(authorsStats, null, 2))
+await writeFile(
+  `${authorsPath}/stats.json`,
+  JSON.stringify(authorStats, null, 2),
+)
 console.log(`Written ${authorsPath}/stats.json`)
 
-// Create all.json for authors
-const allAuthors = {
-  metadata: {
-    total: totalAuthors
-  },
-  authors: [...authorsWithQuotes.keys()]
-}
+const authorIds = authors.map((author: { slug: string }) => author.slug)
+await writeFile(`${authorsPath}/ids.json`, JSON.stringify(authorIds, null, 2))
+console.log(`Written ${destPath}/ids.json`)
 
-await writeFile(`${authorsPath}/all.json`, JSON.stringify(allAuthors, null, 2))
+await writeFile(`${authorsPath}/all.json`, JSON.stringify(authors, null, 2))
 console.log(`Written ${authorsPath}/all.json`)
 
-// copy open api file and converts it to json
-const openApiPath = join(currentDir, '..', 'src', 'openapi.yml')
-const openApiDestYaml = join(destPath, 'openapi.yml')
-await copyFile(openApiPath, openApiDestYaml)
-console.log(`Written ${openApiDestYaml}`)
-
-const openApiYaml = await readFile(openApiPath, 'utf-8')
-const openApiJson = parse(openApiYaml)
-const openApiDestJson = join(destPath, 'openapi.json')
-await writeFile(openApiDestJson, JSON.stringify(openApiJson, null, 2))
-console.log(`Written ${openApiDestJson}`)
+for (const author of authors) {
+  const authorWithBooks = { ...author, books: booksByAuthor[author.slug] }
+  const dest = join(authorsPath, `${author.slug}.json`)
+  await writeFile(dest, JSON.stringify(authorWithBooks, null, 2))
+  console.log(`Written ${dest}`)
+}
