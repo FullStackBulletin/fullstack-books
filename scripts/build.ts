@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path'
 import { marked } from 'marked'
 import { mkdirp } from 'mkdirp'
 import slugify from 'slugify'
-import { parse } from 'yaml'
+import { parse, stringify } from 'yaml'
 
 const slug = slugify.default
 const REPO_URL = 'https://github.com/FullStackBulletin/fullstack-books'
@@ -21,6 +21,22 @@ const coversPath = join(__dirname, '..', 'dist', 'covers')
 await Promise.all([mkdirp(destPath), mkdirp(booksPath), mkdirp(authorsPath)])
 await cp(srcCoversPath, coversPath, { recursive: true })
 console.log(`Copied ${srcCoversPath} to ${coversPath}`)
+
+// load and parse package.json
+const pkgPath = join(__dirname, '..', 'package.json')
+const pkg = JSON.parse(await readFile(pkgPath, 'utf-8'))
+
+// load and parse the openapi spec
+const openapiPath = join(__dirname, '..', 'src', 'openapi.yml')
+const openApiData = parse(await readFile(openapiPath, 'utf-8'))
+openApiData.info.version = pkg.version // sync package.json version with openapi spec
+await writeFile(
+  `${destPath}/openapi.json`,
+  JSON.stringify(openApiData, null, 2),
+)
+console.log(`Written ${destPath}/openapi.json`)
+await writeFile(`${destPath}/openapi.yml`, stringify(openApiData))
+console.log(`Written ${destPath}/openapi.yml`)
 
 // load and parse raw data from source file
 const sourcePath = join(__dirname, '..', 'src', 'books.yml')

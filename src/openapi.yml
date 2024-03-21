@@ -1,0 +1,295 @@
+openapi: 3.1.0
+
+servers: 
+  - description: Production
+    url: https://fullstackbulletin.github.io/fullstack-books/
+  
+info:
+  title: The full-stack books API
+  version: 1.0.0
+  description: A collection of books curated for full-stack developers and aspiring ones. Brought to you by FullStackBulletin
+  contact: 
+    name: FullStack Bulletin
+    url: https://fullstackbulletin.com
+    email: luciano@fullstackbulletin.com
+  license:
+    name: MIT
+    url: https://github.com/FullStackBulletin/fullstack-books/blob/main/LICENSE
+    
+paths:
+  /authors/ids.json:
+    get:
+      summary: Retrieve all the ids of the available book authors
+      description: Retrieve all the ids of the available book authors
+      operationId: getAllAuthorsIds
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthorIDs'
+
+  /authors/all.json:
+    get:
+      summary: Retrieve all the available book authors
+      description: Retrieve all the available book authors
+      operationId: getAllAuthors
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/Author'
+  
+  /authors/stats.json:
+    get:
+      summary: Retrieve stats about the available book authors
+      description: Retrieve stats about the available book authors
+      operationId: getAuthorsStats
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+
+  /authors/{authorId}.json:
+    get:
+      summary: Retrieve the details of a given author
+      description: Retrieve the details of a given author
+      operationId: getAuthor
+      parameters: 
+        - in: path
+          name: authorId
+          required: true
+          schema:
+            $ref: '#/components/schemas/Author/properties/slug'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthorWithBooks'
+
+  /books/ids.json:
+    get:
+      summary: Retrieve all the ids of the available books
+      description: Retrieve all the ids of the available books
+      operationId: getAllBookIds
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookIDs'
+
+  /books/all.json:
+    get:
+      summary: Retrieve all the available books
+      description: Retrieve all the available books
+      operationId: getAllBooks
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/Book'
+  
+  /books/stats.json:
+    get:
+      summary: Retrieve stats about the available books
+      description: Retrieve stats about the available books
+      operationId: getBooksStats
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+
+  /books/{bookId}.json:
+    get:
+      summary: Retrieve the details of a given book
+      description: Retrieve the details of a given book
+      operationId: getBook
+      parameters: 
+        - in: path
+          name: bookId
+          required: true
+          schema:
+            $ref: '#/components/schemas/Book/properties/slug'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+
+components: 
+  schemas:
+    AuthorIDs:
+      type: array
+      items:
+        $ref: '#/components/schemas/Author/properties/slug'
+
+    Stats:
+      type: object
+      properties:
+        total:
+          type: number
+          examples:
+            - 174
+        all:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/authors/all.json
+        ids:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/authors/ids.json
+        urlPrefix:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/authors
+
+    Author:
+      type: object
+      properties: 
+        name:
+          type: string
+          examples:
+            - Kent Beck
+            - Tom Greever
+            - Don Norman
+        slug:
+          type: string
+          examples:
+            - kent-back
+            - tom-greever
+            - don-norman
+        url:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/authors/kent-back.json
+            - https://fullStackbulletin.github.io/fullstack-books/authors/tom-greever.json
+            - https://fullStackbulletin.github.io/fullstack-books/authors/don-norman.json
+
+    AuthorWithBooks:
+      type: object
+      properties: 
+        name:
+          type: string
+          examples:
+            - Kent Beck
+            - Tom Greever
+            - Don Norman
+        slug:
+          type: string
+          examples:
+            - kent-back
+            - tom-greever
+            - don-norman
+        url:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/authors/kent-back.json
+            - https://fullStackbulletin.github.io/fullstack-books/authors/tom-greever.json
+            - https://fullStackbulletin.github.io/fullstack-books/authors/don-norman.json
+        books:
+          type: array
+          items:
+            $ref: '#/components/schemas/Book'
+    
+    BookIDs:
+      type: array
+      items:
+        $ref: '#/components/schemas/Book/properties/slug'
+
+    Book:
+      type: object
+      properties:
+        slug:
+          type: string
+          examples:
+            - indistractable-1-nir-eyal
+            - learn-react-with-typescript-second-edition-2-carl-rippon
+            - node-cookbook-4-bethany-griggs
+        title:
+          type: string
+          examples:
+            - Indistractable
+            - Learn React with TypeScript - Second Edition
+            - Node Cookbook
+        subtitle:
+          type: string
+          examples:
+            - ""
+            - A beginner's guide to reactive web development with React 18 and TypeScript
+            - Discover solutions, techniques, and best practices for server-side web development with Node.js 14
+        edition:
+          type: number
+          examples:
+            - 1
+            - 2
+            - 3
+            - 4
+        authors:
+          type: array
+          $ref: '#/components/schemas/Author'
+        cover:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/covers/indistractable-1-nir-eyal.jpg
+            - https://fullStackbulletin.github.io/fullstack-books/covers/learn-react-with-typescript-second-edition-2-carl-rippon.jpg
+            - https://fullStackbulletin.github.io/fullstack-books/covers/node-cookbook-4-bethany-griggs.jpg
+        links:
+          type: object
+          properties:
+            amazon_us:
+              type: string
+              format: uri
+              examples:
+                - https://www.amazon.com/dp/1526610205
+                - https://www.amazon.com/dp/1804614203
+                - https://www.amazon.com/dp/1838558756
+            amazon_uk:
+              type: string
+              format: uri
+              examples:
+                - https://www.amazon.co.uk/dp/1526610205
+                - https://www.amazon.co.uk/dp/1804614203
+                - https://www.amazon.co.uk/dp/1838558756
+            free:
+              type: string
+              format: uri
+              examples:
+                - https://marabos.nl/atomics/foreword.html
+        description:
+          type: string
+        url:
+          type: string
+          format: uri
+          examples:
+            - https://fullStackbulletin.github.io/fullstack-books/books/Indistractable.json
+            - https://fullStackbulletin.github.io/fullstack-books/books/Learn-React-with-TypeScript-Second-Edition.json
+            - https://fullStackbulletin.github.io/fullstack-books/books/Node-Cookbook.json
+        descriptionHtml:
+          type: string
