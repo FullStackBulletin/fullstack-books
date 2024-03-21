@@ -21,14 +21,14 @@ const rawBooksSlugs = new Set(
 )
 
 const args = parseArgs({
-    options: {
-      cookie: {
-        type: 'string',
-        short: 'c',
-        default: '',
-      },
+  options: {
+    cookie: {
+      type: 'string',
+      short: 'c',
+      default: '',
     },
-    allowPositionals: true
+  },
+  allowPositionals: true,
 })
 
 for (const id of args.positionals) {
@@ -62,13 +62,15 @@ for (const id of args.positionals) {
       'User-Agent':
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
       'Viewport-Width': '336',
-      Cookie: args.values.cookie as string
+      Cookie: args.values.cookie as string,
     },
   })
   const content = await req.text()
 
   if (content.includes("Sorry, we just need to make sure you're not a robot")) {
-    console.error(`Skipping ${id} (captcha check!). Try to pass a valid Amazon.com cookie with the -c option.`)
+    console.error(
+      `Skipping ${id} (captcha check!). Try to pass a valid Amazon.com cookie with the -c option.`,
+    )
     continue
   }
 
@@ -127,7 +129,7 @@ for (const id of args.positionals) {
     subtitle,
     edition,
     authors,
-    coverName,
+    cover: coverName,
     links,
     description: descriptionMd,
   }

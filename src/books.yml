@@ -27,7 +27,7 @@
   edition: 1
   authors:
     - Kent Beck
-  coverName: tidy-first-1-kent-beck.jpg
+  cover: tidy-first-1-kent-beck.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098151240
     amazon_uk: https://www.amazon.co.uk/dp/1098151240
@@ -46,14 +46,14 @@
 
     This book helps you:
 
-    *   Understand the basic theory of how software design works and the forces
+    - Understand the basic theory of how software design works and the forces
     that act on it
-    *   Explore the difference between changes to a system's behavior and
+    - Explore the difference between changes to a system's behavior and
     changes to its structure
-    *   Improve your programming experience by sometimes tidying first and
+    - Improve your programming experience by sometimes tidying first and
     sometimes tidying after
-    *   Learn how to make large changes in small, safe steps
-    *   Approach design as a human activity with diverging incentives
+    - Learn how to make large changes in small, safe steps
+    - Approach design as a human activity with diverging incentives
 
 - slug: articulating-design-decisions-2-tom-greever
   title: Articulating Design Decisions
@@ -62,7 +62,7 @@
   edition: 2
   authors:
     - Tom Greever
-  coverName: articulating-design-decisions-2-tom-greever.jpg
+  cover: articulating-design-decisions-2-tom-greever.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492079227
     amazon_uk: https://www.amazon.co.uk/dp/1492079227
@@ -78,14 +78,14 @@
     you'll learn how to get support from people who have influence over the
     project with the goal of creating the best user experience.
 
-    *   Walk through the process of preparing and presenting your designs
-    *   Understand stakeholder perspectives and learn how to empathize with them
-    *   Cultivate both implicit and explicit listening skills
-    *   Learn tactics and strategies for expressing the most effective response
+    - Walk through the process of preparing and presenting your designs
+    - Understand stakeholder perspectives and learn how to empathize with them
+    - Cultivate both implicit and explicit listening skills
+    - Learn tactics and strategies for expressing the most effective response
     to feedback
-    *   Create the right documentation for your decisions to avoid repeated
+    - Create the right documentation for your decisions to avoid repeated
     conversations
-    *   Discover why the way you follow through is just as important as the
+    - Discover why the way you follow through is just as important as the
     meeting itself
 
 - slug: building-progressive-web-apps-1-tal-ater
@@ -94,7 +94,7 @@
   edition: 1
   authors:
     - Tal Ater
-  coverName: building-progressive-web-apps-1-tal-ater.jpg
+  cover: building-progressive-web-apps-1-tal-ater.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1491961651
     amazon_uk: https://www.amazon.co.uk/dp/1491961651
@@ -111,15 +111,15 @@
     book, author Tal Ater shows you how to improve a simple website for the
     fictional Gotham Imperial Hotel into a modern progressive web app. Plus:
 
-    *   Understand how service workers work, and use them to create sites that
+    - Understand how service workers work, and use them to create sites that
     launch in an instant, regardless of the user's internet connection
-    *   Create full-screen web apps that launch from the phone's homescreen just
+    - Create full-screen web apps that launch from the phone's homescreen just
     like native apps
-    *   Re-engage users with push notifications, even days after they have left
+    - Re-engage users with push notifications, even days after they have left
     your site
-    *   Embrace offline-first and build web apps that gracefully handle loss of
+    - Embrace offline-first and build web apps that gracefully handle loss of
     connectivity
-    *   Explore new UX opportunities and challenges presented by progressive web
+    - Explore new UX opportunities and challenges presented by progressive web
     apps
 
 - slug: build-1-tony-fadell
@@ -127,7 +127,7 @@
   edition: 1
   authors:
     - Tony Fadell
-  coverName: build-1-tony-fadell.jpg
+  cover: build-1-tony-fadell.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1787634108
     amazon_uk: https://www.amazon.co.uk/dp/1787634108
@@ -163,7 +163,7 @@
   edition: 2
   authors:
     - Stephen Wendel
-  coverName: designing-for-behavior-change-2-stephen-wendel.jpg
+  cover: designing-for-behavior-change-2-stephen-wendel.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492056030
     amazon_uk: https://www.amazon.co.uk/dp/1492056030
@@ -182,12 +182,12 @@
     effective approach for identifying target users and behaviors, building the
     product, and gauging its effectiveness.
 
-    *   Learn the three main strategies to help people change behavior
-    *   Identify behaviors your target audience seeks to change―and obstacles
+    - Learn the three main strategies to help people change behavior
+    - Identify behaviors your target audience seeks to change―and obstacles
     that stand in their way
-    *   Develop effective designs that are enjoyable to use
-    *   Measure your product's impact and learn ways to improve it
-    *   Combine behavioral science with data science to pinpoint problems and
+    - Develop effective designs that are enjoyable to use
+    - Measure your product's impact and learn ways to improve it
+    - Combine behavioral science with data science to pinpoint problems and
     test potential solutions
 
 - slug: the-design-of-everyday-things-1-don-norman
@@ -195,7 +195,7 @@
   edition: 1
   authors:
     - Don Norman
-  coverName: the-design-of-everyday-things-1-don-norman.jpg
+  cover: the-design-of-everyday-things-1-don-norman.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0465050654
     amazon_uk: https://www.amazon.co.uk/dp/0465050654
@@ -225,7 +225,7 @@
   edition: 3
   authors:
     - Steve Krug
-  coverName: dont-make-me-think-revisited-3-steve-krug.jpg
+  cover: dont-make-me-think-revisited-3-steve-krug.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0321965515
     amazon_uk: https://www.amazon.co.uk/dp/0321965515
@@ -259,7 +259,7 @@
     - Stephen R. Covey
     - A. Roger Merrill
     - Rebecca R. Merrill
-  coverName: first-things-first-1-stephen-r-covey-a-roger-merrill-rebecca-r-merrill.jpg
+  cover: first-things-first-1-stephen-r-covey-a-roger-merrill-rebecca-r-merrill.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0684802031
     amazon_uk: https://www.amazon.co.uk/dp/0684802031
@@ -294,7 +294,7 @@
   edition: 1
   authors:
     - Michael J. Gelb
-  coverName: how-to-think-like-leonardo-da-vinci-1-michael-j-gelb.jpg
+  cover: how-to-think-like-leonardo-da-vinci-1-michael-j-gelb.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0440508274
     amazon_uk: https://www.amazon.co.uk/dp/0440508274
@@ -312,12 +312,12 @@
     lessons, you will harness the power—and awesome wonder—of your own genius,
     mastering such life-changing abilities as:
 
-    *   Problem solving
-    *   Creative thinking
-    *   Self-expression
-    *   Enjoying the world around you
-    *   Goal setting and life balance
-    *   Harmonizing body and mind
+    - Problem solving
+    - Creative thinking
+    - Self-expression
+    - Enjoying the world around you
+    - Goal setting and life balance
+    - Harmonizing body and mind
 
     Drawing on Da Vinci's notebooks, inventions, and legendary works of art,
     acclaimed author Michael J. Gelb, introduces seven Da Vincian principles,
@@ -337,7 +337,7 @@
   edition: 1
   authors:
     - Steven Johnson
-  coverName: how-we-got-to-now-1-steven-johnson.jpg
+  cover: how-we-got-to-now-1-steven-johnson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1594633932
     amazon_uk: https://www.amazon.co.uk/dp/1594633932
@@ -372,7 +372,7 @@
   edition: 1
   authors:
     - Nir Eyal
-  coverName: indistractable-1-nir-eyal.jpg
+  cover: indistractable-1-nir-eyal.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1526610205
     amazon_uk: https://www.amazon.co.uk/dp/1526610205
@@ -426,7 +426,7 @@
   authors:
     - Jonathan Shariat
     - Cynthia Savard Saucier
-  coverName: tragic-design-1-jonathan-shariat-cynthia-savard-saucier.jpg
+  cover: tragic-design-1-jonathan-shariat-cynthia-savard-saucier.jpg
   links:
     amazon_us: https://www.amazon.com/dp/149192361X
     amazon_uk: https://www.amazon.co.uk/dp/149192361X
@@ -444,15 +444,15 @@
 
     You'll explore:
 
-    *   Designs that can kill, including the bad interface that doomed a young
+    - Designs that can kill, including the bad interface that doomed a young
     cancer patient
-    *   Designs that anger, through impolite technology and dark patterns
-    *   How design can inadvertently cause emotional pain
-    *   Designs that exclude people through lack of accessibility, diversity,
+    - Designs that anger, through impolite technology and dark patterns
+    - How design can inadvertently cause emotional pain
+    - Designs that exclude people through lack of accessibility, diversity,
     and justice
-    *   How to advocate for ethical design when it isn't easy to do so
-    *   Tools and techniques that can help you avoid harmful design decisions
-    *   Inspiring professionals who use design to improve our world
+    - How to advocate for ethical design when it isn't easy to do so
+    - Tools and techniques that can help you avoid harmful design decisions
+    - Inspiring professionals who use design to improve our world
 
 - slug: linchpin-1-seth-godin
   title: Linchpin
@@ -460,7 +460,7 @@
   edition: 1
   authors:
     - Seth Godin
-  coverName: linchpin-1-seth-godin.jpg
+  cover: linchpin-1-seth-godin.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1591844096
     amazon_uk: https://www.amazon.co.uk/dp/1591844096
@@ -486,11 +486,11 @@
     resistance that holds people back. Linchpin will show you how to join the
     likes of...
 
-    *   Keith Johnson, who scours flea markets across the country to fill
+    - Keith Johnson, who scours flea markets across the country to fill
     Anthropologie stores with unique pieces.
-    *   Jason Zimdars, a graphic designer who got his dream job at 37signals
+    - Jason Zimdars, a graphic designer who got his dream job at 37signals
     without a résumé.
-    *   David, who works at Dean and Deluca coffee shop in New York. He sees every
+    - David, who works at Dean and Deluca coffee shop in New York. He sees every
     customer interaction as a chance to give a gift and is cherished in return.
 
     As Godin writes, "Every day I meet people who have so much to give but have
@@ -505,7 +505,7 @@
   edition: 1
   authors:
     - Stephen King
-  coverName: on-writing-1-stephen-king.jpg
+  cover: on-writing-1-stephen-king.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1982159375
     amazon_uk: https://www.amazon.co.uk/dp/1982159375
@@ -534,7 +534,7 @@
   edition: 1
   authors:
     - David Duchemin
-  coverName: start-ugly-1-david-duchemin.jpg
+  cover: start-ugly-1-david-duchemin.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0991755790
     amazon_uk: https://www.amazon.co.uk/dp/0991755790
@@ -568,7 +568,7 @@
   edition: 1
   authors:
     - Mark Manson
-  coverName: the-subtle-art-of-not-giving-a-fck-1-mark-manson.jpg
+  cover: the-subtle-art-of-not-giving-a-fck-1-mark-manson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0062457713
     amazon_uk: https://www.amazon.co.uk/dp/0062457713
@@ -614,7 +614,7 @@
   edition: 1
   authors:
     - Paul McFedries
-  coverName: web-design-playground-1-paul-mcfedries.jpg
+  cover: web-design-playground-1-paul-mcfedries.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617294403
     amazon_uk: https://www.amazon.co.uk/dp/1617294403
@@ -635,7 +635,7 @@
     - Jason Beaird
     - Alex Walker
     - James George
-  coverName: the-principles-of-beautiful-web-design-1-jason-beaird-alex-walker-james-george.jpg
+  cover: the-principles-of-beautiful-web-design-1-jason-beaird-alex-walker-james-george.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1925836363
     amazon_uk: https://www.amazon.co.uk/dp/1925836363
@@ -648,13 +648,13 @@
 
     This book will teach you how to:
 
-    *   Understand what makes "good design," from discovery through to
+    - Understand what makes "good design," from discovery through to
     implementation
-    *   Use color effectively, develop color schemes, and create a palette
-    *   Create pleasing layouts using grids, the rule of thirds, and symmetry
-    *   Employ textures: lines, points, shapes, volumes, and depth
-    *   Apply typography to make ordinary designs look great
-    *   Choose, edit, and position effective imagery
+    - Use color effectively, develop color schemes, and create a palette
+    - Create pleasing layouts using grids, the rule of thirds, and symmetry
+    - Employ textures: lines, points, shapes, volumes, and depth
+    - Apply typography to make ordinary designs look great
+    - Choose, edit, and position effective imagery
 
     This easy-to-follow guide is illustrated with beautiful, full-color
     examples, and will lead you through the process of creating great designs
@@ -663,11 +663,11 @@
     The fourth edition of this bestselling book has been greatly revised and now
     features:
 
-    *   Updated and expanded coverage responsive web design techniques
-    *   A new sample project
-    *   New sections on pattern libraries and how design fits on modern app
+    - Updated and expanded coverage responsive web design techniques
+    - A new sample project
+    - New sections on pattern libraries and how design fits on modern app
     development workflows
-    *   Common user-interface patterns and resources
+    - Common user-interface patterns and resources
 
 - slug: building-the-web-of-things-1-dominique-guinard-vlad-trifa
   title: Building the Web of Things
@@ -676,7 +676,7 @@
   authors:
     - Dominique Guinard
     - Vlad Trifa
-  coverName: building-the-web-of-things-1-dominique-guinard-vlad-trifa.jpg
+  cover: building-the-web-of-things-1-dominique-guinard-vlad-trifa.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617292680
     amazon_uk: https://www.amazon.co.uk/dp/1617292680
@@ -689,17 +689,17 @@
     practical skills you need to implement your own web-connected products and
     services.What's Inside
 
-    *   Introduction to IoT protocols and devices
-    *   Connect electronic actuators and sensors (GPIO) to a Raspberry Pi
-    *   Implement standard REST and Pub/Sub APIs with Node.js on embedded
+    - Introduction to IoT protocols and devices
+    - Connect electronic actuators and sensors (GPIO) to a Raspberry Pi
+    - Implement standard REST and Pub/Sub APIs with Node.js on embedded
     systems
-    *   Learn about IoT protocols like MQTT and CoAP and integrate them to the
+    - Learn about IoT protocols like MQTT and CoAP and integrate them to the
     Web of Things
-    *   Use the Semantic Web (JSON-LD, RDFa, etc.) to discover and find Web
+    - Use the Semantic Web (JSON-LD, RDFa, etc.) to discover and find Web
     Things
-    *   Share Things via Social Networks to create the Social Web of Things
-    *   Build a web-based smart home with HTTP and WebSocket
-    *   Compose physical mashups with EVRYTHNG, Node-RED, and IFTTT
+    - Share Things via Social Networks to create the Social Web of Things
+    - Build a web-based smart home with HTTP and WebSocket
+    - Compose physical mashups with EVRYTHNG, Node-RED, and IFTTT
 
 - slug: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn
   title: Mastering API Architecture
@@ -709,7 +709,7 @@
     - James Gough
     - Daniel Bryant
     - Matthew Auburn
-  coverName: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn.jpg
+  cover: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492090638
     amazon_uk: https://www.amazon.co.uk/dp/1492090638
@@ -728,16 +728,16 @@
     organizations migrate to the cloud; and open the opportunity to connect
     internal services using technologies like a service mesh.
 
-    *   Learn API fundamentals and architectural patterns for building an API
+    - Learn API fundamentals and architectural patterns for building an API
     platform
-    *   Use practical examples to understand how to design, build, and test
+    - Use practical examples to understand how to design, build, and test
     API-based systems
-    *   Deploy, operate, and configure key components of an API platform
-    *   Use API gateways and service meshes appropriately, based on case studies
-    *   Understand core security and common vulnerabilities in API architecture
-    *   Secure data and APIs using threat modeling and technologies like OAuth2
+    - Deploy, operate, and configure key components of an API platform
+    - Use API gateways and service meshes appropriately, based on case studies
+    - Understand core security and common vulnerabilities in API architecture
+    - Secure data and APIs using threat modeling and technologies like OAuth2
     and TLS
-    *   Learn how to evolve existing systems toward API- and cloud-based
+    - Learn how to evolve existing systems toward API- and cloud-based
     architectures
 
 - slug: nodejs-design-patterns-third-edition-3-mario-casciaro-luciano-mammino
@@ -748,7 +748,7 @@
   authors:
     - Mario Casciaro
     - Luciano Mammino
-  coverName: nodejs-design-patterns-third-edition-3-mario-casciaro-luciano-mammino.jpg
+  cover: nodejs-design-patterns-third-edition-3-mario-casciaro-luciano-mammino.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1839214112
     amazon_uk: https://www.amazon.co.uk/dp/1839214112
@@ -759,16 +759,16 @@
 
     What you will learn
 
-    *   Become comfortable with writing asynchronous code by leveraging
+    - Become comfortable with writing asynchronous code by leveraging
     callbacks, promises, and the async/await syntax
-    *   Leverage Node.js streams to create data-driven asynchronous processing
+    - Leverage Node.js streams to create data-driven asynchronous processing
     pipelines
-    *   Implement well-known software design patterns to create production grade
+    - Implement well-known software design patterns to create production grade
     applications
-    *   Share code between Node.js and the browser and take advantage of
+    - Share code between Node.js and the browser and take advantage of
     full-stack JavaScript
-    *   Build and scale microservices and distributed systems powered by Node.js
-    *   Use Node.js in conjunction with other powerful technologies such as
+    - Build and scale microservices and distributed systems powered by Node.js
+    - Use Node.js in conjunction with other powerful technologies such as
     Redis, RabbitMQ, ZeroMQ, and LevelDB
 
 - slug: distributed-systems-with-nodejs-1-thomas-hunter-ii
@@ -777,7 +777,7 @@
   edition: 1
   authors:
     - Thomas Hunter II
-  coverName: distributed-systems-with-nodejs-1-thomas-hunter-ii.jpg
+  cover: distributed-systems-with-nodejs-1-thomas-hunter-ii.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492077291
     amazon_uk: https://www.amazon.co.uk/dp/1492077291
@@ -793,16 +793,16 @@
     developers will find themselves integrating application code with a breadth
     of tooling from each layer of a modern service stack.
 
-    *   Learn why running redundant copies of the same Node.js service is
+    - Learn why running redundant copies of the same Node.js service is
     necessary
-    *   Know which protocol to choose, depending on the situation
-    *   Fine-tune your application containers for use in production
-    *   Track down errors in a distributed setting to determine which service is
+    - Know which protocol to choose, depending on the situation
+    - Fine-tune your application containers for use in production
+    - Track down errors in a distributed setting to determine which service is
     at fault
-    *   Simplify app code and increase performance by offloading work to a
+    - Simplify app code and increase performance by offloading work to a
     reverse proxy
-    *   Build dashboards to monitor service health and throughput
-    *   Find out why so many different tools are required when operating in an
+    - Build dashboards to monitor service health and throughput
+    - Find out why so many different tools are required when operating in an
     enterprise environment
 
 - slug: node-cookbook-4-bethany-griggs
@@ -812,7 +812,7 @@
   edition: 4
   authors:
     - Bethany Griggs
-  coverName: node-cookbook-4-bethany-griggs.jpg
+  cover: node-cookbook-4-bethany-griggs.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1838558756
     amazon_uk: https://www.amazon.co.uk/dp/1838558756
@@ -840,14 +840,14 @@
 
     What you will learn
 
-    *   Understand the Node.js asynchronous programming model
-    *   Create simple Node.js applications using modules and web frameworks
-    *   Develop simple web applications using web frameworks such as Fastify and
+    - Understand the Node.js asynchronous programming model
+    - Create simple Node.js applications using modules and web frameworks
+    - Develop simple web applications using web frameworks such as Fastify and
     Express
-    *   Discover tips for testing, optimizing, and securing your web
+    - Discover tips for testing, optimizing, and securing your web
     applications
-    *   Create and deploy Node.js microservices
-    *   Debug and diagnose issues in your Node.js applications
+    - Create and deploy Node.js microservices
+    - Debug and diagnose issues in your Node.js applications
 
 - slug: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar
   title: Ultimate Node.js for Cross-Platform App Development
@@ -856,7 +856,7 @@
   edition: 1
   authors:
     - Ramesh Kumar
-  coverName: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar.jpg
+  cover: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar.jpg
   links:
     amazon_us: https://www.amazon.com/dp/8196815158
     amazon_uk: https://www.amazon.co.uk/dp/8196815158
@@ -889,7 +889,7 @@
   edition: 1
   authors:
     - Michael Stack
-  coverName: event-driven-architecture-in-golang-1-michael-stack.jpg
+  cover: event-driven-architecture-in-golang-1-michael-stack.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1803238011
     amazon_uk: https://www.amazon.co.uk/dp/1803238011
@@ -915,11 +915,11 @@
 
     What You Will Learn:
 
-    *   Understand different event-driven patterns and best practices
-    *   Plan and design your software architecture with ease
-    *   Track changes and updates effectively using event sourcing
-    *   Test and deploy your sample software application with ease
-    *   Monitor and improve the performance of your software architecture
+    - Understand different event-driven patterns and best practices
+    - Plan and design your software architecture with ease
+    - Track changes and updates effectively using event sourcing
+    - Test and deploy your sample software application with ease
+    - Monitor and improve the performance of your software architecture
 
 - slug: javascript-7-david-flanagan
   title: JavaScript
@@ -927,7 +927,7 @@
   edition: 7
   authors:
     - David Flanagan
-  coverName: javascript-7-david-flanagan.jpg
+  cover: javascript-7-david-flanagan.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1491952024
     amazon_uk: https://www.amazon.co.uk/dp/1491952024
@@ -952,7 +952,7 @@
   edition: 1
   authors:
     - William Lyon
-  coverName: full-stack-graphql-applications-1-william-lyon.jpg
+  cover: full-stack-graphql-applications-1-william-lyon.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617297038
     amazon_uk: https://www.amazon.co.uk/dp/1617297038
@@ -975,7 +975,7 @@
   edition: 1
   authors:
     - Cay Horstmann
-  coverName: modern-javascript-for-the-impatient-1-cay-horstmann.jpg
+  cover: modern-javascript-for-the-impatient-1-cay-horstmann.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0136502148
     amazon_uk: https://www.amazon.co.uk/dp/0136502148
@@ -996,7 +996,7 @@
   edition: 1
   authors:
     - Martin Krause
-  coverName: the-complete-developer-1-martin-krause.jpg
+  cover: the-complete-developer-1-martin-krause.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1718503288
     amazon_uk: https://www.amazon.co.uk/dp/1718503288
@@ -1028,7 +1028,7 @@
   edition: 2
   authors:
     - Carl Rippon
-  coverName: learn-react-with-typescript-second-edition-2-carl-rippon.jpg
+  cover: learn-react-with-typescript-second-edition-2-carl-rippon.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1804614203
     amazon_uk: https://www.amazon.co.uk/dp/1804614203
@@ -1060,7 +1060,7 @@
   edition: 1
   authors:
     - Stanley Chiang
-  coverName: hacking-the-system-design-interview-1-stanley-chiang.jpg
+  cover: hacking-the-system-design-interview-1-stanley-chiang.jpg
   links:
     amazon_us: https://www.amazon.com/dp/B0B7QHRK5Q
     amazon_uk: https://www.amazon.co.uk/dp/B0B7QHRK5Q
@@ -1079,7 +1079,7 @@
   edition: 1
   authors:
     - Robin Wieruch
-  coverName: the-road-to-graphql-1-robin-wieruch.jpg
+  cover: the-road-to-graphql-1-robin-wieruch.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1730853935
     amazon_uk: https://www.amazon.co.uk/dp/1730853935
@@ -1105,7 +1105,7 @@
   edition: 3
   authors:
     - Eric Matthes
-  coverName: python-crash-course-3rd-edition-3-eric-matthes.jpg
+  cover: python-crash-course-3rd-edition-3-eric-matthes.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1718502702
     amazon_uk: https://www.amazon.co.uk/dp/1718502702
@@ -1120,14 +1120,14 @@
 
     As you work through the book, you'll learn how to:
 
-    *   Use powerful Python libraries and tools, including pytest, Pygame,
+    - Use powerful Python libraries and tools, including pytest, Pygame,
     Matplotlib, Plotly, and Django
-    *   Make increasingly complex 2D games that respond to keypresses and mouse
+    - Make increasingly complex 2D games that respond to keypresses and mouse
     clicks
-    *   Generate interactive data visualizations using a variety of datasets
-    *   Build apps that allow users to create accounts and manage their own
+    - Generate interactive data visualizations using a variety of datasets
+    - Build apps that allow users to create accounts and manage their own
     data, and deploy your apps online
-    *   Troubleshoot coding errors and solve common programming problems
+    - Troubleshoot coding errors and solve common programming problems
 
 - slug: fluent-python-2-luciano-ramalho
   title: Fluent Python
@@ -1135,7 +1135,7 @@
   edition: 2
   authors:
     - Luciano Ramalho
-  coverName: fluent-python-2-luciano-ramalho.jpg
+  cover: fluent-python-2-luciano-ramalho.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492056359
     amazon_uk: https://www.amazon.co.uk/dp/1492056359
@@ -1154,14 +1154,14 @@
     Complete with major updates throughout, this new edition features five parts
     that work as five short books within the book:
 
-    *   Data structures: Sequences, dicts, sets, Unicode, and data classes
-    *   Functions as objects: First-class functions, related design patterns,
+    - Data structures: Sequences, dicts, sets, Unicode, and data classes
+    - Functions as objects: First-class functions, related design patterns,
     and type hints in function declarations
-    *   Object-oriented idioms: Composition, inheritance, mixins, interfaces,
+    - Object-oriented idioms: Composition, inheritance, mixins, interfaces,
     operator overloading, protocols, and more static types
-    *   Control flow: Context managers, generators, coroutines, async/await, and
+    - Control flow: Context managers, generators, coroutines, async/await, and
     thread/process pools
-    *   Metaprogramming: Properties, attribute descriptors, class decorators,
+    - Metaprogramming: Properties, attribute descriptors, class decorators,
     and new class metaprogramming hooks that replace or simplify metaclasses
 
 - slug: python-for-data-analysis-3-wes-mckinney
@@ -1170,7 +1170,7 @@
   edition: 3
   authors:
     - Wes McKinney
-  coverName: python-for-data-analysis-3-wes-mckinney.jpg
+  cover: python-for-data-analysis-3-wes-mckinney.jpg
   links:
     amazon_us: https://www.amazon.com/dp/109810403X
     amazon_uk: https://www.amazon.co.uk/dp/109810403X
@@ -1196,7 +1196,7 @@
     - Charles E. Leiserson
     - Ronald L. Rivest
     - Clifford Stein
-  coverName: introduction-to-algorithms-fourth-edition-4-thomas-h-cormen-charles-e-leiserson-ronald-l-rivest-clifford-stein.jpg
+  cover: introduction-to-algorithms-fourth-edition-4-thomas-h-cormen-charles-e-leiserson-ronald-l-rivest-clifford-stein.jpg
   links:
     amazon_us: https://www.amazon.com/dp/026204630X
     amazon_uk: https://www.amazon.co.uk/dp/026204630X
@@ -1219,7 +1219,7 @@
   edition: 1
   authors:
     - Aditya Bhargava
-  coverName: grokking-algorithms-1-aditya-bhargava.jpg
+  cover: grokking-algorithms-1-aditya-bhargava.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617292230
     amazon_uk: https://www.amazon.co.uk/dp/1617292230
@@ -1240,7 +1240,7 @@
   edition: 3
   authors:
     - Steven S. Skiena
-  coverName: the-algorithm-design-manual-texts-in-computer-science-3-steven-s-skiena.jpg
+  cover: the-algorithm-design-manual-texts-in-computer-science-3-steven-s-skiena.jpg
   links:
     amazon_us: https://www.amazon.com/dp/3030542556
     amazon_uk: https://www.amazon.co.uk/dp/3030542556
@@ -1276,7 +1276,7 @@
   authors:
     - Brian Christian
     - Tom Griffiths
-  coverName: algorithms-to-live-by-1-brian-christian-tom-griffiths.jpg
+  cover: algorithms-to-live-by-1-brian-christian-tom-griffiths.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0670068314
     amazon_uk: https://www.amazon.co.uk/dp/0670068314
@@ -1300,7 +1300,7 @@
   edition: 1
   authors:
     - Cory Althoff
-  coverName: the-self-taught-computer-scientist-1-cory-althoff.jpg
+  cover: the-self-taught-computer-scientist-1-cory-althoff.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1119724414
     amazon_uk: https://www.amazon.co.uk/dp/1119724414
@@ -1330,13 +1330,13 @@
     knowledge, prepare for a technical interview, feel knowledgeable and
     confident on the job, and ultimately, become a better programmer.
 
-    *   Learn different algorithms including linear and binary search and test
+    - Learn different algorithms including linear and binary search and test
     your knowledge with feedback loops
-    *   Understand what a data structure is and study arrays, linked lists,
+    - Understand what a data structure is and study arrays, linked lists,
     stacks, queues, hash tables, binary trees, binary heaps, and graphs
-    *   Prepare for technical interviews and feel comfortable working with more
+    - Prepare for technical interviews and feel comfortable working with more
     experienced colleagues
-    *   Discover additional resources and tools to expand your skillset and
+    - Discover additional resources and tools to expand your skillset and
     continue your learning journey
 
     It's as simple as this: You have to study computer science if you want to
@@ -1351,7 +1351,7 @@
   authors:
     - Steve Klabnik
     - Carol Nichols
-  coverName: the-rust-programming-language-2nd-edition-2-steve-klabnik-carol-nichols.jpg
+  cover: the-rust-programming-language-2nd-edition-2-steve-klabnik-carol-nichols.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1718503105
     amazon_uk: https://www.amazon.co.uk/dp/1718503105
@@ -1377,13 +1377,13 @@
     choosing data types, and binding variables, then move on to more advanced
     concepts, such as:
 
-    *   Ownership and borrowing, lifetimes, generics, traits, and trait objects
+    - Ownership and borrowing, lifetimes, generics, traits, and trait objects
     to communicate your program's constraints to the compiler
-    *   Smart pointers and multithreading, and how ownership interacts with them
+    - Smart pointers and multithreading, and how ownership interacts with them
     to enable fearless concurrency
-    *   How to use Cargo, Rust's built-in package manager, to build, document
+    - How to use Cargo, Rust's built-in package manager, to build, document
     your code, and manage dependencies
-    *   The best ways to test, handle errors, refactor, and take advantage of
+    - The best ways to test, handle errors, refactor, and take advantage of
     expressive pattern matching
 
     In addition to the countless code examples, you'll find three chapters
@@ -1396,7 +1396,7 @@
   edition: 1
   authors:
     - Jon Gjengset
-  coverName: rust-for-rustaceans-1-jon-gjengset.jpg
+  cover: rust-for-rustaceans-1-jon-gjengset.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1718501854
     amazon_uk: https://www.amazon.co.uk/dp/1718501854
@@ -1420,18 +1420,18 @@
 
     You'll Learn:
 
-    *   How to design reliable, idiomatic, and ergonomic Rust programs based on
+    - How to design reliable, idiomatic, and ergonomic Rust programs based on
     best principles
-    *   Effective use of declarative and procedural macros, and the difference
+    - Effective use of declarative and procedural macros, and the difference
     between them
-    *   How asynchrony works in Rust - all the way from the Pin and Waker types
+    - How asynchrony works in Rust - all the way from the Pin and Waker types
     used in manual implementations of Futures, to how async/await saves you from
     thinking about most of those words
-    *   What it means for code to be unsafe, and best practices for writing and
+    - What it means for code to be unsafe, and best practices for writing and
     interacting with unsafe functions and traits
-    *   How to organize and configure more complex Rust projects so that they
+    - How to organize and configure more complex Rust projects so that they
     integrate nicely with the rest of the ecosystem
-    *   How to write Rust code that can interoperate with non-Rust libraries and
+    - How to write Rust code that can interoperate with non-Rust libraries and
     systems, or run in constrained and embedded environments
 
     Brimming with practical, pragmatic insights that you can immediately apply,
@@ -1446,7 +1446,7 @@
     - Jim Blandy
     - Jason Orendorff
     - Leonora Tindall
-  coverName: programming-rust-2-jim-blandy-jason-orendorff-leonora-tindall.jpg
+  cover: programming-rust-2-jim-blandy-jason-orendorff-leonora-tindall.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492052590
     amazon_uk: https://www.amazon.co.uk/dp/1492052590
@@ -1467,13 +1467,13 @@
 
     You'll learn:
 
-    *   Rust's fundamental data types and the core concepts of ownership and
+    - Rust's fundamental data types and the core concepts of ownership and
     borrowing
-    *   How to write flexible, efficient code with traits and generics
-    *   How to write fast, multithreaded code without data races
-    *   Rust's key power tools: closures, iterators, and asynchronous
+    - How to write flexible, efficient code with traits and generics
+    - How to write fast, multithreaded code without data races
+    - Rust's key power tools: closures, iterators, and asynchronous
     programming
-    *   Collections, strings and text, input and output, macros, unsafe code,
+    - Collections, strings and text, input and output, macros, unsafe code,
     and foreign function interfaces
 
 - slug: rust-in-action-1-tim-mcnamara
@@ -1481,7 +1481,7 @@
   edition: 1
   authors:
     - Tim McNamara
-  coverName: rust-in-action-1-tim-mcnamara.jpg
+  cover: rust-in-action-1-tim-mcnamara.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617294551
     amazon_uk: https://www.amazon.co.uk/dp/1617294551
@@ -1502,7 +1502,7 @@
   edition: 1
   authors:
     - Luca Palmieri
-  coverName: zero-to-production-in-rust-1-luca-palmieri.jpg
+  cover: zero-to-production-in-rust-1-luca-palmieri.jpg
   links:
     amazon_us: https://www.amazon.com/dp/B0BHLDMFDQ
     amazon_uk: https://www.amazon.co.uk/dp/B0BHLDMFDQ
@@ -1515,14 +1515,14 @@
 
     You'll learn how to:
 
-    *   Navigate and leverage Rust's crates ecosystem
-    *   Structure your application to make it modular and extensible
-    *   Write tests, from single units to full-blown integration tests
-    *   Enforce your domain invariants using Rust's type system
-    *   Authenticate and authorize users of your API
-    *   Implement a robust error handling strategy
-    *   Observe the state of your application using structured logs
-    *   Set up an extensive continuous integration and continuous deployment
+    - Navigate and leverage Rust's crates ecosystem
+    - Structure your application to make it modular and extensible
+    - Write tests, from single units to full-blown integration tests
+    - Enforce your domain invariants using Rust's type system
+    - Authenticate and authorize users of your API
+    - Implement a robust error handling strategy
+    - Observe the state of your application using structured logs
+    - Set up an extensive continuous integration and continuous deployment
     pipeline for your Rust projects
 
     The book is composed of 11 chapters, for a grand total of 600 pages. All
@@ -1534,7 +1534,7 @@
   edition: 1
   authors:
     - Herbert Wolverson
-  coverName: hands-on-rust-1-herbert-wolverson.jpg
+  cover: hands-on-rust-1-herbert-wolverson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1680508164
     amazon_uk: https://www.amazon.co.uk/dp/1680508164
@@ -1570,7 +1570,7 @@
     - Richard Helm
     - Ralph Johnson
     - John Vlissides
-  coverName: design-patterns-1-erich-gamma-richard-helm-ralph-johnson-john-vlissides.jpg
+  cover: design-patterns-1-erich-gamma-richard-helm-ralph-johnson-john-vlissides.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0201633612
     amazon_uk: https://www.amazon.co.uk/dp/0201633612
@@ -1604,7 +1604,7 @@
     - Louis Rosenfeld
     - Peter Morville
     - Jorge Arango
-  coverName: information-architecture-4-louis-rosenfeld-peter-morville-jorge-arango.jpg
+  cover: information-architecture-4-louis-rosenfeld-peter-morville-jorge-arango.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1491911689
     amazon_uk: https://www.amazon.co.uk/dp/1491911689
@@ -1629,7 +1629,7 @@
   edition: 1
   authors:
     - Martin Kleppmann
-  coverName: designing-data-intensive-applications-1-martin-kleppmann.jpg
+  cover: designing-data-intensive-applications-1-martin-kleppmann.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1449373321
     amazon_uk: https://www.amazon.co.uk/dp/1449373321
@@ -1655,7 +1655,7 @@
   edition: 1
   authors:
     - William Shotts
-  coverName: the-linux-command-line-2nd-edition-1-william-shotts.jpg
+  cover: the-linux-command-line-2nd-edition-1-william-shotts.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1593279523
     amazon_uk: https://www.amazon.co.uk/dp/1593279523
@@ -1682,7 +1682,7 @@
   authors:
     - Andrew Hunt
     - David Thomas
-  coverName: the-pragmatic-programmer-1-andrew-hunt-david-thomas.jpg
+  cover: the-pragmatic-programmer-1-andrew-hunt-david-thomas.jpg
   links:
     amazon_us: https://www.amazon.com/dp/020161622X
     amazon_uk: https://www.amazon.co.uk/dp/020161622X
@@ -1710,7 +1710,7 @@
   edition: 1
   authors:
     - Lea Verou
-  coverName: css-secrets-1-lea-verou.jpg
+  cover: css-secrets-1-lea-verou.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1449372635
     amazon_uk: https://www.amazon.co.uk/dp/1449372635
@@ -1730,7 +1730,7 @@
   edition: 1
   authors:
     - Douglas Crockford
-  coverName: javascript-1-douglas-crockford.jpg
+  cover: javascript-1-douglas-crockford.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0596517742
     amazon_uk: https://www.amazon.co.uk/dp/0596517742
@@ -1743,7 +1743,7 @@
   edition: 1
   authors:
     - Douglas Crockford
-  coverName: how-javascript-works-1-douglas-crockford.jpg
+  cover: how-javascript-works-1-douglas-crockford.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1949815005
     amazon_uk: https://www.amazon.co.uk/dp/1949815005
@@ -1767,7 +1767,7 @@
   authors:
     - Clinton Gormley
     - Zachary Tong
-  coverName: elasticsearch-1-clinton-gormley-zachary-tong.jpg
+  cover: elasticsearch-1-clinton-gormley-zachary-tong.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1449358543
     amazon_uk: https://www.amazon.co.uk/dp/1449358543
@@ -1792,7 +1792,7 @@
   authors:
     - Jeff Carpenter
     - Eben Hewitt
-  coverName: cassandra-3-jeff-carpenter-eben-hewitt.jpg
+  cover: cassandra-3-jeff-carpenter-eben-hewitt.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492097144
     amazon_uk: https://www.amazon.co.uk/dp/1492097144
@@ -1820,7 +1820,7 @@
   authors:
     - Martin Abbott
     - Michael Fisher
-  coverName: art-of-scalability-the-2-martin-abbott-michael-fisher.jpg
+  cover: art-of-scalability-the-2-martin-abbott-michael-fisher.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0134032802
     amazon_uk: https://www.amazon.co.uk/dp/0134032802
@@ -1852,7 +1852,7 @@
   edition: 3
   authors:
     - Saša Juric
-  coverName: elixir-in-action-third-edition-3-sasa-juric.jpg
+  cover: elixir-in-action-third-edition-3-sasa-juric.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1633438511
     amazon_uk: https://www.amazon.co.uk/dp/1633438511
@@ -1872,7 +1872,7 @@
   authors:
     - Jeff Nickoloff
     - Stephen Kuenzli
-  coverName: docker-in-action-second-edition-2-jeff-nickoloff-stephen-kuenzli.jpg
+  cover: docker-in-action-second-edition-2-jeff-nickoloff-stephen-kuenzli.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617294764
     amazon_uk: https://www.amazon.co.uk/dp/1617294764
@@ -1888,7 +1888,7 @@
   edition: 4
   authors:
     - Alice Zhao
-  coverName: sql-pocket-guide-4-alice-zhao.jpg
+  cover: sql-pocket-guide-4-alice-zhao.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492090409
     amazon_uk: https://www.amazon.co.uk/dp/1492090409
@@ -1910,7 +1910,7 @@
   edition: 3
   authors:
     - Matt Stauffer
-  coverName: laravel-3-matt-stauffer.jpg
+  cover: laravel-3-matt-stauffer.jpg
   links:
     amazon_us: https://www.amazon.com/dp/109815326X
     amazon_uk: https://www.amazon.co.uk/dp/109815326X
@@ -1931,7 +1931,7 @@
     - Todd Palino
     - Rajini Sivaram
     - Krit Petty
-  coverName: kafka-2-gwen-shapira-todd-palino-rajini-sivaram-krit-petty.jpg
+  cover: kafka-2-gwen-shapira-todd-palino-rajini-sivaram-krit-petty.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492043087
     amazon_uk: https://www.amazon.co.uk/dp/1492043087
@@ -1950,7 +1950,7 @@
   edition: 1
   authors:
     - Miran Lipovaca
-  coverName: learn-you-a-haskell-for-great-good-1-miran-lipovaca.jpg
+  cover: learn-you-a-haskell-for-great-good-1-miran-lipovaca.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1593272839
     amazon_uk: https://www.amazon.co.uk/dp/1593272839
@@ -1975,7 +1975,7 @@
   edition: 3
   authors:
     - Zed Shaw
-  coverName: learn-python-the-hard-way-3-zed-shaw.jpg
+  cover: learn-python-the-hard-way-3-zed-shaw.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0321884914
     amazon_uk: https://www.amazon.co.uk/dp/0321884914
@@ -2000,7 +2000,7 @@
   edition: 3
   authors:
     - Allen B. Downey
-  coverName: think-python-3-allen-b-downey.jpg
+  cover: think-python-3-allen-b-downey.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098155432
     amazon_uk: https://www.amazon.co.uk/dp/1098155432
@@ -2018,7 +2018,7 @@
   edition: 1
   authors:
     - Dr. Charles R Severance
-  coverName: introduction-to-networking-1-dr-charles-r-severance.jpg
+  cover: introduction-to-networking-1-dr-charles-r-severance.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1511654945
     amazon_uk: https://www.amazon.co.uk/dp/1511654945
@@ -2040,7 +2040,7 @@
   authors:
     - Harry Percival
     - Bob Gregory
-  coverName: architecture-patterns-with-python-1-harry-percival-bob-gregory.jpg
+  cover: architecture-patterns-with-python-1-harry-percival-bob-gregory.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492052205
     amazon_uk: https://www.amazon.co.uk/dp/1492052205
@@ -2068,7 +2068,7 @@
   authors:
     - Mark Richards
     - Neal Ford
-  coverName: fundamentals-of-software-architecture-1-mark-richards-neal-ford.jpg
+  cover: fundamentals-of-software-architecture-1-mark-richards-neal-ford.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492043451
     amazon_uk: https://www.amazon.co.uk/dp/1492043451
@@ -2095,7 +2095,7 @@
     - Hassan Djirdeh
     - Nate Murray
     - Ari Lerner
-  coverName: fullstack-vue-1-hassan-djirdeh-nate-murray-ari-lerner.jpg
+  cover: fullstack-vue-1-hassan-djirdeh-nate-murray-ari-lerner.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1987595297
     amazon_uk: https://www.amazon.co.uk/dp/1987595297
@@ -2115,7 +2115,7 @@
   edition: 1
   authors:
     - Maya Shavin
-  coverName: learning-vue-1-maya-shavin.jpg
+  cover: learning-vue-1-maya-shavin.jpg
   links:
     amazon_us: https://www.amazon.com/dp/B0CPB9KRCG
     amazon_uk: https://www.amazon.co.uk/dp/B0CPB9KRCG
@@ -2137,7 +2137,7 @@
   edition: 1
   authors:
     - Luca Mezzalira
-  coverName: building-micro-frontends-1-luca-mezzalira.jpg
+  cover: building-micro-frontends-1-luca-mezzalira.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492082996
     amazon_uk: https://www.amazon.co.uk/dp/1492082996
@@ -2162,7 +2162,7 @@
   authors:
     - Sheen Brisals
     - Luke Hedger
-  coverName: serverless-development-on-aws-1-sheen-brisals-luke-hedger.jpg
+  cover: serverless-development-on-aws-1-sheen-brisals-luke-hedger.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098141938
     amazon_uk: https://www.amazon.co.uk/dp/1098141938
@@ -2186,7 +2186,7 @@
   edition: 1
   authors:
     - Nader Dabit
-  coverName: full-stack-serverless-1-nader-dabit.jpg
+  cover: full-stack-serverless-1-nader-dabit.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492059897
     amazon_uk: https://www.amazon.co.uk/dp/1492059897
@@ -2203,7 +2203,7 @@
   edition: 1
   authors:
     - Dr. Axel Rauschmayer
-  coverName: javascript-for-impatient-programmers-1-dr-axel-rauschmayer.jpg
+  cover: javascript-for-impatient-programmers-1-dr-axel-rauschmayer.jpg
   links:
     free: https://exploringjs.com/impatient-js/toc.html
   description: >-
@@ -2223,7 +2223,7 @@
   edition: 2
   authors:
     - Andrew Hoffman
-  coverName: web-application-security-2-andrew-hoffman.jpg
+  cover: web-application-security-2-andrew-hoffman.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098143930
     amazon_uk: https://www.amazon.co.uk/dp/1098143930
@@ -2242,14 +2242,14 @@
     from the first book, this second edition is split into three distinct
     pillars comprising three separate skill sets:
 
-    *   Pillar 1: Recon—Learn techniques for mapping and documenting web
+    - Pillar 1: Recon—Learn techniques for mapping and documenting web
     applications remotely, including procedures for working with web
     applications
-    *   Pillar 2: Offense—Explore methods for attacking web applications using a
+    - Pillar 2: Offense—Explore methods for attacking web applications using a
     number of highly effective exploits that have been proven by the best
     hackers in the world. These skills are valuable when used alongside the
     skills from Pillar 3.
-    *   Pillar 3: Defense—Build on skills acquired in the first two parts to
+    - Pillar 3: Defense—Build on skills acquired in the first two parts to
     construct effective and long-lived mitigations for each of the attacks
     described in Pillar 2.
 
@@ -2258,7 +2258,7 @@
   edition: 1
   authors:
     - Malcolm McDonald
-  coverName: grokking-web-application-security-1-malcolm-mcdonald.jpg
+  cover: grokking-web-application-security-1-malcolm-mcdonald.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1633438260
     amazon_uk: https://www.amazon.co.uk/dp/1633438260
@@ -2270,23 +2270,23 @@
     Grokking Web Application Security is a brilliantly illustrated and clearly
     written guide that delivers detailed coverage on:
 
-    *   How the browser security model works, including sandboxing, the
+    - How the browser security model works, including sandboxing, the
     same-origin policy, and methods of securing cookies
-    *   Securing web servers with input validation, escaping of output, and
+    - Securing web servers with input validation, escaping of output, and
     defense in depth
-    *   A development process that prevents security bugs
-    *   Protecting yourself from browser vulnerabilities such as cross-site
+    - A development process that prevents security bugs
+    - Protecting yourself from browser vulnerabilities such as cross-site
     scripting, cross-site request forgery, and clickjacking
-    *   Network vulnerabilities like man-in-the-middle attacks, SSL-stripping,
+    - Network vulnerabilities like man-in-the-middle attacks, SSL-stripping,
     and DNS poisoning
-    *   Preventing authentication vulnerabilities that allow brute forcing of
+    - Preventing authentication vulnerabilities that allow brute forcing of
     credentials by using single sign-on or multi-factor authentication
-    *   Authorization vulnerabilities like broken access control and session
+    - Authorization vulnerabilities like broken access control and session
     jacking
-    *   How to use encryption in web applications
-    *   Injection attacks, command execution attacks, and remote code execution
+    - How to use encryption in web applications
+    - Injection attacks, command execution attacks, and remote code execution
     attacks
-    *   Malicious payloads that can be used to attack XML parsers, and file
+    - Malicious payloads that can be used to attack XML parsers, and file
     upload functions
 
 - slug: the-tangled-web-1-michal-zalewski
@@ -2295,7 +2295,7 @@
   edition: 1
   authors:
     - Michal Zalewski
-  coverName: the-tangled-web-1-michal-zalewski.jpg
+  cover: the-tangled-web-1-michal-zalewski.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1593273886
     amazon_uk: https://www.amazon.co.uk/dp/1593273886
@@ -2319,7 +2319,7 @@
   edition: 2
   authors:
     - Stoyan Stefanov
-  coverName: react-2-stoyan-stefanov.jpg
+  cover: react-2-stoyan-stefanov.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492051462
     amazon_uk: https://www.amazon.co.uk/dp/1492051462
@@ -2341,7 +2341,7 @@
   edition: 1
   authors:
     - Corey J. Ball
-  coverName: hacking-apis-1-corey-j-ball.jpg
+  cover: hacking-apis-1-corey-j-ball.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1718502443
     amazon_uk: https://www.amazon.co.uk/dp/1718502443
@@ -2366,7 +2366,7 @@
     - Chris McCord
     - Bruce Tate
     - Jose Valim
-  coverName: programming-phoenix-14-1-chris-mccord-bruce-tate-jose-valim.jpg
+  cover: programming-phoenix-14-1-chris-mccord-bruce-tate-jose-valim.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1680502263
     amazon_uk: https://www.amazon.co.uk/dp/1680502263
@@ -2398,7 +2398,7 @@
   edition: 1
   authors:
     - Brian Sletten
-  coverName: webassembly-1-brian-sletten.jpg
+  cover: webassembly-1-brian-sletten.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492089842
     amazon_uk: https://www.amazon.co.uk/dp/1492089842
@@ -2417,23 +2417,23 @@
     environments, you'll learn how WebAssembly can have a positive impact on the
     way you develop software.
 
-    *   Use WebAssembly to increase code portability across platforms
-    *   Reuse more of your software assets in a wider number of deployment
+    - Use WebAssembly to increase code portability across platforms
+    - Reuse more of your software assets in a wider number of deployment
     targets
-    *   Learn how WebAssembly increases protection against prominent security
+    - Learn how WebAssembly increases protection against prominent security
     attacks
-    *   Use WebAssembly to deploy legacy code in web environments
-    *   Increase your user base across languages and development environments
-    *   Integrate JavaScript code with other languages and environments to
+    - Use WebAssembly to deploy legacy code in web environments
+    - Increase your user base across languages and development environments
+    - Integrate JavaScript code with other languages and environments to
     improve performance, security, and productivity
-    *   Learn how WebAssembly will affect your career as software developer
+    - Learn how WebAssembly will affect your career as software developer
 
 - slug: web-scraping-with-python-3-ryan-mitchell
   title: Web Scraping with Python
   edition: 3
   authors:
     - Ryan Mitchell
-  coverName: web-scraping-with-python-3-ryan-mitchell.jpg
+  cover: web-scraping-with-python-3-ryan-mitchell.jpg
   links:
     amazon_us: https://www.amazon.com/dp/B0CVP964KM
     amazon_uk: https://www.amazon.co.uk/dp/B0CVP964KM
@@ -2451,24 +2451,24 @@
     explores a variety of more specific tools and applications to fit any web
     scraping scenario you're likely to encounter.
 
-    *   Parse complicated HTML pages
-    *   Develop crawlers with the Scrapy framework
-    *   Learn methods to store the data you scrape
-    *   Read and extract data from documents
-    *   Clean and normalize badly formatted data
-    *   Read and write natural languages
-    *   Crawl through forms and logins
-    *   Scrape JavaScript and crawl through APIs
-    *   Use and write image-to-text software
-    *   Avoid scraping traps and bot blockers
-    *   Use scrapers to test your website
+    - Parse complicated HTML pages
+    - Develop crawlers with the Scrapy framework
+    - Learn methods to store the data you scrape
+    - Read and extract data from documents
+    - Clean and normalize badly formatted data
+    - Read and write natural languages
+    - Crawl through forms and logins
+    - Scrape JavaScript and crawl through APIs
+    - Use and write image-to-text software
+    - Avoid scraping traps and bot blockers
+    - Use scrapers to test your website
 
 - slug: acing-the-system-design-interview-1-zhiyong-tan
   title: Acing the System Design Interview
   edition: 1
   authors:
     - Zhiyong Tan
-  coverName: acing-the-system-design-interview-1-zhiyong-tan.jpg
+  cover: acing-the-system-design-interview-1-zhiyong-tan.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1633439100
     amazon_uk: https://www.amazon.co.uk/dp/1633439100
@@ -2480,15 +2480,15 @@
     Acing the System Design Interview you will master a structured and organized
     approach to present system design ideas like:
 
-    *   Scaling applications to support heavy traffic
-    *   Distributed transactions techniques to ensure data consistency
-    *   Services for functional partitioning such as API gateway and service
+    - Scaling applications to support heavy traffic
+    - Distributed transactions techniques to ensure data consistency
+    - Services for functional partitioning such as API gateway and service
     mesh
-    *   Common API paradigms including REST, RPC, and GraphQL
-    *   Caching strategies, including their tradeoffs
-    *   Logging, monitoring, and alerting concepts that are critical in any
+    - Common API paradigms including REST, RPC, and GraphQL
+    - Caching strategies, including their tradeoffs
+    - Logging, monitoring, and alerting concepts that are critical in any
     system design
-    *   Communication skills that demonstrate your engineering maturity
+    - Communication skills that demonstrate your engineering maturity
 
     Don't be daunted by the complex, open-ended nature of system design
     interviews! In this in-depth guide, author Zhiyong Tan shares what he's
@@ -2503,7 +2503,7 @@
     - John Resig
     - Bear Bibeault
     - Josip Maras
-  coverName: secrets-of-the-javascript-ninja-2-john-resig-bear-bibeault-josip-maras.jpg
+  cover: secrets-of-the-javascript-ninja-2-john-resig-bear-bibeault-josip-maras.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617292850
     amazon_uk: https://www.amazon.co.uk/dp/1617292850
@@ -2522,11 +2522,11 @@
     testing, and cross-browser development, all taught from the perspective of
     skilled JavaScript practitioners.What's Inside
 
-    *   Writing more effective code with functions, objects, and closures
-    *   Learning to avoid JavaScript application pitfalls
-    *   Using regular expressions to write succinct text-processing code
-    *   Managing asynchronous code with promises
-    *   Fully revised to cover concepts from ES6 and ES7
+    - Writing more effective code with functions, objects, and closures
+    - Learning to avoid JavaScript application pitfalls
+    - Using regular expressions to write succinct text-processing code
+    - Managing asynchronous code with promises
+    - Fully revised to cover concepts from ES6 and ES7
 
 - slug: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren
   title: The DevOps Handbook
@@ -2539,7 +2539,7 @@
     - Patrick Debois
     - John Willis
     - Nicole Forsgren
-  coverName: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren.jpg
+  cover: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1950508404
     amazon_uk: https://www.amazon.co.uk/dp/1950508404
@@ -2572,23 +2572,21 @@
     - Manuel Spigolon
     - Maksim Sinik
     - Matteo Collina
-  coverName: accelerating-server-side-development-with-fastify-1-manuel-spigolon-maksim-sinik-matteo-collina.jpg
+  cover: accelerating-server-side-development-with-fastify-1-manuel-spigolon-maksim-sinik-matteo-collina.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1800563582
     amazon_uk: https://www.amazon.co.uk/dp/1800563582
   description: >-
     Learn to build faster web applications by implementing maintainable and
-    pluggable APIs with Fastify
-
-    Purchase of the print or Kindle book includes a free PDF eBook
+    pluggable APIs with Fastify.
 
     Key Features:
 
-    *   Written by Fastify's core contributors to help you adopt the Fastify
+    - Written by Fastify's core contributors to help you adopt the Fastify
     mindset for API development
-    *   Gain an architectural overview of Fastify's microservices development
+    - Gain an architectural overview of Fastify's microservices development
     capabilities and features
-    *   Build complete apps in Fastify, from application design to production
+    - Build complete apps in Fastify, from application design to production
 
 - slug: building-microservices-2-sam-newman
   title: Building Microservices
@@ -2596,7 +2594,7 @@
   edition: 2
   authors:
     - Sam Newman
-  coverName: building-microservices-2-sam-newman.jpg
+  cover: building-microservices-2-sam-newman.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492034029
     amazon_uk: https://www.amazon.co.uk/dp/1492034029
@@ -2618,13 +2616,13 @@
     Microservices technologies continue to move quickly. This book brings you up
     to speed.
 
-    *   Get new information on user interfaces, container orchestration, and
+    - Get new information on user interfaces, container orchestration, and
     serverless
-    *   Align system design with your organization's goals
-    *   Explore options for integrating a service with your system
-    *   Understand how to independently deploy microservices
-    *   Examine the complexities of testing and monitoring distributed services
-    *   Manage security with expanded content around user-to-service and
+    - Align system design with your organization's goals
+    - Explore options for integrating a service with your system
+    - Understand how to independently deploy microservices
+    - Examine the complexities of testing and monitoring distributed services
+    - Manage security with expanded content around user-to-service and
     service-to-service models
 
 - slug: the-tao-of-microservices-1-richard-rodger
@@ -2632,7 +2630,7 @@
   edition: 1
   authors:
     - Richard Rodger
-  coverName: the-tao-of-microservices-1-richard-rodger.jpg
+  cover: the-tao-of-microservices-1-richard-rodger.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617293148
     amazon_uk: https://www.amazon.co.uk/dp/1617293148
@@ -2652,10 +2650,10 @@
 
     What's Inside:
 
-    *   Principles of the microservice architecture
-    *   Breaking down real-world case studies
-    *   Implementing large-scale systems
-    *   When not to use microservices
+    - Principles of the microservice architecture
+    - Breaking down real-world case studies
+    - Implementing large-scale systems
+    - When not to use microservices
 
 - slug: ai-as-a-service-1-peter-elger-eoin-shanaghy
   title: AI as a Service
@@ -2664,7 +2662,7 @@
   authors:
     - Peter Elger
     - Eoin Shanaghy
-  coverName: ai-as-a-service-1-peter-elger-eoin-shanaghy.jpg
+  cover: ai-as-a-service-1-peter-elger-eoin-shanaghy.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1617296155
     amazon_uk: https://www.amazon.co.uk/dp/1617296155
@@ -2691,7 +2689,7 @@
   edition: 1
   authors:
     - Mara Bos
-  coverName: rust-atomics-and-locks-1-mara-bos.jpg
+  cover: rust-atomics-and-locks-1-mara-bos.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098119444
     amazon_uk: https://www.amazon.co.uk/dp/1098119444
@@ -2713,14 +2711,14 @@
 
     With this guide, you'll learn:
 
-    *   How Rust's type system works exceptionally well for programming
+    - How Rust's type system works exceptionally well for programming
     concurrency correctly
-    *   All about mutexes, condition variables, atomics, and memory ordering
-    *   What happens in practice with atomic operations on Intel and ARM
+    - All about mutexes, condition variables, atomics, and memory ordering
+    - What happens in practice with atomic operations on Intel and ARM
     processors
-    *   How locks are implemented with support from the operating system
-    *   How to write correct code that includes concurrency, atomics, and locks
-    *   How to build your own locking and synchronization primitives correctly
+    - How locks are implemented with support from the operating system
+    - How to write correct code that includes concurrency, atomics, and locks
+    - How to build your own locking and synchronization primitives correctly
 
 
 - slug: accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim
@@ -2731,7 +2729,7 @@
     - Nicole Forsgren  PhD
     - Jez Humble
     - Gene Kim
-  coverName: accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim.jpg
+  cover: accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1942788339
     amazon_uk: https://www.amazon.co.uk/dp/1942788339
@@ -2774,7 +2772,7 @@
   edition: 1
   authors:
     - Liran Tal
-  coverName: nodejs-secure-coding-1-liran-tal.jpg
+  cover: nodejs-secure-coding-1-liran-tal.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1446725057
     amazon_uk: https://www.amazon.co.uk/dp/1446725057
@@ -2821,7 +2819,7 @@
     - Titus Winters
     - Tom Manshreck
     - Hyrum Wright
-  coverName: software-engineering-at-google-1-titus-winters-tom-manshreck-hyrum-wright.jpg
+  cover: software-engineering-at-google-1-titus-winters-tom-manshreck-hyrum-wright.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492082791
     amazon_uk: https://www.amazon.co.uk/dp/1492082791
@@ -2844,11 +2842,11 @@
     should keep in mind when designing, architecting, writing, and maintaining
     code:
 
-    *   How time affects the sustainability of software and how to make your
+    - How time affects the sustainability of software and how to make your
     code resilient over time
-    *   How scale affects the viability of software practices within an
+    - How scale affects the viability of software practices within an
     engineering organization
-    *   What trade-offs a typical engineer needs to make when evaluating design
+    - What trade-offs a typical engineer needs to make when evaluating design
     and development decisions.
 
 - slug: observability-engineering-1-charity-majors-liz-fong-jones-george-miranda
@@ -2859,7 +2857,7 @@
     - Charity Majors
     - Liz Fong-Jones
     - George Miranda
-  coverName: observability-engineering-1-charity-majors-liz-fong-jones-george-miranda.jpg
+  cover: observability-engineering-1-charity-majors-liz-fong-jones-george-miranda.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492076449
     amazon_uk: https://www.amazon.co.uk/dp/1492076449
@@ -2880,18 +2878,18 @@
 
     You'll explore:
 
-    *   How the concept of observability applies to managing software at scale
-    *   The value of practicing observability when delivering complex cloud
+    - How the concept of observability applies to managing software at scale
+    - The value of practicing observability when delivering complex cloud
     native applications and systems
-    *   The impact observability has across the entire software development
+    - The impact observability has across the entire software development
     lifecycle
-    *   How and why different functional teams use observability with
+    - How and why different functional teams use observability with
     service-level objectives
-    *   How to instrument your code to help future engineers understand the code
+    - How to instrument your code to help future engineers understand the code
     you wrote today
-    *   How to produce quality code for context-aware system debugging and
+    - How to produce quality code for context-aware system debugging and
     maintenance
-    *   How data-rich analytics can help you debug elusive issues
+    - How data-rich analytics can help you debug elusive issues
 
 - slug: the-rational-software-engineer-1-mykyta-chernenko
   title: The Rational Software Engineer
@@ -2899,7 +2897,7 @@
   edition: 1
   authors:
     - Mykyta Chernenko
-  coverName: the-rational-software-engineer-1-mykyta-chernenko.jpg
+  cover: the-rational-software-engineer-1-mykyta-chernenko.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1484297946
     amazon_uk: https://www.amazon.co.uk/dp/1484297946
@@ -2923,13 +2921,13 @@
 
     What You Will Learn
 
-    *   Efficiently organize your work day
-    *   Know when and how to seek a new project, company, or career
-    *   Take care of your body and mind in a software engineering context
-    *   Understand what contributes to job satisfaction and how to integrate it
+    - Efficiently organize your work day
+    - Know when and how to seek a new project, company, or career
+    - Take care of your body and mind in a software engineering context
+    - Understand what contributes to job satisfaction and how to integrate it
     into your career
-    *   Use non-coding activities for your and your company's benefit
-    *   Build healthy relationships with managers and colleagues
+    - Use non-coding activities for your and your company's benefit
+    - Build healthy relationships with managers and colleagues
 
 - slug: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage
   title: Building Evolutionary Architectures
@@ -2940,7 +2938,7 @@
     - Rebecca Parsons
     - Patrick Kua
     - Pramod Sadalage
-  coverName: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage.jpg
+  cover: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492097543
     amazon_uk: https://www.amazon.co.uk/dp/1492097543
@@ -2968,7 +2966,7 @@
     - Alexander von Zitzewitz
     - Rene Weiss
     - Eoin Woods
-  coverName: software-architecture-metrics-1-christian-ciceri-dave-farley-neal-ford-andrew-harmel-law-michael-keeling-carola-lilienthal-joao-rosa-alexander-von-zitzewitz-rene-weiss-eoin-woods.jpg
+  cover: software-architecture-metrics-1-christian-ciceri-dave-farley-neal-ford-andrew-harmel-law-michael-keeling-carola-lilienthal-joao-rosa-alexander-von-zitzewitz-rene-weiss-eoin-woods.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098112237
     amazon_uk: https://www.amazon.co.uk/dp/1098112237
@@ -2991,11 +2989,11 @@
     software architecture metrics to help you set the right KPIs and measure the
     results. You'll learn how to:
 
-    *   Measure how well your software architecture is meeting your goals
-    *   Choose the right metrics to track (and skip the ones you don't need)
-    *   Improve observability, testability, and deployability
-    *   Prioritize software architecture projects
-    *   Build insightful and relevant dashboards
+    - Measure how well your software architecture is meeting your goals
+    - Choose the right metrics to track (and skip the ones you don't need)
+    - Improve observability, testability, and deployability
+    - Prioritize software architecture projects
+    - Build insightful and relevant dashboards
 
 - slug: communication-patterns-1-jacqueline-read
   title: Communication Patterns
@@ -3003,7 +3001,7 @@
   edition: 1
   authors:
     - Jacqueline Read
-  coverName: communication-patterns-1-jacqueline-read.jpg
+  cover: communication-patterns-1-jacqueline-read.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098140540
     amazon_uk: https://www.amazon.co.uk/dp/1098140540
@@ -3023,15 +3021,15 @@
 
     This book shows you how to:
 
-    *   Design diagrams and documentation appropriate to your expected audience,
+    - Design diagrams and documentation appropriate to your expected audience,
     intended message, and project stage
-    *   Create documentation and diagrams that are accessible to those with
+    - Create documentation and diagrams that are accessible to those with
     varying roles, needs, or disabilities
-    *   Master written, verbal, and nonverbal communication to succeed in
+    - Master written, verbal, and nonverbal communication to succeed in
     technical settings
-    *   Apply the communication patterns presented in this book in real-world
+    - Apply the communication patterns presented in this book in real-world
     projects and software designs
-    *   Communicate and collaborate with distributed teams to successfully
+    - Communicate and collaborate with distributed teams to successfully
     design and document software and technical projects
 
 - slug: fullstack-d3-and-data-visualization-1-amelia-wattenberger
@@ -3040,7 +3038,7 @@
   edition: 1
   authors:
     - Amelia Wattenberger
-  coverName: fullstack-d3-and-data-visualization-1-amelia-wattenberger.jpg
+  cover: fullstack-d3-and-data-visualization-1-amelia-wattenberger.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0991344650
     amazon_uk: https://www.amazon.co.uk/dp/0991344650
@@ -3071,7 +3069,7 @@
   edition: 1
   authors:
     - Tan Li Hau
-  coverName: real-world-svelte-1-tan-li-hau.jpg
+  cover: real-world-svelte-1-tan-li-hau.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1804616036
     amazon_uk: https://www.amazon.co.uk/dp/1804616036
@@ -3105,7 +3103,7 @@
   authors:
     - Thomas Hunter II
     - Bryan English
-  coverName: multithreaded-javascript-1-thomas-hunter-ii-bryan-english.jpg
+  cover: multithreaded-javascript-1-thomas-hunter-ii-bryan-english.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098104439
     amazon_uk: https://www.amazon.co.uk/dp/1098104439
@@ -3123,14 +3121,14 @@
     using a spectrum of API reference material and high level programming
     patterns.
 
-    *   Learn what multithreaded programming is and how you can benefit from it
-    *   Understand the differences between a dedicated worker, a shared worker,
+    - Learn what multithreaded programming is and how you can benefit from it
+    - Understand the differences between a dedicated worker, a shared worker,
     and a service worker
-    *   Identify when and when not to use threads in an application
-    *   Orchestrate communication between threads by leveraging the Atomics
+    - Identify when and when not to use threads in an application
+    - Orchestrate communication between threads by leveraging the Atomics
     object
-    *   Understand both the gains and pitfalls of using shared memory
-    *   Benchmark performance to learn when you'll benefit from multiple threads
+    - Understand both the gains and pitfalls of using shared memory
+    - Benchmark performance to learn when you'll benefit from multiple threads
 
 - slug: fluent-react-1-tejas-kumar
   title: Fluent React
@@ -3138,7 +3136,7 @@
   edition: 1
   authors:
     - Tejas Kumar
-  coverName: fluent-react-1-tejas-kumar.jpg
+  cover: fluent-react-1-tejas-kumar.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098138716
     amazon_uk: https://www.amazon.co.uk/dp/1098138716
@@ -3158,12 +3156,12 @@
 
     You will:
 
-    *   Understand how React works at a deeper level
-    *   Write React apps while optimizing them along the way
-    *   Build resilient React applications that work well at arbitrary scale
-    *   Create React applications for other platforms adjacent to the web and
+    - Understand how React works at a deeper level
+    - Write React apps while optimizing them along the way
+    - Build resilient React applications that work well at arbitrary scale
+    - Create React applications for other platforms adjacent to the web and
     mobile devices
-    *   Know when to reach for different mechanisms exposed by React, such as
+    - Know when to reach for different mechanisms exposed by React, such as
     reducers versus state versus refs
 
 - slug: aws-cookbook-1-john-culkin-mike-zazon
@@ -3173,7 +3171,7 @@
   authors:
     - John Culkin
     - Mike Zazon
-  coverName: aws-cookbook-1-john-culkin-mike-zazon.jpg
+  cover: aws-cookbook-1-john-culkin-mike-zazon.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492092606
     amazon_uk: https://www.amazon.co.uk/dp/1492092606
@@ -3195,20 +3193,20 @@
     Go beyond theory and learn the details you need to successfully build on
     AWS. The recipes help you:
 
-    *   Redact personal identifiable information (PII) from text using Amazon
+    - Redact personal identifiable information (PII) from text using Amazon
     Comprehend
-    *   Automate password rotation for Amazon RDS databases
-    *   Use VPC Reachability Analyzer to verify and troubleshoot network paths
-    *   Lock down Amazon Simple Storage Service (S3) buckets
-    *   Analyze AWS Identity and Access Management policies
-    *   Autoscale a containerized service
+    - Automate password rotation for Amazon RDS databases
+    - Use VPC Reachability Analyzer to verify and troubleshoot network paths
+    - Lock down Amazon Simple Storage Service (S3) buckets
+    - Analyze AWS Identity and Access Management policies
+    - Autoscale a containerized service
 
 - slug: essential-typescript-5-third-edition-3-adam-freeman
   title: Essential TypeScript 5, Third Edition
   edition: 3
   authors:
     - Adam Freeman
-  coverName: essential-typescript-5-third-edition-3-adam-freeman.jpg
+  cover: essential-typescript-5-third-edition-3-adam-freeman.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1633437310
     amazon_uk: https://www.amazon.co.uk/dp/1633437310
@@ -3224,13 +3222,13 @@
 
     Inside Essential TypeScript 5, Third Edition you'll learn how to:
 
-    *   Configure the TypeScript development tools
-    *   Use type annotations
-    *   Create strongly typed functions and classes
-    *   Use generic types
-    *   Use type guards to determine types
-    *   Create and consume type declaration files
-    *   Use TypeScript to create web applications with Angular and React
+    - Configure the TypeScript development tools
+    - Use type annotations
+    - Create strongly typed functions and classes
+    - Use generic types
+    - Use type guards to determine types
+    - Create and consume type declaration files
+    - Use TypeScript to create web applications with Angular and React
 
     The book starts you off with a proper understanding of the JavaScript type
     system that will make using TypeScript so much easier. On that solid
@@ -3244,7 +3242,7 @@
   edition: 1
   authors:
     - Stefan Baumgartner
-  coverName: typescript-cookbook-1-stefan-baumgartner.jpg
+  cover: typescript-cookbook-1-stefan-baumgartner.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098136659
     amazon_uk: https://www.amazon.co.uk/dp/1098136659
@@ -3264,15 +3262,15 @@
     The ideal companion for your ongoing TypeScript journey, this cookbook helps
     you:
 
-    *   Dive into the inner workings of the TypeScript type system
-    *   Integrate TypeScript into a variety of projects
-    *   Craft advanced type definitions that allow for flexible scenarios
-    *   Create useful helper types that function across projects
-    *   Ensure readability along with type safety
-    *   Create robust APIs for helper types and their coworkers
-    *   Strongly type function signatures that rely on string types
-    *   Work around limitations of the standard library
-    *   Integrate TypeScript into advanced React projects
+    - Dive into the inner workings of the TypeScript type system
+    - Integrate TypeScript into a variety of projects
+    - Craft advanced type definitions that allow for flexible scenarios
+    - Create useful helper types that function across projects
+    - Ensure readability along with type safety
+    - Create robust APIs for helper types and their coworkers
+    - Strongly type function signatures that rely on string types
+    - Work around limitations of the standard library
+    - Integrate TypeScript into advanced React projects
 
 - slug: learning-typescript-1-josh-goldberg
   title: Learning TypeScript
@@ -3280,7 +3278,7 @@
   edition: 1
   authors:
     - Josh Goldberg
-  coverName: learning-typescript-1-josh-goldberg.jpg
+  cover: learning-typescript-1-josh-goldberg.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098110331
     amazon_uk: https://www.amazon.co.uk/dp/1098110331
@@ -3297,13 +3295,13 @@
     typos--it's a useful system for declaring the way our JavaScript should work
     and helping us stick to it. You'll learn how TypeScript:
 
-    *   interacts with JavaScript
-    *   analyzes and understands code
-    *   augments your existing development pattern
-    *   helps you document your code
-    *   works with IDEs to provide refactoring tools
-    *   assists local development in refactoring code
-    *   helps you develop more quickly with fewer bugs
+    - interacts with JavaScript
+    - analyzes and understands code
+    - augments your existing development pattern
+    - helps you document your code
+    - works with IDEs to provide refactoring tools
+    - assists local development in refactoring code
+    - helps you develop more quickly with fewer bugs
 
 - slug: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia
   title: Designing Interfaces
@@ -3313,7 +3311,7 @@
     - Jenifer Tidwell
     - Charles Brewer
     - Aynne Valencia
-  coverName: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia.jpg
+  cover: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1492051969
     amazon_uk: https://www.amazon.co.uk/dp/1492051969
@@ -3337,7 +3335,7 @@
   edition: 1
   authors:
     - Jon Yablonski
-  coverName: laws-of-ux-1-jon-yablonski.jpg
+  cover: laws-of-ux-1-jon-yablonski.jpg
   links:
     amazon_us: https://www.amazon.com/dp/149205531X
     amazon_uk: https://www.amazon.co.uk/dp/149205531X
@@ -3356,19 +3354,19 @@
 
     You'll learn:
 
-    *   How aesthetically pleasing design creates positive responses
-    *   The principles from psychology most useful for designers
-    *   How these psychology principles relate to UX heuristics
-    *   Predictive models including Fitts's law, Jakob's law, and Hick's law
-    *   Ethical implications of using psychology in design
-    *   A framework for applying these principles
+    - How aesthetically pleasing design creates positive responses
+    - The principles from psychology most useful for designers
+    - How these psychology principles relate to UX heuristics
+    - Predictive models including Fitts's law, Jakob's law, and Hick's law
+    - Ethical implications of using psychology in design
+    - A framework for applying these principles
 
 - slug: introduction-to-the-theory-of-computation-3-michael-sipser
   title: Introduction to the Theory of Computation
   edition: 3
   authors:
     - Michael Sipser
-  coverName: introduction-to-the-theory-of-computation-3-michael-sipser.jpg
+  cover: introduction-to-the-theory-of-computation-3-michael-sipser.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0357670582
     amazon_uk: https://www.amazon.co.uk/dp/0357670582
@@ -3393,7 +3391,7 @@
   edition: 3
   authors:
     - Donald Knuth
-  coverName: the-art-of-computer-programming-vol-1-3-donald-knuth.jpg
+  cover: the-art-of-computer-programming-vol-1-3-donald-knuth.jpg
   links:
     amazon_us: https://www.amazon.com/dp/0201896834
     amazon_uk: https://www.amazon.co.uk/dp/0201896834
@@ -3414,7 +3412,7 @@
   edition: 1
   authors:
     - Kyle Simpson
-  coverName: functional-light-javascript-1-kyle-simpson.jpg
+  cover: functional-light-javascript-1-kyle-simpson.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1981672346
     amazon_uk: https://www.amazon.co.uk/dp/1981672346
@@ -3435,7 +3433,7 @@
   edition: 1
   authors:
     - Mike Amundsen
-  coverName: restful-web-api-patterns-and-practices-cookbook-1-mike-amundsen.jpg
+  cover: restful-web-api-patterns-and-practices-cookbook-1-mike-amundsen.jpg
   links:
     amazon_us: https://www.amazon.com/dp/1098106741
     amazon_uk: https://www.amazon.co.uk/dp/1098106741
@@ -3455,17 +3453,17 @@
     individual microservices so they can function together in a safe, scalable,
     and reliable way.
 
-    *   Design and build individual microservices that can successfully interact
+    - Design and build individual microservices that can successfully interact
     on the open web
-    *   Increase interoperability by designing services that share a common
+    - Increase interoperability by designing services that share a common
     understanding
-    *   Build client applications that can adapt to evolving services without
+    - Build client applications that can adapt to evolving services without
     breaking
-    *   Create resilient and reliable microservices that support peer-to-peer
+    - Create resilient and reliable microservices that support peer-to-peer
     interactions on the web
-    *   Use web-based service registries to support runtime "find-and-bind"
+    - Use web-based service registries to support runtime "find-and-bind"
     operations that manage external dependencies in real time
-    *   Implement stable workflows to accomplish complex, multiservice tasks
+    - Implement stable workflows to accomplish complex, multiservice tasks
     consistently
 
 - slug: continuous-delivery-pipelines-1-dave-farley
@@ -3474,7 +3472,7 @@
   edition: 1
   authors:
     - Dave Farley
-  coverName: continuous-delivery-pipelines-1-dave-farley.jpg
+  cover: continuous-delivery-pipelines-1-dave-farley.jpg
   links:
     amazon_us: https://www.amazon.com/dp/B096TTQHYM
     amazon_uk: https://www.amazon.co.uk/dp/B096TTQHYM

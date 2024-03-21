@@ -2,13 +2,12 @@ import { cp, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 // biome-ignore lint/nursery/noUndeclaredDependencies: <explanation>
-import markdownit from 'markdown-it'
+import { marked } from 'marked'
 import { mkdirp } from 'mkdirp'
 import slugify from 'slugify'
 import { parse } from 'yaml'
 
 const slug = slugify.default
-const md = markdownit()
 const REPO_URL = 'https://github.com/FullStackBulletin/fullstack-books'
 const GH_PAGES_URL = 'https://fullStackbulletin.github.io/fullstack-books'
 const baseUrl = process.env.BASE_URL ?? GH_PAGES_URL
@@ -22,7 +21,7 @@ const coversPath = join(__dirname, '..', 'dist', 'covers')
 
 // Creates the `dest` and `dest/quotes` folders if they don't exist
 await Promise.all([mkdirp(destPath), mkdirp(booksPath), mkdirp(authorsPath)])
-await cp(srcCoversPath, coversPath)
+await cp(srcCoversPath, coversPath, { recursive: true })
 console.log(`Copied ${srcCoversPath} to ${coversPath}`)
 
 // load and parse raw data from source file
@@ -38,7 +37,7 @@ function mapAuthor(author: string) {
   return {
     name: author,
     slug: authorSlug,
-    url: `${baseUrl}/authors/authorSlug.json`,
+    url: `${baseUrl}/authors/${authorSlug}.json`,
   }
 }
 
@@ -53,7 +52,7 @@ const books = rawData.map(
       ...book,
       url: `${baseUrl}/books/${slug(book.title)}.json`,
       cover: `${baseUrl}/covers/${book.cover}`,
-      descriptionHtml: md(book.description),
+      descriptionHtml: marked.parse(book.description),
       authors: book.authors.map(mapAuthor),
     }
   },
@@ -133,7 +132,7 @@ console.log(`Written ${authorsPath}/stats.json`)
 
 const authorIds = authors.map((author: { slug: string }) => author.slug)
 await writeFile(`${authorsPath}/ids.json`, JSON.stringify(authorIds, null, 2))
-console.log(`Written ${destPath}/ids.json`)
+console.log(`Written ${authorsPath}/ids.json`)
 
 await writeFile(`${authorsPath}/all.json`, JSON.stringify(authors, null, 2))
 console.log(`Written ${authorsPath}/all.json`)
