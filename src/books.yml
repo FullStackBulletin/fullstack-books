@@ -6,7 +6,7 @@
   links:
     free: 'https://eloquentjavascript.net/'
   cover: 'eloquent-javascript-4-marijn-haverbeke.jpg'
-  description: >
+  description: >-
     JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
 
     This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of JavaScript and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track.
@@ -14,9 +14,13 @@
     As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to:
 
     - Understand the essential elements of programming, including syntax, control, and data
+    
     - Organize and clarify your code with object-oriented and functional programming techniques
+    
     - Script the browser and make basic web applications
+    
     - Use the DOM effectively to interact with browsers
+    
     - Harness Node.js to build servers and utilities
     
     Isn't it time you became fluent in the language of the Web?
@@ -48,11 +52,15 @@
 
     - Understand the basic theory of how software design works and the forces
     that act on it
+    
     - Explore the difference between changes to a system's behavior and
     changes to its structure
+    
     - Improve your programming experience by sometimes tidying first and
     sometimes tidying after
+    
     - Learn how to make large changes in small, safe steps
+    
     - Approach design as a human activity with diverging incentives
 
 - slug: articulating-design-decisions-2-tom-greever
@@ -79,12 +87,17 @@
     project with the goal of creating the best user experience.
 
     - Walk through the process of preparing and presenting your designs
+
     - Understand stakeholder perspectives and learn how to empathize with them
+
     - Cultivate both implicit and explicit listening skills
+    
     - Learn tactics and strategies for expressing the most effective response
     to feedback
+    
     - Create the right documentation for your decisions to avoid repeated
     conversations
+    
     - Discover why the way you follow through is just as important as the
     meeting itself
 
@@ -113,12 +126,16 @@
 
     - Understand how service workers work, and use them to create sites that
     launch in an instant, regardless of the user's internet connection
+    
     - Create full-screen web apps that launch from the phone's homescreen just
     like native apps
+    
     - Re-engage users with push notifications, even days after they have left
     your site
+    
     - Embrace offline-first and build web apps that gracefully handle loss of
     connectivity
+    
     - Explore new UX opportunities and challenges presented by progressive web
     apps
 
@@ -131,31 +148,39 @@
   links:
     amazon_us: https://www.amazon.com/dp/1787634108
     amazon_uk: https://www.amazon.co.uk/dp/1787634108
-  description: THE NEW YORK TIMES BESTSELLER.An unorthodox guide to making things
-    worth making, from 'the father of the iPod and iPhone' and the creator of
-    Nest.Everyone deserves a mentor.For every career crisis, every fork in the
-    road, you need someone to talk to. Someone who's been there before, who
-    knows exactly how wobbly and conflicted you feel, who can give it to
-    youHere's how to think about choosing a job.Here's how to be a better
-    manager.Here's how to approach design.Here's how to start a company.Here's
-    how to run it.Tony Fadell learned all these lessons the hard way. He spent
-    the first 10 years of his career in Silicon Valley failing spectacularly,
-    and the next 20 building some of the most impactful devices in history - the
-    iPod, iPhone, and Nest Learning Thermostat. He has enough stories and advice
-    about leadership, design, startups, mentorship, decision making, devastating
-    screwups, and unbelievable success to fill an encyclopedia.So that's what
-    this book is. An advice encyclopedia. A mentor in a box.But Tony's doesn't
-    follow the standard Silicon Valley credo that you have to radically reinvent
-    everything you do. His advice is unorthodox because it's old school. Because
-    it's based on human nature, not gimmicks.Tony keeps things he just tells you
-    what works. He gives you exactly what you need to make things worth
-    making.PRAISE FOR BUILD'This is the most fun - and the most fascinating -
-    memoir of curiosity and invention that I've ever read.'Malcolm Gladwell
-    ,Host of the Revisionist History podcast. Author of Outliers and Talking to
-    Strangers .'Whether you're looking to build a great product, a creative
-    team, a strong culture, or a meaningful career, Tony's guidance will get you
-    thinking and rethinking.'Adam Grant,Author of Think Again & Host of the TED
-    podcast WorkLife
+  description: >-
+    THE NEW YORK TIMES BESTSELLER. 
+    An unorthodox guide to making things worth making, from 'the father of the iPod and iPhone' and the creator of Nest.
+    Everyone deserves a mentor. For every career crisis, every fork in the road, you need someone to talk to.
+    Someone who's been there before, who knows exactly how wobbly and conflicted you feel, who can give it to
+    you.
+    
+    Here's how to think about choosing a job.
+    
+    Here's how to be a better manager.
+    
+    Here's how to approach design.Here's how to start a company.
+    
+    Here's how to run it.
+    
+    Tony Fadell learned all these lessons the hard way.
+    He spent the first 10 years of his career in Silicon Valley failing spectacularly, and the next 20 building some of the most impactful devices in history - the iPod, iPhone, and Nest Learning Thermostat.
+    He has enough stories and advice about leadership, design, startups, mentorship, decision making, devastating screwups, and unbelievable success to fill an encyclopedia.
+    So that's what this book is. An advice encyclopedia. A mentor in a box.
+    But Tony's doesn't follow the standard Silicon Valley credo that you have to radically reinvent everything you do.
+    His advice is unorthodox because it's old school. Because it's based on human nature, not gimmicks. 
+    Tony keeps things he just tells you what works. He gives you exactly what you need to make things worth making.
+    
+    PRAISE FOR BUILD
+    'This is the most fun - and the most fascinating - memoir of curiosity and invention that I've ever read.'
+    
+    Malcolm Gladwell,Host of the Revisionist History podcast. Author of Outliers and Talking to
+    Strangers .
+    
+    'Whether you're looking to build a great product, a creative team, a strong culture, or a meaningful career, Tony's guidance will get you
+    thinking and rethinking.'
+    
+    Adam Grant,Author of Think Again & Host of the TED podcast WorkLife
 
 - slug: designing-for-behavior-change-2-stephen-wendel
   title: Designing for Behavior Change
@@ -183,10 +208,14 @@
     product, and gauging its effectiveness.
 
     - Learn the three main strategies to help people change behavior
+
     - Identify behaviors your target audience seeks to change―and obstacles
     that stand in their way
+    
     - Develop effective designs that are enjoyable to use
+    
     - Measure your product's impact and learn ways to improve it
+    
     - Combine behavioral science with data science to pinpoint problems and
     test potential solutions
 
@@ -214,9 +243,11 @@
     on memorization. The Design of Everyday Things shows that good, usable
     design is possible. The rules are simple: make things visible, exploit
     natural relationships that couple function and control, and make intelligent
-    use of constraints. The goal: guide the user effortlessly to the right
-    action on the right control at the right time. The Design of Everyday Things
-    is a powerful primer on how -- and why -- some products satisfy customers
+    use of constraints. 
+    
+    The goal: guide the user effortlessly to the right action on the right control at the right time. 
+    
+    The Design of Everyday Things is a powerful primer on how -- and why -- some products satisfy customers
     while others only frustrate them.
 
 - slug: dont-make-me-think-revisited-3-steve-krug
@@ -313,10 +344,15 @@
     mastering such life-changing abilities as:
 
     - Problem solving
+    
     - Creative thinking
+    
     - Self-expression
+    
     - Enjoying the world around you
+    
     - Goal setting and life balance
+    
     - Harmonizing body and mind
 
     Drawing on Da Vinci's notebooks, inventions, and legendary works of art,
@@ -446,12 +482,18 @@
 
     - Designs that can kill, including the bad interface that doomed a young
     cancer patient
+    
     - Designs that anger, through impolite technology and dark patterns
+    
     - How design can inadvertently cause emotional pain
+    
     - Designs that exclude people through lack of accessibility, diversity,
     and justice
+    
     - How to advocate for ethical design when it isn't easy to do so
+    
     - Tools and techniques that can help you avoid harmful design decisions
+    
     - Inspiring professionals who use design to improve our world
 
 - slug: linchpin-1-seth-godin
@@ -488,8 +530,10 @@
 
     - Keith Johnson, who scours flea markets across the country to fill
     Anthropologie stores with unique pieces.
+    
     - Jason Zimdars, a graphic designer who got his dream job at 37signals
     without a résumé.
+    
     - David, who works at Dean and Deluca coffee shop in New York. He sees every
     customer interaction as a chance to give a gift and is cherished in return.
 
@@ -650,10 +694,15 @@
 
     - Understand what makes "good design," from discovery through to
     implementation
+    
     - Use color effectively, develop color schemes, and create a palette
+    
     - Create pleasing layouts using grids, the rule of thirds, and symmetry
+    
     - Employ textures: lines, points, shapes, volumes, and depth
+    
     - Apply typography to make ordinary designs look great
+    
     - Choose, edit, and position effective imagery
 
     This easy-to-follow guide is illustrated with beautiful, full-color
@@ -664,9 +713,12 @@
     features:
 
     - Updated and expanded coverage responsive web design techniques
+    
     - A new sample project
+    
     - New sections on pattern libraries and how design fits on modern app
     development workflows
+    
     - Common user-interface patterns and resources
 
 - slug: building-the-web-of-things-1-dominique-guinard-vlad-trifa
@@ -690,15 +742,22 @@
     services.What's Inside
 
     - Introduction to IoT protocols and devices
+    
     - Connect electronic actuators and sensors (GPIO) to a Raspberry Pi
+    
     - Implement standard REST and Pub/Sub APIs with Node.js on embedded
     systems
+    
     - Learn about IoT protocols like MQTT and CoAP and integrate them to the
     Web of Things
+    
     - Use the Semantic Web (JSON-LD, RDFa, etc.) to discover and find Web
     Things
+    
     - Share Things via Social Networks to create the Social Web of Things
+    
     - Build a web-based smart home with HTTP and WebSocket
+    
     - Compose physical mashups with EVRYTHNG, Node-RED, and IFTTT
 
 - slug: mastering-api-architecture-1-james-gough-daniel-bryant-matthew-auburn
@@ -730,13 +789,19 @@
 
     - Learn API fundamentals and architectural patterns for building an API
     platform
+    
     - Use practical examples to understand how to design, build, and test
     API-based systems
+    
     - Deploy, operate, and configure key components of an API platform
+    
     - Use API gateways and service meshes appropriately, based on case studies
+    
     - Understand core security and common vulnerabilities in API architecture
+    
     - Secure data and APIs using threat modeling and technologies like OAuth2
     and TLS
+    
     - Learn how to evolve existing systems toward API- and cloud-based
     architectures
 
@@ -761,13 +826,18 @@
 
     - Become comfortable with writing asynchronous code by leveraging
     callbacks, promises, and the async/await syntax
+    
     - Leverage Node.js streams to create data-driven asynchronous processing
     pipelines
+    
     - Implement well-known software design patterns to create production grade
     applications
+    
     - Share code between Node.js and the browser and take advantage of
     full-stack JavaScript
+    
     - Build and scale microservices and distributed systems powered by Node.js
+    
     - Use Node.js in conjunction with other powerful technologies such as
     Redis, RabbitMQ, ZeroMQ, and LevelDB
 
@@ -795,13 +865,19 @@
 
     - Learn why running redundant copies of the same Node.js service is
     necessary
+    
     - Know which protocol to choose, depending on the situation
+    
     - Fine-tune your application containers for use in production
+    
     - Track down errors in a distributed setting to determine which service is
     at fault
+    
     - Simplify app code and increase performance by offloading work to a
     reverse proxy
+    
     - Build dashboards to monitor service health and throughput
+    
     - Find out why so many different tools are required when operating in an
     enterprise environment
 
@@ -841,12 +917,17 @@
     What you will learn
 
     - Understand the Node.js asynchronous programming model
+    
     - Create simple Node.js applications using modules and web frameworks
+    
     - Develop simple web applications using web frameworks such as Fastify and
     Express
+    
     - Discover tips for testing, optimizing, and securing your web
     applications
+    
     - Create and deploy Node.js microservices
+    
     - Debug and diagnose issues in your Node.js applications
 
 - slug: ultimate-nodejs-for-cross-platform-app-development-1-ramesh-kumar
@@ -916,9 +997,13 @@
     What You Will Learn:
 
     - Understand different event-driven patterns and best practices
+    
     - Plan and design your software architecture with ease
+    
     - Track changes and updates effectively using event sourcing
+    
     - Test and deploy your sample software application with ease
+    
     - Monitor and improve the performance of your software architecture
 
 - slug: javascript-7-david-flanagan
@@ -1122,11 +1207,15 @@
 
     - Use powerful Python libraries and tools, including pytest, Pygame,
     Matplotlib, Plotly, and Django
+    
     - Make increasingly complex 2D games that respond to keypresses and mouse
     clicks
+    
     - Generate interactive data visualizations using a variety of datasets
+    
     - Build apps that allow users to create accounts and manage their own
     data, and deploy your apps online
+    
     - Troubleshoot coding errors and solve common programming problems
 
 - slug: fluent-python-2-luciano-ramalho
@@ -1155,12 +1244,16 @@
     that work as five short books within the book:
 
     - Data structures: Sequences, dicts, sets, Unicode, and data classes
+    
     - Functions as objects: First-class functions, related design patterns,
     and type hints in function declarations
+    
     - Object-oriented idioms: Composition, inheritance, mixins, interfaces,
     operator overloading, protocols, and more static types
+    
     - Control flow: Context managers, generators, coroutines, async/await, and
     thread/process pools
+    
     - Metaprogramming: Properties, attribute descriptors, class decorators,
     and new class metaprogramming hooks that replace or simplify metaclasses
 
@@ -1332,10 +1425,13 @@
 
     - Learn different algorithms including linear and binary search and test
     your knowledge with feedback loops
+    
     - Understand what a data structure is and study arrays, linked lists,
     stacks, queues, hash tables, binary trees, binary heaps, and graphs
+    
     - Prepare for technical interviews and feel comfortable working with more
     experienced colleagues
+    
     - Discover additional resources and tools to expand your skillset and
     continue your learning journey
 
@@ -1379,10 +1475,13 @@
 
     - Ownership and borrowing, lifetimes, generics, traits, and trait objects
     to communicate your program's constraints to the compiler
+    
     - Smart pointers and multithreading, and how ownership interacts with them
     to enable fearless concurrency
+    
     - How to use Cargo, Rust's built-in package manager, to build, document
     your code, and manage dependencies
+    
     - The best ways to test, handle errors, refactor, and take advantage of
     expressive pattern matching
 
@@ -1422,15 +1521,20 @@
 
     - How to design reliable, idiomatic, and ergonomic Rust programs based on
     best principles
+    
     - Effective use of declarative and procedural macros, and the difference
     between them
+    
     - How asynchrony works in Rust - all the way from the Pin and Waker types
     used in manual implementations of Futures, to how async/await saves you from
     thinking about most of those words
+    
     - What it means for code to be unsafe, and best practices for writing and
     interacting with unsafe functions and traits
+    
     - How to organize and configure more complex Rust projects so that they
     integrate nicely with the rest of the ecosystem
+    
     - How to write Rust code that can interoperate with non-Rust libraries and
     systems, or run in constrained and embedded environments
 
@@ -1469,10 +1573,14 @@
 
     - Rust's fundamental data types and the core concepts of ownership and
     borrowing
+    
     - How to write flexible, efficient code with traits and generics
+    
     - How to write fast, multithreaded code without data races
+    
     - Rust's key power tools: closures, iterators, and asynchronous
     programming
+    
     - Collections, strings and text, input and output, macros, unsafe code,
     and foreign function interfaces
 
@@ -1516,12 +1624,19 @@
     You'll learn how to:
 
     - Navigate and leverage Rust's crates ecosystem
+    
     - Structure your application to make it modular and extensible
+    
     - Write tests, from single units to full-blown integration tests
+    
     - Enforce your domain invariants using Rust's type system
+    
     - Authenticate and authorize users of your API
+    
     - Implement a robust error handling strategy
+    
     - Observe the state of your application using structured logs
+    
     - Set up an extensive continuous integration and continuous deployment
     pipeline for your Rust projects
 
@@ -1747,18 +1862,15 @@
   links:
     amazon_us: https://www.amazon.com/dp/1949815005
     amazon_uk: https://www.amazon.co.uk/dp/1949815005
-  description: "Douglas Crockford starts by looking at the fundamentals: names,
-    numbers, booleans, characters, and bottom values. JavaScript's number type
-    is shown to be faulty and limiting, but then Crockford shows how to repair
-    those problems. He then moves on to data structures and functions, exploring
-    the underlying mechanisms and then uses higher order functions to achieve
-    class-free object oriented programming. The book also looks at eventual
-    programming, testing, and purity, all the while looking at the requirements
-    of The Next Language. Most of our languages are deeply rooted in the
-    paradigm that produced FORTRAN. Crockford attacks those roots, liberating us
-    to consider the next paradigm.He also presents a strawman language and
-    develops a complete transpiler to implement it. The book is deep, dense,
-    full of code, and has moments when it is intentionally funny."
+  description: >-
+    Douglas Crockford starts by looking at the fundamentals: names, numbers, booleans, characters, and bottom values.
+    JavaScript's number type is shown to be faulty and limiting, but then Crockford shows how to repair those problems.
+    He then moves on to data structures and functions, exploring the underlying mechanisms and then uses higher order functions to achieve class-free object oriented programming.
+    The book also looks at eventual programming, testing, and purity, all the while looking at the requirements of The Next Language.
+    Most of our languages are deeply rooted in the paradigm that produced FORTRAN. 
+    Crockford attacks those roots, liberating us to consider the next paradigm.
+    He also presents a strawman language and develops a complete transpiler to implement it.
+    The book is deep, dense, full of code, and has moments when it is intentionally funny.
 
 - slug: elasticsearch-1-clinton-gormley-zachary-tong
   title: Elasticsearch
@@ -2023,7 +2135,8 @@
     amazon_us: https://www.amazon.com/dp/1511654945
     amazon_uk: https://www.amazon.co.uk/dp/1511654945
     free: https://github.com/csev/net-intro
-  description: This book demystifies the amazing architecture and protocols of
+  description: >-
+    This book demystifies the amazing architecture and protocols of
     computers as they communicate over the Internet.  While very complex, the
     Internet operates on a few relatively simple concepts that anyone can
     understand. Networks and networked applications are embedded in our lives.
@@ -2212,9 +2325,13 @@
     Highlights:
 
     -  Get started quickly, by initially focusing on modern features.
+    
     -  Test-driven exercises and quizzes available for most chapters.
+    
     -  Covers all essential features of JavaScript, up to and including ES2022.
+    
     -  Optional advanced sections let you dig deeper.
+    
     -  No prior knowledge of JavaScript is required, but you should know how to program.
 
 - slug: web-application-security-2-andrew-hoffman
@@ -2245,10 +2362,12 @@
     - Pillar 1: Recon—Learn techniques for mapping and documenting web
     applications remotely, including procedures for working with web
     applications
+    
     - Pillar 2: Offense—Explore methods for attacking web applications using a
     number of highly effective exploits that have been proven by the best
     hackers in the world. These skills are valuable when used alongside the
     skills from Pillar 3.
+    
     - Pillar 3: Defense—Build on skills acquired in the first two parts to
     construct effective and long-lived mitigations for each of the attacks
     described in Pillar 2.
@@ -2272,20 +2391,29 @@
 
     - How the browser security model works, including sandboxing, the
     same-origin policy, and methods of securing cookies
+    
     - Securing web servers with input validation, escaping of output, and
     defense in depth
+    
     - A development process that prevents security bugs
+    
     - Protecting yourself from browser vulnerabilities such as cross-site
     scripting, cross-site request forgery, and clickjacking
+    
     - Network vulnerabilities like man-in-the-middle attacks, SSL-stripping,
     and DNS poisoning
+    
     - Preventing authentication vulnerabilities that allow brute forcing of
     credentials by using single sign-on or multi-factor authentication
+    
     - Authorization vulnerabilities like broken access control and session
     jacking
+    
     - How to use encryption in web applications
+    
     - Injection attacks, command execution attacks, and remote code execution
     attacks
+    
     - Malicious payloads that can be used to attack XML parsers, and file
     upload functions
 
@@ -2418,14 +2546,20 @@
     way you develop software.
 
     - Use WebAssembly to increase code portability across platforms
+    
     - Reuse more of your software assets in a wider number of deployment
     targets
+    
     - Learn how WebAssembly increases protection against prominent security
     attacks
+    
     - Use WebAssembly to deploy legacy code in web environments
+    
     - Increase your user base across languages and development environments
+    
     - Integrate JavaScript code with other languages and environments to
     improve performance, security, and productivity
+    
     - Learn how WebAssembly will affect your career as software developer
 
 - slug: web-scraping-with-python-3-ryan-mitchell
@@ -2452,15 +2586,25 @@
     scraping scenario you're likely to encounter.
 
     - Parse complicated HTML pages
+    
     - Develop crawlers with the Scrapy framework
+    
     - Learn methods to store the data you scrape
+    
     - Read and extract data from documents
+    
     - Clean and normalize badly formatted data
+    
     - Read and write natural languages
+    
     - Crawl through forms and logins
+    
     - Scrape JavaScript and crawl through APIs
+    
     - Use and write image-to-text software
+    
     - Avoid scraping traps and bot blockers
+    
     - Use scrapers to test your website
 
 - slug: acing-the-system-design-interview-1-zhiyong-tan
@@ -2481,13 +2625,19 @@
     approach to present system design ideas like:
 
     - Scaling applications to support heavy traffic
+    
     - Distributed transactions techniques to ensure data consistency
+    
     - Services for functional partitioning such as API gateway and service
     mesh
+    
     - Common API paradigms including REST, RPC, and GraphQL
+    
     - Caching strategies, including their tradeoffs
+    
     - Logging, monitoring, and alerting concepts that are critical in any
     system design
+    
     - Communication skills that demonstrate your engineering maturity
 
     Don't be daunted by the complex, open-ended nature of system design
@@ -2523,9 +2673,13 @@
     skilled JavaScript practitioners.What's Inside
 
     - Writing more effective code with functions, objects, and closures
+    
     - Learning to avoid JavaScript application pitfalls
+    
     - Using regular expressions to write succinct text-processing code
+    
     - Managing asynchronous code with promises
+    
     - Fully revised to cover concepts from ES6 and ES7
 
 - slug: the-devops-handbook-1-gene-kim-jez-humble-patrick-debois-john-willis-nicole-forsgren
@@ -2584,8 +2738,10 @@
 
     - Written by Fastify's core contributors to help you adopt the Fastify
     mindset for API development
+    
     - Gain an architectural overview of Fastify's microservices development
     capabilities and features
+    
     - Build complete apps in Fastify, from application design to production
 
 - slug: building-microservices-2-sam-newman
@@ -2618,10 +2774,15 @@
 
     - Get new information on user interfaces, container orchestration, and
     serverless
+    
     - Align system design with your organization's goals
+    
     - Explore options for integrating a service with your system
+    
     - Understand how to independently deploy microservices
+    
     - Examine the complexities of testing and monitoring distributed services
+    
     - Manage security with expanded content around user-to-service and
     service-to-service models
 
@@ -2651,8 +2812,11 @@
     What's Inside:
 
     - Principles of the microservice architecture
+    
     - Breaking down real-world case studies
+    
     - Implementing large-scale systems
+    
     - When not to use microservices
 
 - slug: ai-as-a-service-1-peter-elger-eoin-shanaghy
@@ -2713,11 +2877,16 @@
 
     - How Rust's type system works exceptionally well for programming
     concurrency correctly
+    
     - All about mutexes, condition variables, atomics, and memory ordering
+    
     - What happens in practice with atomic operations on Intel and ARM
     processors
+    
     - How locks are implemented with support from the operating system
+    
     - How to write correct code that includes concurrency, atomics, and locks
+    
     - How to build your own locking and synchronization primitives correctly
 
 
@@ -2776,40 +2945,32 @@
   links:
     amazon_us: https://www.amazon.com/dp/1446725057
     amazon_uk: https://www.amazon.co.uk/dp/1446725057
-  description: "Master Node.js security through hands-on learning and best
-    practices. Learn secure coding conventions in Node.js by executing command
-    injection attacks on real-world npm packages and analyzing vulnerable code.
-    The book features 33 self-assessment yes-no, fill-the-blank, and multiple
-    answer questions to help you evaluate and test your knowledge of Node.js
-    secure coding. You'll analyze the code of 6 vulnerable npm packages found
-    vulnerable via CVE reports to learn best practices on command injection
-    vulnerabilities. With 6 additional references to vulnerable npm packages,
-    you'll strengthen your skills in secure coding. This book takes an
-    adventure-based approach to application security learning, where you will be
-    playing detective who unravels the mysteries of common security
-    vulnerabilities. Through these exercises you will learn about secure coding
-    practices, and how to avoid security pitfalls that software developers and
-    open-source maintainers get caught with. Senior software engineers often
-    recite how one of the most critical skills you should have as an engineer is
-    the ability to read code. The more you read, the easier it becomes for you
-    to understand code and the more context you gain. This book focuses exactly
-    on that - reading vulnerable code, so we can learn from it. This activity
-    creates patterns that our brain learns to identify and that later quickly
-    turn into red flags that we detect and apply in our day-to-day programming
-    and code review routines. Through insecure coding practices found in
-    vulnerable open-source npm packages, this book examines the security aspects
-    affecting JavaScript and Node.js applications. Developers of other languages
-    such as Python will find references to insecure code and best practices
-    relatively easy to transfer to other server-side languages and software
-    ecosystems. By completing this book, you gain: \\* Security expertise in
-    mitigating command injection vulnerabilities. \\* Proficiency in performing
-    secure code reviews through first-hand analysis of real-world npm libraries
-    found vulnerable and their approach to fixing security issues. \\* A
-    security-first mindset to recognize patterns of insecure code. \\* Expertise
-    in secure coding best practices to avoid command injection security
-    vulnerabilities. \\* Knowledge of application security jargon and
-    conventions associated with vulnerability management and severity
-    classification."
+  description: >-
+    Master Node.js security through hands-on learning and best practices.
+    Learn secure coding conventions in Node.js by executing command injection attacks on real-world npm packages and analyzing vulnerable code.
+    The book features 33 self-assessment yes-no, fill-the-blank, and multiple answer questions to help you evaluate and test your knowledge of Node.js secure coding. 
+    You'll analyze the code of 6 vulnerable npm packages found vulnerable via CVE reports to learn best practices on command injection vulnerabilities.
+    With 6 additional references to vulnerable npm packages, you'll strengthen your skills in secure coding.
+    This book takes an adventure-based approach to application security learning, where you will be playing detective who unravels the mysteries of common security vulnerabilities.
+    Through these exercises you will learn about secure coding practices, and how to avoid security pitfalls that software developers and open-source maintainers get caught with.
+    Senior software engineers often recite how one of the most critical skills you should have as an engineer is the ability to read code.
+    The more you read, the easier it becomes for you to understand code and the more context you gain.
+    This book focuses exactly on that - reading vulnerable code, so we can learn from it.
+    This activity creates patterns that our brain learns to identify and that later quickly turn into red flags that we detect and apply in our day-to-day programming and code review routines.
+    Through insecure coding practices found in vulnerable open-source npm packages, this book examines the security aspects affecting JavaScript and Node.js applications.
+    Developers of other languages such as Python will find references to insecure code and best practices relatively easy to transfer to other server-side languages and software ecosystems.
+    By completing this book, you gain:
+    
+    - Security expertise in mitigating command injection vulnerabilities.
+    
+    - Proficiency in performing secure code reviews through first-hand analysis of real-world npm libraries found vulnerable and their approach to fixing security issues.
+    
+    - A security-first mindset to recognize patterns of insecure code.
+    
+    - Expertise in secure coding best practices to avoid command injection security vulnerabilities.
+    
+    - Knowledge of application security jargon and conventions associated with vulnerability management and severity
+    classification.
 
 - slug: software-engineering-at-google-1-titus-winters-tom-manshreck-hyrum-wright
   title: Software Engineering at Google
@@ -2844,8 +3005,10 @@
 
     - How time affects the sustainability of software and how to make your
     code resilient over time
+    
     - How scale affects the viability of software practices within an
     engineering organization
+    
     - What trade-offs a typical engineer needs to make when evaluating design
     and development decisions.
 
@@ -2879,16 +3042,22 @@
     You'll explore:
 
     - How the concept of observability applies to managing software at scale
+    
     - The value of practicing observability when delivering complex cloud
     native applications and systems
+    
     - The impact observability has across the entire software development
     lifecycle
+    
     - How and why different functional teams use observability with
     service-level objectives
+    
     - How to instrument your code to help future engineers understand the code
     you wrote today
+    
     - How to produce quality code for context-aware system debugging and
     maintenance
+    
     - How data-rich analytics can help you debug elusive issues
 
 - slug: the-rational-software-engineer-1-mykyta-chernenko
@@ -2922,11 +3091,16 @@
     What You Will Learn
 
     - Efficiently organize your work day
+    
     - Know when and how to seek a new project, company, or career
+    
     - Take care of your body and mind in a software engineering context
+    
     - Understand what contributes to job satisfaction and how to integrate it
     into your career
+    
     - Use non-coding activities for your and your company's benefit
+    
     - Build healthy relationships with managers and colleagues
 
 - slug: building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage
@@ -2942,7 +3116,8 @@
   links:
     amazon_us: https://www.amazon.com/dp/1492097543
     amazon_uk: https://www.amazon.co.uk/dp/1492097543
-  description: The software development ecosystem is constantly changing,
+  description: >-
+    The software development ecosystem is constantly changing,
     providing a constant stream of new tools, frameworks, techniques, and
     paradigms. Over the past few years, incremental developments in core
     engineering practices for software development have created the foundations
@@ -2990,9 +3165,13 @@
     results. You'll learn how to:
 
     - Measure how well your software architecture is meeting your goals
+    
     - Choose the right metrics to track (and skip the ones you don't need)
+    
     - Improve observability, testability, and deployability
+    
     - Prioritize software architecture projects
+    
     - Build insightful and relevant dashboards
 
 - slug: communication-patterns-1-jacqueline-read
@@ -3023,12 +3202,16 @@
 
     - Design diagrams and documentation appropriate to your expected audience,
     intended message, and project stage
+    
     - Create documentation and diagrams that are accessible to those with
     varying roles, needs, or disabilities
+    
     - Master written, verbal, and nonverbal communication to succeed in
     technical settings
+    
     - Apply the communication patterns presented in this book in real-world
     projects and software designs
+    
     - Communicate and collaborate with distributed teams to successfully
     design and document software and technical projects
 
@@ -3122,12 +3305,17 @@
     patterns.
 
     - Learn what multithreaded programming is and how you can benefit from it
+    
     - Understand the differences between a dedicated worker, a shared worker,
     and a service worker
+    
     - Identify when and when not to use threads in an application
+    
     - Orchestrate communication between threads by leveraging the Atomics
     object
+    
     - Understand both the gains and pitfalls of using shared memory
+    
     - Benchmark performance to learn when you'll benefit from multiple threads
 
 - slug: fluent-react-1-tejas-kumar
@@ -3157,10 +3345,14 @@
     You will:
 
     - Understand how React works at a deeper level
+    
     - Write React apps while optimizing them along the way
+    
     - Build resilient React applications that work well at arbitrary scale
+    
     - Create React applications for other platforms adjacent to the web and
     mobile devices
+    
     - Know when to reach for different mechanisms exposed by React, such as
     reducers versus state versus refs
 
@@ -3195,10 +3387,15 @@
 
     - Redact personal identifiable information (PII) from text using Amazon
     Comprehend
+    
     - Automate password rotation for Amazon RDS databases
+    
     - Use VPC Reachability Analyzer to verify and troubleshoot network paths
+    
     - Lock down Amazon Simple Storage Service (S3) buckets
+    
     - Analyze AWS Identity and Access Management policies
+    
     - Autoscale a containerized service
 
 - slug: essential-typescript-5-third-edition-3-adam-freeman
@@ -3223,11 +3420,17 @@
     Inside Essential TypeScript 5, Third Edition you'll learn how to:
 
     - Configure the TypeScript development tools
+    
     - Use type annotations
+    
     - Create strongly typed functions and classes
+    
     - Use generic types
+    
     - Use type guards to determine types
+    
     - Create and consume type declaration files
+    
     - Use TypeScript to create web applications with Angular and React
 
     The book starts you off with a proper understanding of the JavaScript type
@@ -3263,13 +3466,21 @@
     you:
 
     - Dive into the inner workings of the TypeScript type system
+    
     - Integrate TypeScript into a variety of projects
+    
     - Craft advanced type definitions that allow for flexible scenarios
+    
     - Create useful helper types that function across projects
+    
     - Ensure readability along with type safety
+    
     - Create robust APIs for helper types and their coworkers
+    
     - Strongly type function signatures that rely on string types
+    
     - Work around limitations of the standard library
+    
     - Integrate TypeScript into advanced React projects
 
 - slug: learning-typescript-1-josh-goldberg
@@ -3296,11 +3507,17 @@
     and helping us stick to it. You'll learn how TypeScript:
 
     - interacts with JavaScript
+    
     - analyzes and understands code
+    
     - augments your existing development pattern
+    
     - helps you document your code
+    
     - works with IDEs to provide refactoring tools
+    
     - assists local development in refactoring code
+    
     - helps you develop more quickly with fewer bugs
 
 - slug: designing-interfaces-3-jenifer-tidwell-charles-brewer-aynne-valencia
@@ -3355,10 +3572,15 @@
     You'll learn:
 
     - How aesthetically pleasing design creates positive responses
+    
     - The principles from psychology most useful for designers
+    
     - How these psychology principles relate to UX heuristics
+    
     - Predictive models including Fitts's law, Jakob's law, and Hick's law
+    
     - Ethical implications of using psychology in design
+    
     - A framework for applying these principles
 
 - slug: introduction-to-the-theory-of-computation-3-michael-sipser
@@ -3370,20 +3592,25 @@
   links:
     amazon_us: https://www.amazon.com/dp/0357670582
     amazon_uk: https://www.amazon.co.uk/dp/0357670582
-  description: Gain a clear understanding of even the most complex, highly
+  description: >-
+    Gain a clear understanding of even the most complex, highly
     theoretical computational theory topics in the approachable presentation
     found only in the market-leading INTRODUCTION TO THE THEORY OF COMPUTATION,
-    3E. The number one choice for today's computational theory course, this
+    3E.
+    
+    The number one choice for today's computational theory course, this
     revision continues the book's well-know, approachable style with timely
-    revisions, additional practice, and more memorable examples in key areas. A
-    new first-of-its-kind theoretical treatment of deterministic context-free
+    revisions, additional practice, and more memorable examples in key areas.
+    
+    A new first-of-its-kind theoretical treatment of deterministic context-free
     languages is ideal for a better understanding of parsing and LR(k) grammars.
     You gain a solid understanding of the fundamental mathematical properties of
     computer hardware, software, and applications with a blend of practical and
     philosophical coverage and mathematical treatments, including advanced
-    theorems and proofs. INTRODUCTION TO THE THEORY OF COMPUTATION, 3E's
-    comprehensive coverage makes this a valuable reference for your continued
-    studies in theoretical computing.
+    theorems and proofs. 
+    
+    INTRODUCTION TO THE THEORY OF COMPUTATION, 
+    3E's comprehensive coverage makes this a valuable reference for your continued studies in theoretical computing.
 
 - slug: the-art-of-computer-programming-vol-1-3-donald-knuth
   title: The Art of Computer Programming, Vol. 1
@@ -3416,13 +3643,16 @@
   links:
     amazon_us: https://www.amazon.com/dp/1981672346
     amazon_uk: https://www.amazon.co.uk/dp/1981672346
-  description: Functional-Light JavaScript is a balanced, pragmatic exploration of
+  description: >-
+    Functional-Light JavaScript is a balanced, pragmatic exploration of
     Functional Programming in JavaScript.Functional Programming (FP) is an
     incredibly powerful paradigm for structuring code that yields more robust,
-    verifiable, and readable programs. If you've ever tried to learn FP but
-    struggled with terms like "monad", mathematical concepts like category
-    theory, or symbols like (lambda), you're not alone.Functional-Light
-    programming distills the most vital aspects of FP—function purity, value
+    verifiable, and readable programs.
+    
+    If you've ever tried to learn FP but struggled with terms like "monad", mathematical concepts like category
+    theory, or symbols like (lambda), you're not alone.
+    
+    Functional-Light programming distills the most vital aspects of FP—function purity, value
     immutability, composition, and more!—down to approachable JavaScript
     patterns. Rather than the all-or-nothing dogmatism often encountered in FP,
     this book teaches you how to improve your programs line by line.
@@ -3455,14 +3685,19 @@
 
     - Design and build individual microservices that can successfully interact
     on the open web
+    
     - Increase interoperability by designing services that share a common
     understanding
+    
     - Build client applications that can adapt to evolving services without
     breaking
+    
     - Create resilient and reliable microservices that support peer-to-peer
     interactions on the web
+    
     - Use web-based service registries to support runtime "find-and-bind"
     operations that manage external dependencies in real time
+    
     - Implement stable workflows to accomplish complex, multiservice tasks
     consistently
 
@@ -3529,10 +3764,13 @@
 
     - Foundations of scalable systems: Learn basic design principles of
     scalability, its costs, and architectural tradeoffs
+    
     - Designing scalable services: Dive into service design, caching,
     asynchronous messaging, serverless processing, and microservices
+    
     - Designing scalable data systems: Learn data system fundamentals, NoSQL
     databases, and eventual consistency versus strong consistency
+    
     - Designing scalable streaming systems: Explore stream processing systems
     and scalable event-driven processing
 
@@ -3563,11 +3801,17 @@
     SSE and WebSocket, and P2P communication with WebRTC.
     
     - Deliver optimal TCP, UDP, and TLS performance
+    
     - Optimize network delivery over 3G/4G mobile networks
+    
     - Develop fast and energy-efficient mobile applications
+    
     - Address bottlenecks in HTTP 1.x and other browser protocols
+    
     - Plan for and deliver the best HTTP 2.0 performance
+    
     - Enable efficient real-time streaming in the browser
+    
     - Create efficient peer-to-peer videoconferencing and low-latency
     applications with real-time WebRTC transports
 
